@@ -1,0 +1,48 @@
+@aspect-ratio: 1.41px;
+@page-width: 960px;
+@page-height: round(@page-width * 1.41px) * 2;
+
+body {
+  color: #666;
+  background: #f0f0f0;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#page {
+  width: @page-width;
+  padding: 25px;
+  margin: 25px auto;
+  background: #fff;
+  border: 1px solid #dfdfdf;
+  box-sizing: border-box;
+
+  overflow: hidden;
+  /* cap at 2 pages */
+  max-height: @page-height;
+}
+
+h2 {
+  color: #222;
+  font-size: 22px;
+  font-weight: 500;
+  //text-transform: uppercase;
+  text-decoration: none;
+  line-height: 40px;
+  border-bottom: 1px dotted #dfdfdf;
+}
+
+h3 {
+  color: #333;
+  font-size: 18px;
+}
+
+h4 {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+h2:before {
+  .fa();
+  .fa-fw();
+}

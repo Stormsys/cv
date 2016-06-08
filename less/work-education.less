@@ -1,0 +1,65 @@
+#work h2:before {
+  content: @fa-var-building;
+}
+
+#education h2:before {
+  content: @fa-var-graduation-cap;
+}
+
+#education, #work {
+
+  h5 {
+    font-weight: bold;
+    margin-bottom: 3px;
+  }
+
+  > ul {
+    .list-unstyled();
+
+    > li {
+      .clearfix();
+
+      margin: 25px 0px;
+
+      border-bottom: 1px solid #eee;
+
+      padding-bottom: 10px;
+    }
+
+    > li:last-child {
+      border-bottom: none;
+
+      padding-bottom: 0;
+    }
+  }
+
+  h3 {
+    border-top: 1px solid #f4f6f6;
+    margin-top: 12px;
+    margin-bottom: 18px;
+    position: relative;
+
+    .clearfix();
+
+    .institution, .workplace, .date {
+      margin-top: -12px;
+      background: #fff;
+    }
+
+    .institution, .workplace {
+      .pull-left();
+      padding-right: 10px;
+    }
+
+    .date {
+      .pull-right();
+      padding-left: 10px;
+    }
+  }
+
+  h4 {
+    span {
+      color: #777;
+    }
+  }
+}

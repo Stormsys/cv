@@ -1,0 +1,48 @@
+#skills {
+  a {
+    text-decoration: underline;
+  }
+
+  h2:before {
+    content: @fa-var-wrench;
+  }
+
+  h3 {
+    margin-top: 20px;
+
+    .clearfix();
+
+    .skill-title {
+      float: left;
+    }
+
+    .skill-level {
+      margin-left: 10px;
+      float: left;
+
+      .label();
+
+      &.expert {
+        .label-primary();
+      }
+
+      &.proficient {
+        .label-info();
+      }
+    }
+  }
+
+  .skill-tag {
+    .label();
+    .label-default();
+
+    background-color: #eee;
+    border: 1px solid #E5E5E5;
+    color: #555;
+  }
+
+  p {
+    padding-left: 10px;
+    margin-bottom: 5px;
+  }
+}

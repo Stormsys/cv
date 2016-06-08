@@ -1,0 +1,21 @@
+{
+  "name": "diogo-cv",
+  "authors": [
+    "Diogo Moura <diogo@stormsys.net>"
+  ],
+  "description": "Source code for my online cv.",
+  "main": "index.html",
+  "homepage": "https://github.com/stormsys/cv",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "font-awesome": "font-awsome#^4.6.3",
+    "open-sans-fontface": "^1.4.2",
+    "bootstrap": "^3.3.6",
+    "less": "^2.7.1"
+  }
+}
