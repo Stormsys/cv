@@ -7,7 +7,6 @@ var path = require('path');
 var processhtml = require('gulp-processhtml');
 var del = require('del');
 var serve = require('gulp-serve');
-var html2pdf = require('gulp-html2pdf');
 
 var DIST = 'dist';
 
