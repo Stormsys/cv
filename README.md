@@ -24,7 +24,7 @@ at this stage we can operate a development environment, by either serving this f
 the gulp serve command. this runs a development version of the app which parses the less source in real time.
 
 ``` sh
-grunt serve
+gulp serve
 ```
 
 ## Deployment
@@ -32,12 +32,12 @@ grunt serve
 Once we are happy with the development version of the CV we can create a dist package.
 
 ``` sh
-grunt build
+gulp build
 ```
 
 For convenience we can also run the browser automatically which will also trigger a full build.
 
 ``` sh
-grunt view
+gulp view
 ```
 
