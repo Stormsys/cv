@@ -8,9 +8,9 @@
   "bugs": {
     "url": "https://github.com/stormsys/cv/issues"
   },
-  "repository":  {
-    "type" : "git",
-    "url" : "https://github.com/stormsys/cv.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stormsys/cv.git"
   },
   "description": "Source code for my cv.",
   "devDependencies": {
@@ -19,6 +19,7 @@
     "gulp-less": "^3.1.0",
     "gulp-open": "^2.0.0",
     "gulp-processhtml": "^1.1.0",
+    "gulp-replace": "^0.5.4",
     "gulp-serve": "^1.2.0",
     "path": "^0.12.7"
   }

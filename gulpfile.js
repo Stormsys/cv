@@ -7,6 +7,7 @@ var path = require('path');
 var processhtml = require('gulp-processhtml');
 var del = require('del');
 var serve = require('gulp-serve');
+var replace = require('gulp-replace');
 
 var DIST = 'dist';
 
@@ -47,11 +48,15 @@ gulp.task('view', ['build'], function() {
 
 gulp.task('serve', serve(['./']));
 
-gulp.task('pdf', ['build'], function() {
-    return gulp.src(dist('index.html'))
-		.pipe(html2pdf())
-		.pipe(gulp.dest('./'))
-});
-
 gulp.task('default', ['build'], function() {});
 
+
+/**
+ * Hack used for the local build server.
+ */
+gulp.task('phone', function() {
+    return gulp.src('./index.html')
+        .pipe(processhtml({}))
+        .pipe(replace(/href="tel:0">Please Request<\/a>/g, 'href="tel:' + process.env.CV_PHONE + '">' + process.env.CV_PHONE + '</a>'))
+        .pipe(gulp.dest(dist()));
+});
