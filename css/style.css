@@ -176,77 +176,6 @@ td,
 th {
   padding: 0;
 }
-/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
-@media print {
-  *,
-  *:before,
-  *:after {
-    background: transparent !important;
-    color: #000 !important;
-    box-shadow: none !important;
-    text-shadow: none !important;
-  }
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
-  a[href]:after {
-    content: " (" attr(href) ")";
-  }
-  abbr[title]:after {
-    content: " (" attr(title) ")";
-  }
-  a[href^="#"]:after,
-  a[href^="javascript:"]:after {
-    content: "";
-  }
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
-  thead {
-    display: table-header-group;
-  }
-  tr,
-  img {
-    page-break-inside: avoid;
-  }
-  img {
-    max-width: 100% !important;
-  }
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
-  }
-  h2,
-  h3 {
-    page-break-after: avoid;
-  }
-  .navbar {
-    display: none;
-  }
-  .btn > .caret,
-  .dropup > .btn > .caret {
-    border-top-color: #000 !important;
-  }
-  .label {
-    border: 1px solid #000;
-  }
-  .table {
-    border-collapse: collapse !important;
-  }
-  .table td,
-  .table th {
-    background-color: #fff !important;
-  }
-  .table-bordered th,
-  .table-bordered td {
-    border: 1px solid #ddd !important;
-  }
-}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -3752,7 +3681,6 @@ body {
   box-sizing: border-box;
   overflow: hidden;
   /* cap at 2 pages */
-  max-height: 2708px;
 }
 h2 {
   color: #222;
@@ -4049,6 +3977,27 @@ a#skills .skill-tag:focus {
 #awards h2:before {
   content: "\f005";
 }
+#open-source .side-by-side:before,
+#open-source .side-by-side:after {
+  content: " ";
+  display: table;
+}
+#open-source .side-by-side:after {
+  clear: both;
+}
+#open-source .side-by-side .projects,
+#open-source .side-by-side .contributions {
+  box-sizing: border-box;
+  width: 50%;
+  padding: 0 20px;
+}
+#open-source .side-by-side .projects {
+  float: left;
+  border-right: 1px solid #eee;
+}
+#open-source .side-by-side .contributions {
+  float: right;
+}
 #open-source h2:before {
   content: "\f09b";
 }
@@ -4101,4 +4050,15 @@ a#interests .hobby:focus {
 #interests .hobby[href]:hover,
 #interests .hobby[href]:focus {
   background-color: #5e5e5e;
+}
+@media print {
+  body {
+    background: #fff;
+  }
+  #page {
+    margin: 0;
+    border: 0;
+    max-height: inherit;
+    overflow: auto;
+  }
 }
