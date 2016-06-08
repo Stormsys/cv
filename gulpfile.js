@@ -7,6 +7,7 @@ var path = require('path');
 var processhtml = require('gulp-processhtml');
 var del = require('del');
 var serve = require('gulp-serve');
+var html2pdf = require('gulp-html2pdf');
 
 var DIST = 'dist';
 
@@ -16,11 +17,12 @@ var dist = function(subpath) {
 
 
 gulp.task('clean', function() {
-    return del([dist()]);
+    return del.sync([dist()]);
 });
 
 gulp.task('copyfonts', function() {
-    gulp.src('./bower_components/**/*.{ttf,woff,eof,svg,woff2}')
+    return gulp
+        .src('./bower_components/**/*.{ttf,woff,eof,svg,woff2}')
         .pipe(gulp.dest(dist('bower_components')));
 });
 
@@ -40,10 +42,17 @@ gulp.task('html', function () {
 
 gulp.task('build', ['clean', 'less',  'copyfonts', 'html'], function() {});
 gulp.task('view', ['build'], function() {
-    gulp.src(dist('index.html'))
+    return gulp.src(dist('index.html'))
         .pipe(open());
 });
 
 gulp.task('serve', serve(['./']));
 
+gulp.task('pdf', ['build'], function() {
+    return gulp.src(dist('index.html'))
+		.pipe(html2pdf())
+		.pipe(gulp.dest('./'))
+});
+
 gulp.task('default', ['build'], function() {});
+

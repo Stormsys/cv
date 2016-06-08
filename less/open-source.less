@@ -1,4 +1,22 @@
 #open-source {
+  .side-by-side {
+    .clearfix();
+
+    .projects, .contributions {
+      box-sizing: border-box;
+      width: 50%;
+      padding: 0 20px;
+    }
+
+    .projects {
+      float: left;
+      border-right: 1px solid #eee;
+    }
+    .contributions {
+      float: right;
+    }
+  }
+
   h2:before {
     content: @fa-var-github;
   }
