@@ -3893,6 +3893,38 @@ a#skills .skill-tag:focus {
   padding-left: 10px;
   margin-bottom: 5px;
 }
+#skills a {
+  text-decoration: none;
+  margin: 0 5px;
+}
+#skills a:before {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 1.28571429em;
+  text-align: center;
+}
+#skills a:before.fa-pull-left {
+  margin-right: .3em;
+}
+#skills a:before.fa-pull-right {
+  margin-left: .3em;
+}
+#skills a:before.pull-left {
+  margin-right: .3em;
+}
+#skills a:before.pull-right {
+  margin-left: .3em;
+}
+#skills a.steam:before {
+  content: "\f1b6";
+}
+#skills a.github:before {
+  content: "\f09b";
+}
 #work h2:before {
   content: "\f1ad";
 }
