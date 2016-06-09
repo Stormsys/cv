@@ -26,6 +26,12 @@ gulp.task('copyfonts', function() {
         .pipe(gulp.dest(dist('bower_components')));
 });
 
+gulp.task('copyfavico', function() {
+    return gulp
+        .src('./favicon.ico')
+        .pipe(gulp.dest(dist('')));
+});
+
 gulp.task('less', function () {
     return gulp.src('./less/style.less')
         .pipe(less({}))
@@ -40,7 +46,7 @@ gulp.task('html', function () {
 });
 
 
-gulp.task('build', ['clean', 'less',  'copyfonts', 'html'], function() {});
+gulp.task('build', ['clean', 'less',  'copyfonts', 'copyfavico', 'html'], function() {});
 gulp.task('view', ['build'], function() {
     return gulp.src(dist('index.html'))
         .pipe(open());
