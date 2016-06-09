@@ -45,4 +45,24 @@
     padding-left: 10px;
     margin-bottom: 5px;
   }
+
+  a {
+    text-decoration: none;
+    margin: 0 5px;
+
+    &:before {
+      .fa();
+      .fa-fw();
+    }
+
+    &.steam:before {
+        content: @fa-var-steam;
+    }
+
+
+    &.github:before {
+        content: @fa-var-github;
+    }
+  }
 }
+
