@@ -3,17 +3,16 @@
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    margin: 0 0 0 10px;
+    margin: 0 0 5px 10px;
     padding: 0;
 
     li {
       border-radius: .25em;
       background-color: #eee;
       border: 1px solid #E5E5E5;
-      color: #555;
+      color: #333;
       padding: 5px 6px;
-      font-size: 75%;
-      font-weight: bold;
+      font-size: 85%;
       font-size: 75%;
       line-height: 1;
       margin: 0 4px 4px 0;
@@ -31,17 +30,17 @@
   h3 {
     margin-top: 20px;
 
-    .clearfix();
-
-    .skill-title {
-      float: left;
-    }
-
     .skill-level {
-      margin-left: 10px;
-      float: left;
-
-      .label();
+      margin-left: 5px;
+      display: inline;
+      padding: 4px 6px 6px;
+      font-size: 65%;
+      display: inline-block;
+      color: #fff;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: baseline;
+      border-radius: 2px;
 
       &.expert {
         .label-primary();
@@ -51,15 +50,6 @@
         .label-info();
       }
     }
-  }
-
-  .skill-tag {
-    .label();
-    .label-default();
-
-    background-color: #eee;
-    border: 1px solid #E5E5E5;
-    color: #555;
   }
 
   p {
