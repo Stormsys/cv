@@ -1,6 +1,6 @@
 #open-source {
   .side-by-side {
-    .clearfix();
+    display: flex;
 
     .projects, .contributions {
       box-sizing: border-box;
@@ -9,20 +9,24 @@
     }
 
     .projects {
-      float: left;
       border-right: 1px solid #eee;
     }
-    .contributions {
-      float: right;
+
+    @media @s-max {
+      flex-wrap: wrap;
+
+      .projects, .contributions {
+        width: 100%;
+      }
+
+      .projects {
+        border: 0;
+      }
     }
   }
 
   h2:before {
     content: @fa-var-github;
-  }
-
-  .col-md-6:first-child {
-    border-right: 1px solid #eee;
   }
 
   ul {
@@ -36,7 +40,6 @@
     li:last-child {
       border-bottom: none;
     }
-
 
     h4 {
       margin: 15px 0px 5px;

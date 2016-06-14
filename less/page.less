@@ -17,8 +17,12 @@ body {
   box-sizing: border-box;
 
   overflow: hidden;
-  /* cap at 2 pages */
-  //max-height: @page-height;
+
+  @media @s-max {
+    width: auto;
+    margin: 0;
+    border: 0;
+  }
 }
 
 h2 {
