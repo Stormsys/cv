@@ -22,8 +22,11 @@ gulp.task('clean', function() {
 
 gulp.task('copyfonts', function() {
     return gulp
-        .src('./bower_components/**/*.{ttf,woff,eof,svg,woff2}')
-        .pipe(gulp.dest(dist('bower_components')));
+        .src([
+            './bower_components/font-awesome/fonts/*.{ttf,woff,eof,svg,woff2}',
+            './bower_components/roboto-fontface/fonts/roboto/*-{Light,Regular,Bold}.{ttf,woff,eof,svg,woff2}'
+        ])
+        .pipe(gulp.dest(dist('assets/fonts')));
 });
 
 gulp.task('copyfavico', function() {
@@ -35,7 +38,7 @@ gulp.task('copyfavico', function() {
 gulp.task('less', function () {
     return gulp.src('./less/style.less')
         .pipe(less({}))
-        .pipe(gulp.dest(dist('css')));
+        .pipe(gulp.dest(dist('assets/css')));
 });
 
 
@@ -46,7 +49,13 @@ gulp.task('html', function () {
 });
 
 
-gulp.task('build', ['clean', 'less',  'copyfonts', 'copyfavico', 'html'], function() {});
+gulp.task('assets', function () {
+    return gulp.src(['assets/*', 'assets/**/*'])
+        .pipe(gulp.dest(dist('assets')));
+});
+
+
+gulp.task('build', ['clean', 'less',  'copyfonts', 'assets', 'copyfavico', 'html'], function() {});
 gulp.task('view', ['build'], function() {
     return gulp.src(dist('index.html'))
         .pipe(open());

@@ -34,7 +34,7 @@ header {
             line-height: 28px;
         }
 
-        a:before {
+        a:before, span:before {
             color: #555;
             .fa();
             .fa-fw();
@@ -47,13 +47,24 @@ header {
         a.linkedin:before {
             content: @fa-var-linkedin;
         }
-        a.email:before {
+        a.email:before,  #om-click:before {
             content: @fa-var-envelope;
         }
-        a.phone:before {
+
+        .phone:before {
             content: @fa-var-phone;
         }
 
+
+        #om-click {
+            cursor: pointer;
+            color: @link-color
+        }
+        
+        #om-click:hover {
+            color: @link-hover-color;
+            text-decoration: underline;
+        }
     }
 
     @media @s-max {
