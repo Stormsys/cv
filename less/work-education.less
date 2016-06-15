@@ -17,13 +17,16 @@
         .list-unstyled();
 
         > li {
-            .clearfix();
-
             margin: 25px 0px;
 
             border-bottom: 1px solid #eee;
 
             padding-bottom: 10px;
+
+            > ul {
+                list-style: circle;
+                margin-left: 40px;
+            }
         }
 
         > li:last-child {
@@ -39,7 +42,6 @@
         margin-bottom: 18px;
         position: relative;
 
-        .clearfix();
 
         .institution, .workplace, .date {
             margin-top: -12px;
