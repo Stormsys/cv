@@ -1,78 +1,78 @@
 #skills {
-  ul.skill-list {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    margin: 0 0 5px 10px;
-    padding: 0;
+    ul.skill-list {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 0 0 5px 10px;
+        padding: 0;
 
-    li {
-      border-radius: .25em;
-      background-color: #eee;
-      border: 1px solid #E5E5E5;
-      color: #333;
-      padding: 5px 6px;
-      font-size: 85%;
-      font-size: 75%;
-      line-height: 1;
-      margin: 0 4px 4px 0;
-    }
-  }
-
-  a {
-    text-decoration: underline;
-  }
-
-  h2:before {
-    content: @fa-var-wrench;
-  }
-
-  h3 {
-    margin-top: 20px;
-
-    .skill-level {
-      margin-left: 5px;
-      display: inline;
-      padding: 4px 6px 6px;
-      font-size: 65%;
-      display: inline-block;
-      color: #fff;
-      text-align: center;
-      white-space: nowrap;
-      vertical-align: baseline;
-      border-radius: 2px;
-
-      &.expert {
-        .label-primary();
-      }
-
-      &.proficient {
-        .label-info();
-      }
-    }
-  }
-
-  p {
-    padding-left: 10px;
-    margin-bottom: 5px;
-  }
-
-  a {
-    text-decoration: none;
-    margin: 0 5px;
-
-    &:before {
-      .fa();
-      .fa-fw();
+        li {
+            border-radius: .25em;
+            background-color: #eee;
+            border: 1px solid #E5E5E5;
+            color: #333;
+            padding: 5px 6px;
+            § font-size: 85%;
+            font-size: 75%;
+            line-height: 1;
+            margin: 0 4px 4px 0;
+        }
     }
 
-    &.steam:before {
-      content: @fa-var-steam;
+    a {
+        text-decoration: underline;
     }
 
-    &.github:before {
-      content: @fa-var-github;
+    h2:before {
+        content: @fa-var-wrench;
     }
-  }
+
+    h3 {
+        margin-top: 20px;
+
+        .skill-level {
+            margin-left: 5px;
+            display: inline;
+            padding: 4px 6px 6px;
+            font-size: 65%;
+            display: inline-block;
+            color: #fff;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: baseline;
+            border-radius: 2px;
+
+            &.expert {
+                .label-primary();
+            }
+
+            &.proficient {
+                .label-info();
+            }
+        }
+    }
+
+    p {
+        padding-left: 10px;
+        margin-bottom: 5px;
+    }
+
+    a {
+        text-decoration: none;
+        margin: 0 5px;
+
+        &:before {
+            .fa();
+            .fa-fw();
+        }
+
+        &.steam:before {
+            content: @fa-var-steam;
+        }
+
+        &.github:before {
+            content: @fa-var-github;
+        }
+    }
 }
 
