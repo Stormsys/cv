@@ -2748,8 +2748,8 @@ header ul.contact-info #om-click:hover {
 #work h3 .workplace {
   padding-right: 10px;
 }
-#education h3 hr,
-#work h3 hr {
+#education h3 .hr,
+#work h3 .hr {
   width: 100%;
   margin: 0;
   height: 1px;
@@ -2757,8 +2757,8 @@ header ul.contact-info #om-click:hover {
   border: 0;
 }
 @media screen and (max-width: 970px) {
-  #education h3 hr,
-  #work h3 hr {
+  #education h3 .hr,
+  #work h3 .hr {
     display: none;
     visibility: hidden;
   }
