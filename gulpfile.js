@@ -75,6 +75,6 @@ gulp.task('default', ['build'], function() {});
 gulp.task('phone', function() {
     return gulp.src('./index.html')
         .pipe(processhtml({}))
-        .pipe(replace(/href="tel:0">Please Request<\/a>/g, 'href="tel:' + process.env.CV_PHONE + '">' + process.env.CV_PHONE + '</a>'))
+        .pipe(replace(/<span class="phone">Available on request<\/span>/g, '<a class="phone" href="tel:' + process.env.CV_PHONE + '">' + process.env.CV_PHONE + '</a>'))
         .pipe(gulp.dest(dist()));
 });
