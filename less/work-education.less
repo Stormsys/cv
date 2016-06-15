@@ -18,10 +18,13 @@
 
         > li {
             margin: 25px 0px;
-
             border-bottom: 1px solid #eee;
-
             padding-bottom: 10px;
+
+
+            @media @s-max {
+                margin: 10px 0px;
+            }
 
             > ul {
                 list-style: circle;
@@ -37,25 +40,50 @@
     }
 
     h3 {
-        border-top: 1px solid #f4f6f6;
-        margin-top: 12px;
-        margin-bottom: 18px;
-        position: relative;
+        display: flex;
+
+
+        @media @s-max {
+            flex-wrap: wrap;
+            margin-top: 0;
+        }
 
 
         .institution, .workplace, .date {
             margin-top: -12px;
-            background: #fff;
+            white-space: nowrap;
+
+
+            @media @s-max {
+                margin-top: 5px;
+                width: 100%;
+                padding: 0;
+            }
         }
 
         .institution, .workplace {
-            .pull-left();
             padding-right: 10px;
         }
 
+        hr {
+            width: 100%;
+            margin: 0;
+            height: 1px;
+            background: #f4f6f6;
+            border: 0;
+
+            @media @s-max {
+                display: none;
+                visibility: hidden;
+            }
+        }
+
         .date {
-            .pull-right();
             padding-left: 10px;
+
+            @media @s-max {
+                padding: 0;
+            }
         }
     }
 
