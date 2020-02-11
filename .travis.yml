@@ -1,17 +1,18 @@
 language: node_js
 node_js:
-  - "4"
-
-before_script: 
-  - npm install -g gulp-cli bower
-  - bower install
-
+- '4'
+before_script:
+- npm install -g gulp-cli bower
+- bower install
 script: gulp build
-
 after_success:
-  - bash ./travis/deploy.sh
-
+- bash ./travis/deploy.sh
 env:
   global:
-    - ENCRYPTION_LABEL: "a34174b2f5c2"
-    - COMMIT_AUTHOR_EMAIL: "diogo@stormsys.net"
+  - ENCRYPTION_LABEL: a34174b2f5c2
+  - COMMIT_AUTHOR_EMAIL: diogo@stormsys.net
+before_install:
+- openssl aes-256-cbc -K $encrypted_c508f9014466_key -iv $encrypted_c508f9014466_iv
+  -in deploy_key.enc -out deploy_key -d
+- openssl aes-256-cbc -K $encrypted_c508f9014466_key -iv $encrypted_c508f9014466_iv
+  -in deploy_key.enc -out ./deploy_key -d
