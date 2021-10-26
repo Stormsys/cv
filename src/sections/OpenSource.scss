@@ -1,0 +1,50 @@
+@import "../scss/shared";
+
+#open-source {
+  .side-by-side {
+    display: flex;
+
+    .projects, .contributions {
+      box-sizing: border-box;
+      width: 50%;
+      padding: 0 20px;
+    }
+
+    .projects {
+      border-right: 1px solid #eee;
+    }
+
+    @media screen and (max-width: $responsive-max-width) {
+      flex-wrap: wrap;
+
+      .projects, .contributions {
+        width: 100%;
+      }
+
+      .projects {
+        border: 0;
+      }
+    }
+  }
+
+  h2:before {
+    content: $fa-var-github;
+  }
+
+  ul {
+    @include list-unstyled;
+    padding-left: 10px;
+
+    li {
+      border-bottom: 1px dotted #ccc;
+    }
+
+    li:last-child {
+      border-bottom: none;
+    }
+
+    h4 {
+      margin: 15px 0px 5px;
+    }
+  }
+}

@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Page from "./sections/Page";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Page />
+
+      {/*<script>*/}
+      {/*  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){*/}
+      {/*  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),*/}
+      {/*  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)*/}
+      {/*})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');*/}
+
+      {/*  ga('create', 'UA-65034272-2', 'auto');*/}
+      {/*  ga('send', 'pageview');*/}
+      {/*</script>*/}
+
     </div>
   );
 }

@@ -1,0 +1,22 @@
+@import "../scss/shared";
+
+$aspect-ratio: 1.41px;
+$page-width: 960px;
+$page-height: round($page-width * 1.41px) * 2;
+
+#page {
+  width: $page-width;
+  padding: 25px;
+  margin: 25px auto;
+  background: #fff;
+  border: 1px solid #dfdfdf;
+  box-sizing: border-box;
+
+  overflow: hidden;
+
+  @media screen and (max-width: $responsive-max-width) {
+    width: auto;
+    margin: 0;
+    border: 0;
+  }
+}

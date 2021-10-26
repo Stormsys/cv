@@ -1,0 +1,7 @@
+@import "../scss/shared";
+
+#about {
+  h2:before {
+    content: $fa-var-user;
+  }
+}

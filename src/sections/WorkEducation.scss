@@ -1,0 +1,97 @@
+@import "../scss/shared";
+
+#work h2:before {
+  content: $fa-var-building;
+}
+
+#education h2:before {
+  content: $fa-var-graduation-cap;
+}
+
+#education, #work {
+
+  h5 {
+    font-weight: bold;
+    margin-bottom: 3px;
+  }
+
+  > ul {
+    @include list-unstyled;
+
+    > li {
+      margin: 25px 0px;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 10px;
+
+
+      @media screen and (max-width: $responsive-max-width) {
+        margin: 10px 0px;
+      }
+
+      > ul {
+        list-style: circle;
+        margin-left: 40px;
+      }
+    }
+
+    > li:last-child {
+      border-bottom: none;
+
+      padding-bottom: 0;
+    }
+  }
+
+  h3 {
+    display: flex;
+
+
+    @media screen and (max-width: $responsive-max-width) {
+      flex-wrap: wrap;
+      margin-top: 0;
+    }
+
+
+    .institution, .workplace, .date {
+      margin-top: -12px;
+      white-space: nowrap;
+
+
+      @media screen and (max-width: $responsive-max-width) {
+        margin-top: 5px;
+        width: 100%;
+        padding: 0;
+      }
+    }
+
+    .institution, .workplace {
+      padding-right: 10px;
+    }
+
+    .hr {
+      width: 100%;
+      margin: 0;
+      height: 1px;
+      background: #f4f6f6;
+      border: 0;
+
+      @media screen and (max-width: $responsive-max-width) {
+        display: none;
+        visibility: hidden;
+      }
+    }
+
+    .date {
+      padding-left: 10px;
+
+      @media screen and (max-width: $responsive-max-width) {
+        padding: 0;
+      }
+    }
+  }
+
+  h4 {
+    span {
+      color: #777;
+    }
+  }
+}
