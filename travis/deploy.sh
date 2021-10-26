@@ -28,7 +28,7 @@ find ./ -maxdepth 1 -not -name .git -not -name . -not -name ..  -exec rm -rf {} 
 
 ls -lah
 
-cp -R ../dist/* .
+cp -R ../build/* .
 
 ls -lah
 
