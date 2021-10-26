@@ -13,10 +13,10 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "temp/my-app/node_modules/.bin/react-scripts start",
-    "build": "temp/my-app/node_modules/.bin/react-scripts build",
-    "test": "temp/my-app/node_modules/.bin/react-scripts test",
-    "eject": "temp/my-app/node_modules/.bin/react-scripts eject",
+    "start": "node_modules/.bin/react-scripts start",
+    "build": "node_modules/.bin/react-scripts build",
+    "test": "node_modules/.bin/react-scripts test",
+    "eject": "node_modules/.bin/react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
