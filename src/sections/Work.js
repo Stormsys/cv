@@ -95,7 +95,8 @@ function Work() {
                             <h5>CMPP Portal</h5>
                             Leveraging the latest web technologies to deliver a cutting edge experience and customer facing front
                             end for <a href="http://www.ericsson.com/broadcastandmedia/what-we-do/media-management/"
-                                       target="_blank">CMPP</a> Ericsson's
+                                       target="_blank"
+                                       rel="noreferrer">CMPP</a> Ericsson's
                             next generation service delivery platform.
                         </li>
 
@@ -149,7 +150,8 @@ function Work() {
                     <p>
                         I began as an intern and invited to stay on as a contractor. Working under the innovations team on the
                         <a href="http://www.ericsson.com/broadcastandmedia/news/red-bee-media-launches-redplayer-the-next-generation-online-video-platform/"
-                           target="_blank">RedPlayer</a> VOD Solution.
+                           target="_blank"
+                           rel="noreferrer">RedPlayer</a> VOD Solution.
                         I developed apps for XBox, Android Tablet &amp; Connected TV's from Samsung, Sony and Panasonic.
                     </p>
 

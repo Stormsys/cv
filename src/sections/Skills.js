@@ -35,8 +35,8 @@ function Skills() {
             </ul>
             <p>
                 Please see
-                <a className="github" href="https://github.com/Stormsys/gscpanel" target="_blank">GSCPanel</a>,
-                <a className="github" href="https://github.com/Stormsys/SimpleHal" target="_blank">SimpleHal</a>
+                <a className="github" href="https://github.com/Stormsys/gscpanel" target="_blank" rel="noreferrer">GSCPanel</a>,
+                <a className="github" href="https://github.com/Stormsys/SimpleHal" target="_blank" rel="noreferrer">SimpleHal</a>
                 .
             </p>
 
@@ -71,8 +71,9 @@ function Skills() {
             <p>
                 Please see
                 <a className="steam" href="https://steamcommunity.com/sharedfiles/filedetails/?id=183750851"
-                   target="_blank">Planet Ardor</a>,
-                <a className="github" href="https://github.com/Stormsys/Spacehoops" target="_blank">Spacehoops</a>
+                   target="_blank"
+                   rel="noreferrer">Planet Ardor</a>,
+                <a className="github" href="https://github.com/Stormsys/Spacehoops" target="_blank" rel="noreferrer">Spacehoops</a>
                 .
             </p>
 

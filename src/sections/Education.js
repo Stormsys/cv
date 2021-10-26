@@ -28,7 +28,8 @@ function Education() {
                     </p>
                     <p>
                         The source code and documentation is available on <a href="https://github.com/Stormsys/gscpanel"
-                                                                             target="_blank">Github</a>.
+                                                                             target="_blank"
+                                                                             rel="noreferrer">Github</a>.
                     </p>
 
                 </li>
