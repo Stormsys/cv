@@ -129,10 +129,10 @@ function Work() {
                         </li>
 
                         <li>
-                            <h5>Process Improvments</h5>
+                            <h5>Process Improvements</h5>
                             Presented a business case to migrate my old team to git from svn, this included highligting the
                             benefits and documenting the process. I also introduced better processes such as code quality metrics
-                            and workflow using SonarQuabe and Jenkin.
+                            and workflow using SonarQube and Jenkins.
                         </li>
                     </ul>
 
