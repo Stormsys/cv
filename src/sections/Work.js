@@ -151,7 +151,7 @@ function Work() {
                         I began as an intern and invited to stay on as a contractor. Working under the innovations team on the
                         <a href="http://www.ericsson.com/broadcastandmedia/news/red-bee-media-launches-redplayer-the-next-generation-online-video-platform/"
                            target="_blank"
-                           rel="noreferrer">RedPlayer</a> VOD Solution.
+                           rel="noreferrer"> RedPlayer</a> VOD Solution.
                         I developed apps for XBox, Android Tablet &amp; Connected TV's from Samsung, Sony and Panasonic.
                     </p>
 
