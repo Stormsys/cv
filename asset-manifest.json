@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/cv/static/css/main.7db14784.chunk.css",
-    "main.js": "/cv/static/js/main.e70dcb6b.chunk.js",
-    "main.js.map": "/cv/static/js/main.e70dcb6b.chunk.js.map",
+    "main.css": "/cv/static/css/main.fad2cf96.chunk.css",
+    "main.js": "/cv/static/js/main.fa86cee4.chunk.js",
+    "main.js.map": "/cv/static/js/main.fa86cee4.chunk.js.map",
     "runtime-main.js": "/cv/static/js/runtime-main.2f306717.js",
     "runtime-main.js.map": "/cv/static/js/runtime-main.2f306717.js.map",
     "static/js/2.44237e49.chunk.js": "/cv/static/js/2.44237e49.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.835709d4.chunk.js": "/cv/static/js/3.835709d4.chunk.js",
     "static/js/3.835709d4.chunk.js.map": "/cv/static/js/3.835709d4.chunk.js.map",
     "index.html": "/cv/index.html",
-    "static/css/main.7db14784.chunk.css.map": "/cv/static/css/main.7db14784.chunk.css.map",
+    "static/css/main.fad2cf96.chunk.css.map": "/cv/static/css/main.fad2cf96.chunk.css.map",
     "static/js/2.44237e49.chunk.js.LICENSE.txt": "/cv/static/js/2.44237e49.chunk.js.LICENSE.txt",
     "static/media/Hobbies.scss": "/cv/static/media/fontawesome-webfont.f691f37e.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.2f306717.js",
     "static/js/2.44237e49.chunk.js",
-    "static/css/main.7db14784.chunk.css",
-    "static/js/main.e70dcb6b.chunk.js"
+    "static/css/main.fad2cf96.chunk.css",
+    "static/js/main.fa86cee4.chunk.js"
   ]
 }
