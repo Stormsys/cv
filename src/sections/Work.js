@@ -15,6 +15,24 @@ function Work() {
                     </h3>
 
                     <h4>Technology Manager</h4>
+                    <p>
+                        Technology Manager for the Restaurant Operations team since 2019, in this role i have more then
+                        doubled the team size including reaching out to my personal network,
+                        laid out an engineering vision and grown many members of the team into leaders.
+                    </p>
+                    <p>
+                       This team is responsible for a large span of domains across the organisation (cerca 14 domains), and are specialists in
+                        Restaurant core Data and Restaurant Availability. We are highly central to many teams,
+                        one of my focuses in my time here was to decentralize ownership of components and reduce the bottleneck and reliance on our team for change.
+                    </p>
+                    <p>
+                        On top of being plugged into the engineering vision and continuing to drive architecture i have successfully guided many of my engineers
+                        through promotions and progressions, managed poor performance, created growth opportunities and worked with challenging stakeholders.
+                    </p>
+                    <p>
+                        Our primary customer in Restaurant Ops space are the call centre agents, however this was in extension of our restaurant partners and their needs.
+                    </p>
+                    <p>&nbsp;</p>
 
 
                     <h4>Senior Engineer / Engineering Lead</h4>
@@ -25,7 +43,10 @@ function Work() {
                         Responsibilities have included mentoring Engineers of varying levels, communicating with
                         stakeholders, and driving ideas.
                     </p>
-
+                    <p>
+                        As mentioned earlier i have delivered production code across many languages during my time here including Java, Node.JS, Python, C# and Various front-end frameworks. I was also one of the first engineers to break the barriers and introduce Lambdas as Api's and
+                        static front end applications hosted on cloudflare and S3.
+                    </p>
                     <p>
                         I have a solid track record of leading and shaping several technical projects.
                     </p>

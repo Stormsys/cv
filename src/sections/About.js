@@ -7,10 +7,12 @@ function About() {
             <h2> About </h2>
 
             <p>
-                I am a highly motivated and challenge driven software engineer.
-                I pride myself on being a multi-language developer, always looking to adopt to new technologies and keen to
-                learn.
-                I have a keen interest in designing scalable systems, and writing elegant software.
+                I am a natural leader with a track record of producing highly scalable architecture, driving innovation and growing engineers.
+                At heart i am first and foremost an passionate engineer myself, i constantly find ways to create pet projects in
+                my spare time and love to learn about technology. Throughout my career i have demonstrated my
+                ability to work in a programming language
+                agnostic fashion, using the right tool for the job and as a leader i have helped to grow other
+                budding leaders demonstrated the ability to successfully pick out the top talent from the crowd.
             </p>
 
         </section>
