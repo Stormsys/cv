@@ -2,28 +2,32 @@
 @import "scss/reset";
 
 body {
-  color: #666;
-  background: #f0f0f0;
+  color: #182825;
+  background: #AFA98D;
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+section {
+  padding-top: 20px;
+}
+
 h2 {
-  color: #222;
+  color: #AFA98D;
   font-size: 22px;
   font-weight: 500;
 //text-transform: uppercase;
   text-decoration: none;
   line-height: 40px;
-  border-bottom: 1px dotted #dfdfdf;
+ // border-bottom: 1px dotted #dfdfdf;
 }
 
 h3 {
-  color: #333;
+  color: #6D8EA0;
   font-size: 18px;
 }
 
 h4 {
-  color: #333;
+  color: #6D8EA0;
   font-size: 16px;
   margin-bottom: 15px;
 }
@@ -61,10 +65,10 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 36px;
+  color: #3A506B;
 }
 
 h2 {
-  color: #222;
   font-size: 22px;
   font-weight: 500;
   text-decoration: none;

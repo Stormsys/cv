@@ -9,9 +9,10 @@ function Education() {
             <ul>
 
                 <li>
-                    <h3><span className="institution">University of Westminster</span>
-                        <div className="hr"/>
-                        <span className="date">September 2009 - June 2013</span></h3>
+                    <h3>
+                        <span className="institution">University of Westminster</span>
+                        <span className="date">September 2009 - June 2013</span>
+                    </h3>
 
                     <h4>BEng Software Engineering <span>- <b><i className="fa fa-trophy" aria-hidden="true"/></b> First-class honours</span>
                     </h4>

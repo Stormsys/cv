@@ -2,16 +2,21 @@ import "./Hobbies.scss";
 
 function Hobbies() {
     return (
-        <section id='about'>
+        <section id='interests'>
 
-            <h2> About </h2>
+            <h2> Hobbies </h2>
 
-            <p>
-                I am a highly motivated and challenge driven software engineer.
-                I pride myself on being a multi-language developer, always looking to adopt to new technologies and keen to
-                learn.
-                I have a keen interest in designing scalable systems, and writing elegant software.
-            </p>
+            <ul className='hobbies-list'>
+                <li>Boxing</li>
+                <li>Home Automation</li>
+                <li>Photography</li>
+                <li>3D Printing</li>
+                <li>Board Games</li>
+                <li>Coding</li>
+                <li>Traveling</li>
+                <li>Video Creation</li>
+                <li>Computer Hardware</li>
+            </ul>
 
         </section>
     );

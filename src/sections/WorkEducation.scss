@@ -19,13 +19,12 @@
     @include list-unstyled;
 
     > li {
-      margin: 25px 0px;
-      border-bottom: 1px solid #eee;
-      padding-bottom: 10px;
+      margin: 25px 0;
+      padding-bottom: 20px;
 
 
       @media screen and (max-width: $responsive-max-width) {
-        margin: 10px 0px;
+        margin: 10px 0;
       }
 
       > ul {
@@ -43,6 +42,15 @@
 
   h3 {
     display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+
+
+    hr {
+      display: none;
+      visibility: hidden;
+    }
 
 
     @media screen and (max-width: $responsive-max-width) {
@@ -52,7 +60,7 @@
 
 
     .institution, .workplace, .date {
-      margin-top: -12px;
+      //margin-top: -12px;
       white-space: nowrap;
 
 
@@ -68,6 +76,7 @@
     }
 
     .hr {
+      display: none;
       width: 100%;
       margin: 0;
       height: 1px;

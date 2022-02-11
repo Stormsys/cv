@@ -33,7 +33,6 @@ function Page() {
 
             {/* Interests */}
             <Hobbies />
-
         </section>
     );
 }

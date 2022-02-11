@@ -9,11 +9,15 @@ function Work() {
             <ul>
                 {/* Just-Eat */}
                 <li>
-                    <h3><span className="workplace">Just-Eat</span>
-                        <div className="hr"/>
-                        <span className="date">September 2016 - Present</span></h3>
+                    <h3 class="job-header">
+                        <span className="workplace">Just-Eat</span>
+                        <span className="date">September 2016 - Present</span>
+                    </h3>
 
-                    <h4>Senior Engineer</h4>
+                    <h4>Technology Manager</h4>
+
+
+                    <h4>Senior Engineer / Engineering Lead</h4>
 
                     <p>
                         Engineering Lead for the Restaurant Operations team which is responsible for managing
@@ -92,7 +96,7 @@ function Work() {
                     <ul>
 
                         <li>
-                            <h5>CMPP Portal</h5>
+                            <h5>Cloud Media Processing Platform Portal</h5>
                             Leveraging the latest web technologies to deliver a cutting edge experience and customer facing front
                             end for <a href="http://www.ericsson.com/broadcastandmedia/what-we-do/media-management/"
                                        target="_blank"
