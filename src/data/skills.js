@@ -49,6 +49,7 @@
             "SQS",
             "DynamoDB",
             "S3",
+            "Step Functions",
             "ECR",
             "Cloudformation",
             "Docker"
