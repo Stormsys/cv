@@ -5,10 +5,6 @@ import {useState} from "react";
 function Email() {
     const email = 'dEBlQG5AXUB0QG9AZEBbQHNAeUBzQG1AckBvQHRAc0BdQHRAYUBbQG9AZ0BvQGlAZA==';
 
-    const obsficateMailAddress = function(mail) {
-        return  btoa(mail.replace(/@/, '[at]').replace(/\./, '[dot]').split('').reverse().join('@'));
-    }
-
     const deobsficateMailAddress = function(mail) {
         return  atob(mail).split('@').reverse().join('').replace(/\[dot]/, '.').replace(/\[at]/, '@');
     }
