@@ -16,7 +16,7 @@ function Work() {
 
                     <h4>Technology Manager</h4>
                     <p>
-                        Technology Manager for the Restaurant Operations team since 2019, in this role i have more then
+                        Technology Manager for the Restaurant Operations team since 2020, in this role i have more then
                         doubled the team size including reaching out to my personal network,
                         laid out an engineering vision and grown many members of the team into leaders.
                     </p>
