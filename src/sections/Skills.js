@@ -3,7 +3,7 @@ import skills from "../data/skills";
 
 function SkillEntry(props) {
     return (
-        <>
+        <div className="skill-group">
             <h3>{props.group}
                 {props.level && <span className={"skill-level " + props.level.toLowerCase()}>{props.level}</span>}
             </h3>
@@ -21,7 +21,7 @@ function SkillEntry(props) {
                         .
                 </p>
             }
-        </>);
+        </div>);
 }
 
 function Skills() {
@@ -30,9 +30,11 @@ function Skills() {
 
             <h2> Skills </h2>
 
-            {skills.map(skill =>
-                <SkillEntry {...skill} key={skill.group} />
-            )}
+            <div className="skill-group-list">
+                {skills.map(skill =>
+                    <SkillEntry {...skill} key={skill.group} />
+                )}
+            </div>
 
         </section>
     );

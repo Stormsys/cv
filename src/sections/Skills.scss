@@ -1,6 +1,21 @@
 @import "../scss/shared";
 
 #skills {
+  .skill-group-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    .skill-group {
+      width: 50%;
+      padding: 5px;
+
+      @media screen and (max-width: $responsive-max-width) {
+        width:100%;
+      }
+
+    }
+  }
+
   ul.skill-list {
     display: flex;
     flex-wrap: wrap;
