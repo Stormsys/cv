@@ -4,9 +4,18 @@ function Awards() {
     return (
         <section id='awards'>
 
-            <h2> Awards </h2>
+            <h2> Awards & Certificates </h2>
 
             <ul>
+
+                <li>
+                    <h3>People Leadership Programme - mutliverse</h3>
+                    <p> I under took a 15 month apprenticeship around people leadership and management skills modules
+                        included Self Awareness, Management of Self, Leading People, Managing People,
+                        Building Relationships, Communication, Finance, Project Management and Operational Management.
+                        The course was undertaken during work, and i achieved a <b>Distinction</b>.
+                    </p>
+                </li>
 
                 <li>
                     <h3>School of Electronics and Computer Science Achievement Award</h3>
