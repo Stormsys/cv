@@ -23,7 +23,7 @@ function Education() {
 
                     <p>For my final year project I produced a <b>PHP MVC Framework</b>
                         featuring <i>Ajax Partial View Renders, Active Record MySQL, Auto Loading, Configuration, Routing,
-                            Templating and Sessions</i>. To showcase the framework i developed a
+                            Templating and Sessions</i>. To showcase the framework I developed a
                          <b> Web-Based Game Server Control Panel</b>, which allowed users and administrators to manage and
                         provision dedicated servers, and processes within these servers.
                     </p>

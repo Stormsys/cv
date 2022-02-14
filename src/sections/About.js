@@ -8,10 +8,10 @@ function About() {
 
             <p>
                 I am a natural leader with a track record of producing highly scalable architecture, driving innovation and growing engineers.
-                At heart i am first and foremost an passionate engineer myself, i constantly find ways to create pet projects in
-                my spare time and love to learn about technology. Throughout my career i have demonstrated my
+                At heart I am first and foremost an passionate engineer myself, I constantly find ways to create pet projects in
+                my spare time and love to learn about technology. Throughout my career I have demonstrated my
                 ability to work in a programming language
-                agnostic fashion, using the right tool for the job and as a leader i have helped to grow other
+                agnostic fashion, using the right tool for the job and as a leader I have helped to grow other
                 budding leaders demonstrated the ability to successfully pick out the top talent from the crowd.
             </p>
 

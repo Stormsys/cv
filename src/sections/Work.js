@@ -16,17 +16,17 @@ function Work() {
 
                     <h4>Technology Manager</h4>
                     <p>
-                        Technology Manager for the Restaurant Operations team since 2020, in this role i have more then
+                        Technology Manager for the Restaurant Operations team since 2020, in this role I have more then
                         doubled the team size including reaching out to my personal network,
                         laid out an engineering vision and grown many members of the team into leaders.
                     </p>
                     <p>
-                       This team is responsible for a large span of domains across the organisation (cerca 14 domains), and are specialists in
-                        Restaurant core Data and Restaurant Availability. We are highly central to many teams,
+                       This team plays a part in a large span of domains across the organisation (cerca 14 domains), and are specialists in
+                        Restaurant Core Data and Restaurant Availability. We are highly central to many teams,
                         one of my focuses in my time here was to decentralize ownership of components and reduce the bottleneck and reliance on our team for change.
                     </p>
                     <p>
-                        On top of being plugged into the engineering vision and continuing to drive architecture i have successfully guided many of my engineers
+                        On top of being plugged into the engineering vision and continuing to drive architecture I have successfully guided many of my engineers
                         through promotions and progressions, managed poor performance, created growth opportunities and worked with challenging stakeholders.
                     </p>
                     <p>
@@ -44,7 +44,7 @@ function Work() {
                         stakeholders, and driving ideas.
                     </p>
                     <p>
-                        As mentioned earlier i have delivered production code across many languages during my time here including Java, Node.JS, Python, C# and Various front-end frameworks. I was also one of the first engineers to break the barriers and introduce Lambdas as Api's and
+                        As mentioned earlier I have delivered production code across many languages during my time here including Java, Node.JS, Python, C# and Various front-end frameworks. I was also one of the first engineers to break the barriers and introduce Lambdas as Api's and
                         static front end applications hosted on cloudflare and S3.
                     </p>
                     <p>
@@ -72,7 +72,7 @@ function Work() {
                         <li>
                             <h5>SkipTheDishes Integration & Driver Availability Times</h5>
                             Project lead for a solution to enable Just Eat to enter the self-delivery space by
-                            integrating SkipTheDishes technology into the Just-Eat platform. Particularly i ensured
+                            integrating SkipTheDishes technology into the Just-Eat platform. Particularly I ensured
                             that we were able to restrict restaurant times by driver availability and whilst delivering
                             this project, I ensured that we fed into reliability goals of decoupling from our monolithic
                             Core SQL.
@@ -81,7 +81,7 @@ function Work() {
                         <li>
                             <h5>Order Management</h5>
                             Scaled up a order management ui solution for call centre agents to manage Just Eat orders.
-                            During my time on this project i moved it over to Angular2 (from angularJS) and implemented
+                            During my time on this project I moved it over to Angular2 (from angularJS) and implemented
                             a new in memory browser based testing backed by cypress.
                         </li>
 

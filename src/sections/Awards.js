@@ -13,7 +13,7 @@ function Awards() {
                     <p> I under took a 15 month apprenticeship around people leadership and management skills modules
                         included Self Awareness, Management of Self, Leading People, Managing People,
                         Building Relationships, Communication, Finance, Project Management and Operational Management.
-                        The course was undertaken during work, and i achieved a <b>Distinction</b>.
+                        The course was undertaken during work, and I achieved a <b>Distinction</b>.
                     </p>
                 </li>
 
