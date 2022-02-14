@@ -1,23 +1,20 @@
 {
   "files": {
-    "main.css": "/cv/static/css/main.fad2cf96.chunk.css",
-    "main.js": "/cv/static/js/main.ae031b55.chunk.js",
-    "main.js.map": "/cv/static/js/main.ae031b55.chunk.js.map",
-    "runtime-main.js": "/cv/static/js/runtime-main.b92d7ecd.js",
-    "runtime-main.js.map": "/cv/static/js/runtime-main.b92d7ecd.js.map",
-    "static/js/2.8bf35747.chunk.js": "/cv/static/js/2.8bf35747.chunk.js",
-    "static/js/2.8bf35747.chunk.js.map": "/cv/static/js/2.8bf35747.chunk.js.map",
-    "static/js/3.0488ee11.chunk.js": "/cv/static/js/3.0488ee11.chunk.js",
-    "static/js/3.0488ee11.chunk.js.map": "/cv/static/js/3.0488ee11.chunk.js.map",
+    "main.css": "/cv/static/css/main.83771405.css",
+    "main.js": "/cv/static/js/main.515e43ae.js",
+    "static/js/787.5af1f764.chunk.js": "/cv/static/js/787.5af1f764.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/cv/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/cv/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/cv/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/cv/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/cv/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/cv/index.html",
-    "static/css/main.fad2cf96.chunk.css.map": "/cv/static/css/main.fad2cf96.chunk.css.map",
-    "static/js/2.8bf35747.chunk.js.LICENSE.txt": "/cv/static/js/2.8bf35747.chunk.js.LICENSE.txt",
-    "static/media/Hobbies.scss": "/cv/static/media/fontawesome-webfont.f691f37e.woff"
+    "main.83771405.css.map": "/cv/static/css/main.83771405.css.map",
+    "main.515e43ae.js.map": "/cv/static/js/main.515e43ae.js.map",
+    "787.5af1f764.chunk.js.map": "/cv/static/js/787.5af1f764.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.b92d7ecd.js",
-    "static/js/2.8bf35747.chunk.js",
-    "static/css/main.fad2cf96.chunk.css",
-    "static/js/main.ae031b55.chunk.js"
+    "static/css/main.83771405.css",
+    "static/js/main.515e43ae.js"
   ]
 }
