@@ -7,7 +7,7 @@ function Hobbies() {
             <h2> Hobbies </h2>
 
             <ul className='hobbies-list'>
-                <li>Boxing</li>
+                <li>Boxing <a href="https://www.youtube.com/watch?v=cpmn3ZVs6DY"><i class="fa fa-link" /></a></li>
                 <li>Home Automation</li>
                 <li>Photography</li>
                 <li>3D Printing</li>
