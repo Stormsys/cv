@@ -15,7 +15,7 @@ function OpenSource() {
                     <ul>
                         <li>
                             <h4>
-                                <a href="https://github.com/Stormsys/SimpleHal"><i className="fa fa-github"
+                                <a href="https://github.com/Stormsys/SimpleHal" rel="noreferrer" target="_blank"><i className="fa fa-github"
                                                                                    aria-hidden="true"/> Stormsys/SimpleHal</a>
                             </h4>
                             <p>SimpleHal is an easy to use PHP library for consuming Hal API's</p>
@@ -32,7 +32,7 @@ function OpenSource() {
 
                         <li>
                             <h4>
-                                <a href="https://github.com/justeat/ZendeskApiClient"><i className="fa fa-github"
+                                <a href="https://github.com/justeat/ZendeskApiClient" rel="noreferrer" target="_blank"><i className="fa fa-github"
                                                                                   aria-hidden="true"/> justeat/ZendeskApiClient </a>
                             </h4>
                             <p> Responsible for a large refactor and modernisation of the client, the client is used in internal Just Eat projects. </p>
@@ -40,7 +40,7 @@ function OpenSource() {
 
                         <li>
                             <h4>
-                                <a href="https://github.com/bbyars/mountebank"><i className="fa fa-github"
+                                <a href="https://github.com/bbyars/mountebank" rel="noreferrer" target="_blank"><i className="fa fa-github"
                                                                                          aria-hidden="true"/> bbyars/mountebank </a>
                             </h4>
                             <p>I was responsible for adding proxyTransparent concept to mountebanke for a use case we had at Just Eat</p>
