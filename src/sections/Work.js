@@ -9,7 +9,7 @@ function Work() {
             <ul>
                 {/* Just-Eat */}
                 <li>
-                    <h3 class="job-header">
+                    <h3 className="job-header">
                         <span className="workplace">Just-Eat</span>
                         <span className="date">September 2016 - Present</span>
                     </h3>

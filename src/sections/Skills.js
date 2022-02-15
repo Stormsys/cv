@@ -16,7 +16,7 @@ function SkillEntry(props) {
                 <p>
                         Please see
                     {props.examples.map(example =>
-                        <a className={example.type} href={example.url} rel="noreferrer" target="_blank">{example.name}</a>
+                        <a key={example.name} className={example.type} href={example.url} rel="noreferrer" target="_blank">{example.name}</a>
                     ).reduce((prev, curr) => [prev, ', ', curr])}
                         .
                 </p>
