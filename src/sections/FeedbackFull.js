@@ -41,6 +41,13 @@ function FeedbackFull() {
                 As ever, please involve me: I look forward to a slightly less ridiculous year ahead.
                 </p>
 
+            <h2>(Name Retracted) - Delivery Manager - Just Eat Takeaway.com</h2>
+
+            <p>
+                Diogo has been a pleasure to work with since I joined the team in October.
+<br/><br/>
+                He is very easy to work with and it's very visible that he has the trust of all the engineers that report into him.  He gets involved in highlighting what the team needs to work on in the short term along with having a clear vision of where the team should be moving towards in the future.  His technical knowledge within our area is great and it shows in all Amigo's and refinement sessions.
+            </p>
 
             <h2>(Name Retracted) - Engineer - Just Eat Takeaway.com</h2>
 
