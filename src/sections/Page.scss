@@ -6,7 +6,7 @@ $page-height: round($page-width * 1.41px) * 2;
 
 #page {
   width: $page-width;
-  padding: 25px;
+  padding: 4em;
   margin: 25px auto;
   background: #fff;
   box-sizing: border-box;
@@ -17,5 +17,14 @@ $page-height: round($page-width * 1.41px) * 2;
     width: auto;
     margin: 0;
     border: 0;
+  }
+
+  @media print {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: auto;
+    max-height: inherit;
+    overflow: auto;
   }
 }
