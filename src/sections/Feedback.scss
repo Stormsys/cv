@@ -1,0 +1,8 @@
+@import "../scss/shared";
+
+#feedback {
+  h2:before {
+    content: $fa-var-microphone;
+  }
+
+}
