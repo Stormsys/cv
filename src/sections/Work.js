@@ -10,7 +10,7 @@ function Work() {
                 {/* Just-Eat */}
                 <li>
                     <h3 className="job-header">
-                        <span className="workplace">Just-Eat</span>
+                        <span className="workplace">Just Eat Takeaway.com</span>
                         <span className="date">September 2016 - Present</span>
                     </h3>
 
