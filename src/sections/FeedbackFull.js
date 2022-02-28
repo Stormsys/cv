@@ -3,8 +3,7 @@ import "./FeedbackFull.scss";
 function FeedbackFull() {
     return (
         <section id='feedback-full'>
-
-            <h2>(Name Retracted) - Head of Engineering - Just Eat Takeaway.com</h2>
+            <h2>Head of Engineering - Just Eat Takeaway.com</h2>
 
             <p><b>2021</b> - In working with the Just Eat development teams, I came to appreciate the gut instinct of a few
                 individuals when determining the impact of changes we were considering. Diogo is one of those people.
@@ -24,14 +23,14 @@ function FeedbackFull() {
                 I know your team respects you, your manager respects you and peers respect you. In a work environment like ours that is everything. It makes my job infinitely easier and has built a trust and confidence in your skills and competencies that I rely on.
             </p>
 
-            <h2>(Name Retracted) - Technology Manager - Just Eat Takeaway.com</h2>
+            <h2>Technology Manager - Just Eat Takeaway.com</h2>
             <p><b>2021</b> - It's always a pleasure to work with you because you have a very good understanding of the
                 components of your team, are on top of your roadmap, know about the work from other teams and how it can
                 impact your and other teams' components, and you always try to focus on reliability and customer value over
                 "beautiful" work. You are very open to suggestions, and also very politely challenge decisions when you
                 think they might not be the best approach, which is very welcome.</p>
 
-            <h2>(Name Retracted) - Principal Engineer - Just Eat Takeaway.com</h2>
+            <h2>Principal Engineer - Just Eat Takeaway.com</h2>
 
             <p><b>2021</b> -I Really enjoyed our work together in 2021. From my point of view, your team has had a very,
                 very challenging and yet very, very productive year - you deserve an enormous amount of credit for how much
@@ -84,7 +83,7 @@ function FeedbackFull() {
                 As ever, please involve me: I look forward to a slightly less ridiculous year ahead.
                 </p>
 
-            <h2>(Name Retracted) - Product Manager - Just Eat Takeaway.com</h2>
+            <h2>Product Manager - Just Eat Takeaway.com</h2>
             <p>
                 <ul>
                     <li>Leadership - It is clear the team really respect you and look up to you as a leader. I think you set a great example for the team meaning the team are motivated and all pushing in the right direction</li>
@@ -96,7 +95,7 @@ function FeedbackFull() {
             </p>
 
 
-            <h2>(Name Retracted) - Delivery Manager - Just Eat Takeaway.com</h2>
+            <h2>Delivery Manager - Just Eat Takeaway.com</h2>
 
             <p>
                 <b>2020</b> - Diogo has been a pleasure to work with since I joined the team in October.
@@ -105,7 +104,7 @@ function FeedbackFull() {
                 He is very easy to work with and it's very visible that he has the trust of all the engineers that report into him.  He gets involved in highlighting what the team needs to work on in the short term along with having a clear vision of where the team should be moving towards in the future.  His technical knowledge within our area is great and it shows in all Amigo's and refinement sessions.
             </p>
 
-            <h2>(Name Retracted) - Engineer - Just Eat Takeaway.com</h2>
+            <h2>Engineer - Just Eat Takeaway.com</h2>
 
             <p>Overall, I find that you are a straight-forward, practical, and supportive manager which allows me the
                 freedom to carry out my role fairly autonomously which I appreciate. You have thus far always made
