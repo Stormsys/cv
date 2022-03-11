@@ -16,13 +16,12 @@ function Work() {
 
                     <h4>Technology Manager</h4>
                     <p>
-                        Technology Manager for the Restaurant Operations team since 2020, in this role I have more then
-                        doubled the team size including reaching out to my personal network,
-                        laid out an engineering vision and grown many members of the team into leaders.
+                        Technology Manager for the Restaurant Operations team since February 2020, in this role I have tripled
+                        the size of the team including reaching out to my personal network, created and presented an engineering vision and grown team members into leaders.
                     </p>
                     <p>
                        This team plays a part in a large span of domains across the organisation (cerca 14 domains), and are specialists in
-                        Restaurant Core Data and Restaurant Availability. We are highly central to many teams,
+                        Restaurant Core Data and Restaurant Availability. We are central to many other teams across multiple pillars,
                         one of my focuses in my time here was to decentralize ownership of components and reduce the bottleneck and reliance on our team for change.
                     </p>
                     <p>
