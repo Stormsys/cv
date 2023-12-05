@@ -19,7 +19,8 @@ function Work() {
                         Checkout.com's engineering organisation consists of 860 people, operating over 800 microservices and maintainaining over 30 decentralised and unstandardised CD pipeline instances.
                     </p>
                     <p>
-                        Developer Platform is responsible for boosting engineering excellence, optimising and standarding engineering practices through great tooling directly impacting the engineering organisation. It is an essential function that aims to transform engineering culture at Checkout.com.                    </p>
+                        Developer Platform is responsible for boosting engineering excellence, optimising and standarding engineering practices through great tooling directly impacting the engineering organisation. It is an essential function that aims to transform engineering culture at Checkout.com.
+                    </p>
                     <p>
                         I initially led a team that transformed the Developer Portal extending the Backstage offering. Over the last year we have had several success stories built on this foundation:
                     </p>
