@@ -7,9 +7,8 @@ body {
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 
-
   @media print {
-    padding: 0;
+    padding: 0 !important;
   }
 }
 
