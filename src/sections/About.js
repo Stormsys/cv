@@ -12,7 +12,7 @@ function About() {
                 my spare time and love to learn about technology. Throughout my career I have demonstrated my
                 ability to work in a programming language
                 agnostic fashion, using the right tool for the job and as a leader I have helped to grow other
-                budding leaders demonstrated the ability to successfully pick out the top talent from the crowd.
+                budding leaders and demonstrated the ability to successfully pick out the top talent from the crowd.
             </p>
 
         </section>

@@ -104,7 +104,8 @@
             "Jenkins",
             "Teamcity",
             "Bamboo",
-            "DevOps"
+            "DevOps",
+            "Backstage"
         ]
     }
 ];

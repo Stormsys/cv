@@ -7,6 +7,38 @@ function Work() {
             <h2> Work Experience </h2>
 
             <ul>
+                {/* Checkout.com */}
+                <li>
+                    <h3 className="job-header">
+                        <span className="workplace">Checkout.com</span>
+                        <span className="date">July 2022 - Present</span>
+                    </h3>
+
+                    <h4>Senior Engineering Manager - Developer Paltform</h4>
+                    <p>
+                        Checkout.com's engineering organisation consists of 860 people, operating over 800 microservices and maintainaining over 30 decentralised and unstandardised CD pipeline instances.
+                    </p>
+                    <p>
+                        Developer Platform is responsible for boosting engineering excellence, optimising and standarding engineering practices through great tooling directly impacting the engineering organisation. It is an essential function that aims to transform engineering culture at Checkout.com.                    </p>
+                    <p>
+                        I initially led a team that transformed the Developer Portal extending the Backstage offering. Over the last year we have had several success stories built on this foundation:
+                    </p>
+                    <ul>
+                        <li>Revamped user experience enabling consistency across entries on entities in the portal.</li>
+                        <li>Improved the quality consistency and standardisation of data captured to enable additional systems to be built on top of the Catalog, this went from 100 low quality entries to over 880 high quality entries in the portal.</li>
+                        <li>Delivered a Scoring and Maturity framework that enabled teams to report on compliance and excellence within the portal.</li>
+                        <li>Extended the Scoring and Maturity to incorporate Compliance checks, making it easier for teams to obtain PCI and SOC 2 adherence using our system.</li>
+                        <li>Standardised and automated capturing of DORA metrics and made these visible for all teams in the portal.</li>
+                        <li>Supported accurate and true organisational modelling showing the different units of software teams in the organisation, providing strong ownership of services.</li>
+                        <li>Aggregated and presented centrally all software deployments across Checkout.com where services were properly registered in the portal enabling better visibility for several use cases including Incident Management.</li>
+                        <li>Boosted engagment with the portal 5x measured by monthly unique users.</li>
+                    </ul>
+                    <p>&nbsp;</p>
+                    <p>
+                        I also assumed leadership of three core engineering sub-teams tripling my team size, who were responsible for streamlining deployment pipelines and supporting our GitHub Actions and Datadog estate, then executing on merging the teams thereby reducing overall cost. 
+                    </p>
+                </li>
+
                 {/* Just-Eat */}
                 <li>
                     <h3 className="job-header">

@@ -22,7 +22,7 @@ $page-height: round($page-width * 1.41px) * 2;
   @media print {
     margin: 0;
     border: 0;
-    padding: 0;
+    padding: 20px;
     max-height: inherit;
     overflow: auto;
   }
