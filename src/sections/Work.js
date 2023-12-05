@@ -44,7 +44,7 @@ function Work() {
                 <li>
                     <h3 className="job-header">
                         <span className="workplace">Just Eat Takeaway.com</span>
-                        <span className="date">September 2016 - Present</span>
+                        <span className="date">September 2016 - July 2022</span>
                     </h3>
 
                     <h4>Technology Manager</h4>
