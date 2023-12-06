@@ -3,6 +3,13 @@ import "./FeedbackFull.scss";
 function FeedbackFull() {
     return (
         <section id='feedback-full'>
+            <h2>VP, Engineering - Checkout.com</h2>
+            <p>
+                <b>2023</b> - His exceptional leadership as the head of the Developer Platform engineering team has been instrumental in implementing numerous improvements within our developer ecosystem of tools and CI/CD. Diogo skillfully abstracted complexity, enhancing both productivity and security across the entire engineering department.
+                                <br />
+                                His ability to navigate intricate technological landscapes was evident in the consolidation of various technologies into a unified portal platform. This strategic move not only streamlined operations but also empowered our teams to work more cohesively. Diogo's dedication to supporting team development is commendable, and his leadership style, marked by clarity and a sense of enjoyment, has created a positive and collaborative work environment. Diogo's track record speaks volumes, and I am confident that he would be an invaluable asset in any company.
+            </p>
+
             <h2>Head of Engineering - Just Eat Takeaway.com</h2>
 
             <p><b>2021</b> - In working with the Just Eat development teams, I came to appreciate the gut instinct of a few
