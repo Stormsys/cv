@@ -2,7 +2,7 @@ import "./WorkEducation.scss";
 
 function Education() {
     return (
-        <section id='education'>
+        <section id='education' className="print-break">
 
             <h2> Education </h2>
 

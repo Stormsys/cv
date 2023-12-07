@@ -67,7 +67,7 @@ function Work() {
                     <p>&nbsp;</p>
 
 
-                    <h4>Senior Engineer / Engineering Lead</h4>
+                    <h4 className="print-break">Senior Engineer / Engineering Lead</h4>
 
                     <p>
                         Engineering Lead for the Restaurant Operations team which is responsible for managing

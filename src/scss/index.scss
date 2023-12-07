@@ -1,7 +1,7 @@
-@import "scss/shared";
-@import "scss/reset";
+@import "./shared";
+@import "./reset";
 
-@media print { 
+@media print {
   .print-break { 
     page-break-before: always;
    } 
@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 36px;
-  color: $headline-colour;
+  color: $headline-colour:;
 }
 
 h2 {

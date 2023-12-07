@@ -5,7 +5,7 @@ function SkillEntry(props) {
     return (
         <div className="skill-group">
             <h3>{props.group}
-                {props.level && <span className={"skill-level " + props.level.toLowerCase()}>{props.level}</span>}
+                {/* {props.level && <span className={"skill-level " + props.level.toLowerCase()}>{props.level}</span>} */}
             </h3>
             <ul className='skill-list'>
                 {props.skills.map(skill =>
