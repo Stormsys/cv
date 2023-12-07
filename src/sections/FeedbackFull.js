@@ -10,6 +10,12 @@ function FeedbackFull() {
                                 His ability to navigate intricate technological landscapes was evident in the consolidation of various technologies into a unified portal platform. This strategic move not only streamlined operations but also empowered our teams to work more cohesively. Diogo's dedication to supporting team development is commendable, and his leadership style, marked by clarity and a sense of enjoyment, has created a positive and collaborative work environment. Diogo's track record speaks volumes, and I am confident that he would be an invaluable asset in any company.
             </p>
 
+            <h2>Principal Engineer - Checkout.com</h2>
+            <p>
+                <b>2023</b> - 
+                Diogo joined Developer Platform team in a time when aspirations exceeded reach, prioritisation, workload management and morale all at the wrong ends of where they should have been. Diogo took that and created a positive environment, focusing on improving team cohension and aligning personal aspirations with strategic initiatives. Team morale improved he switched focus towards key initatives and how to maximise business value and aligning the team with platform engineering first principles how to foster cultural change within the organisation. Under Diogo's leadership multiple deliveries, service scoring being a key deliverable enabling teams to at a glance understand their service's compliance with the SDLC standard. Diogo is positive force in the team, rationalises prioritisation decisions and demonstrates pragmastism in leadership without a doubt an asset to any team.
+            </p>
+
             <h2>Head of Engineering - Just Eat Takeaway.com</h2>
 
             <p><b>2021</b> - In working with the Just Eat development teams, I came to appreciate the gut instinct of a few
