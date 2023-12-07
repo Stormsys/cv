@@ -47,7 +47,7 @@ function Work() {
                         <span className="date">September 2016 - July 2022</span>
                     </h3>
 
-                    <h4>Technology Manager</h4>
+                    <h4>Technology Manager ( Engineering Manager )</h4>
                     <p>
                         Technology Manager for the Restaurant Operations team since February 2020, in this role I have tripled
                         the size of the team including reaching out to my personal network, created and presented an engineering vision and grown team members into leaders.
