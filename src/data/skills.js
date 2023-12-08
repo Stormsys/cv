@@ -13,6 +13,24 @@
         ]
     },
 
+
+    {
+        group: "Cloud & Distributed",
+        level: "Expert",
+        skills: [
+            "AWS",
+            "Lambda",
+            "Api Gateway",
+            "SQS",
+            "DynamoDB",
+            "S3",
+            "Step Functions",
+            "ECR",
+            "Cloudformation",
+            "Docker"
+        ]
+    },
+
     {
         group: "Back-end Web Development",
         level: "Expert",
@@ -38,24 +56,6 @@
             }
         ]
     },
-
-    {
-        group: "Cloud & Distributed",
-        level: "Expert",
-        skills: [
-            "AWS",
-            "Lambda",
-            "Api Gateway",
-            "SQS",
-            "DynamoDB",
-            "S3",
-            "Step Functions",
-            "ECR",
-            "Cloudformation",
-            "Docker"
-        ]
-    },
-
     {
         group: "3D Graphics & Games Development",
         level: "Proficient",

@@ -7,12 +7,7 @@ function About() {
             <h2> About </h2>
 
             <p>
-                I am a natural leader with a track record of producing highly scalable architecture, driving innovation and growing engineers.
-                At heart I am first and foremost an passionate engineer myself, I constantly find ways to create pet projects in
-                my spare time and love to learn about technology. Throughout my career I have demonstrated my
-                ability to work in a programming language
-                agnostic fashion, using the right tool for the job and as a leader I have helped to grow other
-                budding leaders and demonstrated the ability to successfully pick out the top talent from the crowd.
+            Proven track record of spearheading highly scalable architecture, fostering innovation, and cultivating engineering growth. A passionate engineer at heart, I consistently embark on pet projects during my spare time, driven by a relentless curiosity for technology. Demonstrating a programming language-agnostic approach, I adeptly choose the right tools for optimal results. As a dedicated leader, I not only contribute to the growth of other emerging leaders but also exhibit a knack for identifying and elevating top talent within teams.
             </p>
 
         </section>

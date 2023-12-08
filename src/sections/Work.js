@@ -19,25 +19,20 @@ function Work() {
                         Checkout.com's engineering organisation consists of 860 people, operating over 800 microservices and maintainaining over 30 decentralised and unstandardised CD pipeline instances.
                     </p>
                     <p>
-                        Developer Platform is responsible for boosting engineering excellence, optimising and standarding engineering practices through great tooling directly impacting the engineering organisation. It is an essential function that aims to transform engineering culture at Checkout.com.
+                        Developer Platform is responsible for boosting engineering excellence, optimising and standarding engineering practices through great tooling directly impacting the engineering organisation touching. It is an essential function that aims to transform engineering culture at Checkout.com.
                     </p>
                     <p>
-                        I initially led a team that transformed the Developer Portal extending the Backstage offering. Over the last year we have had several success stories built on this foundation:
+                       As the Head of Developer Platform reporting into the VP of Engineering and working closely with a Product Manager and leading several Software Engineers across several teams, including a team that transformed the Developer Portal extending the Backstage offering. Over the last year we have had several success stories built on this foundation:
                     </p>
                     <ul>
-                        <li>Revamped user experience enabling consistency across entries on entities in the portal.</li>
-                        <li>Improved the quality consistency and standardisation of data captured to enable additional systems to be built on top of the Catalog, this went from 100 low quality entries to over 880 high quality entries in the portal.</li>
-                        <li>Delivered a Scoring and Maturity framework that enabled teams to report on compliance and excellence within the portal.</li>
-                        <li>Extended the Scoring and Maturity to incorporate Compliance checks, making it easier for teams to obtain PCI and SOC 2 adherence using our system.</li>
-                        <li>Standardised and automated capturing of DORA metrics and made these visible for all teams in the portal.</li>
-                        <li>Supported accurate and true organisational modelling showing the different units of software teams in the organisation, providing strong ownership of services.</li>
-                        <li>Aggregated and presented centrally all software deployments across Checkout.com where services were properly registered in the portal enabling better visibility for several use cases including Incident Management.</li>
-                        <li>Boosted engagment with the portal 5x measured by monthly unique users.</li>
+                        <li><b>Revolutionized Developer Portal</b> - Led a team in the transformation of the Developer Portal, expanding the Backstage offering and Achieved a revamped user experience, ensuring consistency across entries in the portal.</li>
+                        <li><b>Enhanced Data Quality and Service Registration</b> - Implemented a foundational strategy to improve the quality and consistency of data about services and Successfully increased high-quality services registration by over 800%, with excellent data points.</li>
+                        <li><b>Introduced Scoring and Maturity Framework</b> - Developed and delivered a Scoring and Maturity framework for teams to report compliance and excellence and Demonstrated success through increased scores over time, such as enhanced SonarQube adoption per service.</li>
+                        <li><b>Extended Compliance Checks</b> - Expanded the Scoring and Maturity framework to include Compliance checks, facilitating PCI and SOC 2 adherence for teams.</li>
+                        <li><b>Standardized DORA Metrics</b> - Standardized and automated the capturing of DORA metrics, providing visibility for all teams in the portal.</li>
+                        <li><b>Organizational Modeling and Ownership</b> - Enabled accurate organizational modeling, showcasing different software team units and promoting strong ownership of services.</li>
+                        <li><b>Centralized Deployment Tracking</b> - Aggregated and presented all software deployments across Checkout.com, enhancing visibility for various use cases, including Incident Management.</li>
                     </ul>
-                    <p>&nbsp;</p>
-                    <p>
-                        I also assumed leadership of three core engineering sub-teams tripling my team size, who were responsible for streamlining deployment pipelines and supporting our GitHub Actions and Datadog estate, then executing on merging the teams thereby reducing overall cost. 
-                    </p>
                 </li>
 
                 {/* Just-Eat */}
