@@ -22,11 +22,11 @@ function Work() {
                         Developer Platform is responsible for boosting engineering excellence, optimising and standardising engineering practices through great tooling directly impacting the engineering organisation. It is an essential function that aims to transform engineering culture at Checkout.com.
                     </p>
                     <p>
-                       As the Head of Developer Platform reporting into the VP of Engineering and working closely with a Product Manager and leading several Software Engineers across several teams, including a team that transformed the Developer Portal extending the Backstage offering. Over the last year we have had several success stories built on this foundation:
+                       As the Head of Developer Platform reporting into the VP of Engineering and working closely with a Product Manager and leading several Software Engineers across several teams. Over the last year we have had several success stories:
                     </p>
                     <ul>
-                        <li><b>Revolutionised Developer Portal</b> - Led a team in the transformation of the Developer Portal, expanding the Backstage offering and Achieved a revamped user experience, ensuring consistency across entries in the portal.</li>
-                        <li><b>Enhanced Data Quality and Service Registration</b> - Implemented a foundational strategy to improve the quality and consistency of data about services and Successfully increased high-quality services registration by over 800%, with excellent data points.</li>
+                        <li><b>Redesigned and standardised Developer Portal</b> - Led a team in the transformation of the Developer Portal, expanding the Backstage offering and Achieved a revamped user experience, ensuring consistency across entries in the portal. Over the last year this has seen a 500% increase in unqiue monthly users.</li>
+                        <li><b>Enhanced Data Quality and Service Registration</b> - Implemented a foundational strategy to improve the quality and consistency of data about services and Successfully increased high-quality services registration by over 800%, with centrliased and consistent data points.</li>
                         <li><b>Introduced Scoring and Maturity Framework</b> - Developed and delivered a Scoring and Maturity framework for teams to report compliance and excellence and Demonstrated success through increased scores over time, such as enhanced SonarQube adoption per service.</li>
                         <li><b>Extended Compliance Checks</b> - Expanded the Scoring and Maturity framework to include Compliance checks, facilitating PCI and SOC 2 adherence for teams.</li>
                         <li><b>Standardised DORA Metrics</b> - Standardised and automated the capturing of DORA metrics, providing visibility for all teams in the portal.</li>
