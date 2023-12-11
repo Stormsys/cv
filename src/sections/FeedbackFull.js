@@ -16,6 +16,16 @@ function FeedbackFull() {
                 Diogo joined Developer Platform team in a time when aspirations exceeded reach, prioritisation, workload management and morale all at the wrong ends of where they should have been. Diogo took that and created a positive environment, focusing on improving team cohension and aligning personal aspirations with strategic initiatives. Team morale improved he switched focus towards key initatives and how to maximise business value and aligning the team with platform engineering first principles how to foster cultural change within the organisation. Under Diogo's leadership multiple deliveries, service scoring being a key deliverable enabling teams to at a glance understand their service's compliance with the SDLC standard. Diogo is positive force in the team, rationalises prioritisation decisions and demonstrates pragmastism in leadership without a doubt an asset to any team.
             </p>
 
+            <h2>Principal Engineer - Checkout.com</h2>
+            <p>
+                <b>2023</b> - 
+                It was my great pleasure to be able to work and collaborate with Diogo for a period of time. When Diogo joined Checkout, our developer platform team lacked direction. Diogo brought a lot of technical and management experience with him to ensure direction for the developer platform team. Diogo always ensured he collected enough feedback and discussed with stakeholders to have a clear specification. He always was involved in discussion with various engineers at Checkout to find out the areas of improvement. 
+                <br /><br />
+                What I really liked about Diogo was his clear vision on what he wants to develop and deliver. He also ensured that vision is aligned with requirements and will improve upon what we already have in place.
+                <br /><br />
+                Diogo is a wonderful person and a great team player and I have no doubt he will bring a lot of value to any organisation he will work for.
+            </p>
+
             <h2>Head of Engineering - Just Eat Takeaway.com</h2>
 
             <p><b>2021</b> - In working with the Just Eat development teams, I came to appreciate the gut instinct of a few
