@@ -84,7 +84,6 @@
 
 
     .institution, .workplace, .date {
-      //margin-top: -12px;
       white-space: nowrap;
 
 
@@ -92,6 +91,12 @@
         margin-top: 5px;
         width: 100%;
         padding: 0;
+      }
+    }
+    .date {
+      @media screen and (max-width: $responsive-max-width) {
+          font-size: 12px;
+          margin-bottom: 5px;
       }
     }
 

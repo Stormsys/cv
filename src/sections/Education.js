@@ -21,7 +21,7 @@ function Education() {
                         Achieved a First-class honours, averaging <b>83%</b> across all four years of study.
                     </p>
 
-                    <p>For my final year project I produced a <b>PHP MVC Framework</b>
+                    <p>For my final year project I produced a <b>PHP MVC Framework </b> 
                         featuring <i>Ajax Partial View Renders, Active Record MySQL, Auto Loading, Configuration, Routing,
                             Templating and Sessions</i>. To showcase the framework I developed a
                          <b> Web-Based Game Server Control Panel</b>, which allowed users and administrators to manage and

@@ -1,9 +1,14 @@
 @import "../scss/shared";
 
 $aspect-ratio: 1.41px;
-$page-width: 1150px;
+$page-width: 1110px;
 $page-height: round($page-width * 1.41px) * 2;
 
+body {
+  @media screen and (max-width: $responsive-max-width) {
+    padding: 0;
+  }
+}
 #page {
   width: $page-width;
   padding: 4em;
