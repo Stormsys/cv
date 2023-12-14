@@ -31,12 +31,19 @@ function Header() {
                 <li><a className="github" href="https://github.com/Stormsys">Stormsys</a></li>
                 <li><a className="linkedin" href="https://www.linkedin.com/in/diogomoura1">diogomoura1</a></li>
                 <li id="om">
-                    {!seeEmail &&
+                    {process.env.REACT_APP_CONTACT_EMAIL && 
+                        <span id="om-click">
+                            <a href={"mailto:" + process.env.REACT_APP_CONTACT_EMAIL} >
+                                {process.env.REACT_APP_CONTACT_EMAIL}
+                            </a>
+                        </span>
+                    }
+                    
+                    {!process.env.REACT_APP_CONTACT_EMAIL && !seeEmail &&
                     <span id="om-click" onClick={() => setSeeEmail(true)}>Click to reveal</span>}
-
-                    {seeEmail &&  <span id="om-click"><Email /></span>}
+                    {!process.env.REACT_APP_CONTACT_EMAIL && seeEmail &&  <span id="om-click"><Email /></span>}
                 </li>
-                <li><span className="phone">Available on request</span></li>
+                <li><span className="phone">{process.env.REACT_APP_CONTACT_NUMBER || 'Available on request'}</span></li>
             </ul>
         </header>
     );
