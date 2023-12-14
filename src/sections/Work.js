@@ -63,7 +63,6 @@ function Work() {
                         <p>
                             Our primary customer in Restaurant Ops space are the call centre agents, however this was in extension of our restaurant partners and their needs.
                         </p>
-                        <p>&nbsp;</p>
                     </section>
 
                     <section class="job-entry">
