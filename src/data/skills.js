@@ -27,7 +27,8 @@
             "Step Functions",
             "ECR",
             "Cloudformation",
-            "Docker"
+            "Docker",
+            "Event Driven Architecture",
         ]
     },
 
@@ -67,7 +68,7 @@
         examples: [
             {
                 name: "Planet Ardor",
-                url: "https://steamcommunity.com/sharedfiles/filedetails/?id=183750851",
+                url: "https://steamcommunity.com/groups/planet-ardor",
                 type: "steam"
             },
             {
@@ -91,6 +92,7 @@
     {
         group: "General",
         skills: [
+            "Engineering Management",
             "Leadership",
             "Git",
             "Continuous Delivery",
@@ -101,6 +103,7 @@
             "Grafana",
             "Kibana",
             "Statsd",
+            "Domain Driven Design",
             "Jenkins",
             "Teamcity",
             "Bamboo",
