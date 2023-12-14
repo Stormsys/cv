@@ -4,7 +4,14 @@ function Work() {
     return (
         <section id='work'>
 
-            <h2> Work Experience </h2>
+            <h2> 
+                Work Experience 
+                <span className="feedback-callout"> 
+                    <a href={"https://stormsys.net/cv#/feedback"}>
+                        <i class="fa fa-comments-o" /> see feedback 
+                    </a>
+                </span>
+            </h2>
 
             <ul>
                 {/* Checkout.com */}

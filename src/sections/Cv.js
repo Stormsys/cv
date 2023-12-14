@@ -30,7 +30,6 @@ function Cv() {
 
             <OpenSource />
 
-
             {/* Interests */}
             <Feedback />
 
