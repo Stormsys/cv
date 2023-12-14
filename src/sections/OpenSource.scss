@@ -1,6 +1,8 @@
 @import "../scss/shared";
 
 #open-source {
+  break-inside: avoid;
+  
   .side-by-side {
     display: flex;
 
@@ -28,7 +30,7 @@
   }
 
   h2:before {
-    content: $fa-var-github;
+    content: $fa-var-github-alt;
   }
 
   ul {

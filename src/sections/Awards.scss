@@ -1,11 +1,13 @@
 @import "../scss/shared";
 
 #awards {
+  break-inside: avoid;
+  
   ul {
     @include list-unstyled;
   }
 
   h2:before {
-    content: $fa-var-star;
+    content: $fa-var-star-o;
   }
 }

@@ -1,8 +1,10 @@
 @import "../scss/shared";
 
 #interests {
+  break-inside: avoid;
+  
   h2:before {
-    content: $fa-var-heart;
+    content: $fa-var-heart-o;
   }
 
   ul.hobbies-list {

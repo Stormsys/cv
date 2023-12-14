@@ -1,6 +1,8 @@
 @import "../scss/shared";
 
 #skills {
+  break-inside: avoid;
+
   .skill-group-list {
     display: flex;
     flex-wrap: wrap;
@@ -40,7 +42,7 @@
   }
 
   h2:before {
-    content: $fa-var-wrench;
+    content: $fa-var-code;
   }
 
   h3 {

@@ -1,7 +1,9 @@
 @import "../scss/shared";
 
 #about {
+  break-inside: avoid;
+
   h2:before {
-    content: $fa-var-user;
+    content: $fa-var-user-circle-o;
   }
 }
