@@ -38,9 +38,11 @@ function FeedbackFull() {
                 <p>
                     <b>2023</b> - 
                     It was my great pleasure to be able to work and collaborate with Diogo for a period of time. When Diogo joined Checkout, our developer platform team lacked direction. Diogo brought a lot of technical and management experience with him to ensure direction for the developer platform team. Diogo always ensured he collected enough feedback and discussed with stakeholders to have a clear specification. He always was involved in discussion with various engineers at Checkout to find out the areas of improvement. 
-                    <br /><br />
+                </p>
+                <p>
                     What I really liked about Diogo was his clear vision on what he wants to develop and deliver. He also ensured that vision is aligned with requirements and will improve upon what we already have in place.
-                    <br /><br />
+                </p>
+                <p>
                     Diogo is a wonderful person and a great team player and I have no doubt he will bring a lot of value to any organisation he will work for.
                 </p>
             </section>
