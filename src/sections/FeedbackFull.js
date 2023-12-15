@@ -11,7 +11,19 @@ function FeedbackFull() {
                                     His ability to navigate intricate technological landscapes was evident in the consolidation of various technologies into a unified portal platform. This strategic move not only streamlined operations but also empowered our teams to work more cohesively. Diogo's dedication to supporting team development is commendable, and his leadership style, marked by clarity and a sense of enjoyment, has created a positive and collaborative work environment. Diogo's track record speaks volumes, and I am confident that he would be an invaluable asset in any company.
                 </p>
             </section>
-
+            <section class='feedback-entry'>
+                <h2>VP, Engineering - Checkout.com</h2>
+                <p>
+                    <b>2023</b> - Diogo is a great engineer and leader and someone with whom I really enjoyed collaborating and whom I would definitely hire again. He has a high-energy type of personality who is keen to work on challenging projects and make a big impact. He’s cheerful and optimistic by nature, which I think it critical for great leaders and while at Checkout I saw him work though many challenging situations both technically and people-wise.
+                </p>
+                <p>
+                    Diogo hired well and brought in excellent engineers into the team as well as creating a good atmosphere in the team which improved standards and morale. He also helped re-envision the technical roadmap and helped present his vision to stakeholders, showing his communication and presentation skills and helping build consensus around the project. 
+                </p>
+                <p>
+                    I was happy to write this recommendation because I know Diogo will do great things wherever he works next!
+                </p>
+            </section>
+            
 
             <section class='feedback-entry'>
                 <h2>Principal Engineer - Checkout.com</h2>
