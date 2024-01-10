@@ -1,4 +1,4 @@
-# Diogo Moura - Technology Manager CV
+# Diogo Moura - Senior Engineering Manager CV
 
 Source code for my CV, live version available at [Github Pages](https://stormsys.github.io/cv).
 
