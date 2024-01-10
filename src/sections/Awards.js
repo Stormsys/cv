@@ -9,7 +9,7 @@ function Awards() {
             <ul>
 
                 <li>
-                    <h3>People Leadership Programme - mutliverse</h3>
+                    <h3>People Leadership Programme - multiverse</h3>
                     <p> I under took a 15 month apprenticeship around people leadership and management skills modules
                         included Self Awareness, Management of Self, Leading People, Managing People,
                         Building Relationships, Communication, Finance, Project Management and Operational Management.
