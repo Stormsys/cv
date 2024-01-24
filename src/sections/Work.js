@@ -22,7 +22,7 @@ function Work() {
                             <span className="date">July 2022 - Present</span>
                         </h3>
 
-                        <h4>Senior Engineering Manager - Developer Paltform</h4>
+                        <h4>Senior Engineering Manager - Developer Platform</h4>
                         <p>
                             Checkout.com's engineering organisation consists of 860 people, operating over 800 microservices and maintainaining over 30 decentralised and unstandardised CD pipeline instances.
                         </p>
