@@ -3,7 +3,7 @@
 #about {
   break-inside: avoid;
 
-  h2:before {
+  > h2:before {
     content: $fa-var-user-circle-o;
   }
 }
