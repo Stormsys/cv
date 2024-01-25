@@ -32,7 +32,9 @@ jobs:
 
       - name: Server-side render
         uses: brycedorn/react-snap-action@v1.0.2
-        
+        with:
+          output: build
+
       - name: Deploy to GitHub Pages 🚀
         uses: peaceiris/actions-gh-pages@v3
         with:
