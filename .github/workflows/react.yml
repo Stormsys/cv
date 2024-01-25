@@ -16,21 +16,21 @@ jobs:
         node-version: [18.x]
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repository 🛒
         uses: actions/checkout@v3
 
-      - name: Set up Node.js ${{ matrix.node-version }}
+      - name: Set up Node.js ${{ matrix.node-version }} ⚙️
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Install dependencies
+      - name: Install dependencies 🔗
         run: npm install
 
-      - name: Build
+      - name: Build 🔨
         run: npm run build
 
-      - name: Server-side render
+      - name: Pre-rendering HTML 🖥️
         uses: brycedorn/react-snap-action@v1.0.2
         with:
           output: build
