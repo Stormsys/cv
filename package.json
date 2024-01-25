@@ -24,7 +24,6 @@
     "test": "node_modules/.bin/react-scripts test",
     "eject": "node_modules/.bin/react-scripts eject",
     "predeploy": "npm run build",
-    "postbuild": "react-snap",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
