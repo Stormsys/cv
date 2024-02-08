@@ -14,12 +14,25 @@ function Work() {
             </h2>
 
             <ul>
+                {/* Meta */}
+                <li>
+                    <section class="job-entry">
+                        <h3 className="job-header">
+                            <span className="workplace">Meta</span>
+                            <span className="date">February 2024 - Present</span>
+                        </h3>
+
+                        <h4>Engineering Manager</h4>
+                        <p>Proudly helping build great products with cutting edge GenAI features.</p>
+                    </section>
+                </li>
+
                 {/* Checkout.com */}
                 <li>
                     <section class="job-entry">
                         <h3 className="job-header">
                             <span className="workplace">Checkout.com</span>
-                            <span className="date">July 2022 - Present</span>
+                            <span className="date">June 2022 - December 2023</span>
                         </h3>
 
                         <h4>Senior Engineering Manager - Developer Platform</h4>
@@ -50,7 +63,7 @@ function Work() {
                     <section class="job-entry">
                         <h3 className="job-header">
                             <span className="workplace">Just Eat Takeaway.com</span>
-                            <span className="date">September 2016 - July 2022</span>
+                            <span className="date">September 2016 - June 2022</span>
                         </h3>
 
                         <h4>Technology Manager ( Engineering Manager )</h4>
