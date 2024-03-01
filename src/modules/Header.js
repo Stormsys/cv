@@ -22,7 +22,7 @@ function Header() {
         <header>
             <div className="title">
                 <h1> Diogo Moura </h1>
-                <h2> Senior Engineering Manager in London, UK </h2>
+                <h2> Engineering Manager in London, UK </h2>
                 <span className="small">view the source code for this cv <a className="source"
                                                                             href="https://github.com/Stormsys/cv">here</a>.</span>
             </div>

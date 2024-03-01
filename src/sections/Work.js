@@ -19,11 +19,11 @@ function Work() {
                     <section class="job-entry">
                         <h3 className="job-header">
                             <span className="workplace">Meta</span>
-                            <span className="date">February 2024 - Present</span>
+                            <span className="date">March 2024 - Present</span>
                         </h3>
 
                         <h4>Engineering Manager</h4>
-                        <p>Proudly helping build great products with cutting edge GenAI features.</p>
+                        <p>Proudly helping build some of the worlds greatest products with cutting edge GenAI features.</p>
                     </section>
                 </li>
 
