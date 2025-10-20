@@ -14,6 +14,7 @@ body {
   padding: 4em;
   margin: 25px auto;
   background: #fff;
+  color: #182825; /* ensure strong contrast on white surface */
   box-sizing: border-box;
 
   overflow: hidden;
@@ -35,6 +36,27 @@ body {
     padding: 20px 50px;
     max-height: inherit;
     overflow: auto;
+  }
+}
+
+/* Dark mode: use a subtle near-black page to feel truly dark while keeping contrast */
+@media (prefers-color-scheme: dark) {
+  #page {
+    background: #1D2430; /* subtle blue-tinted dark surface */
+    color: #e6e6e6;
+    border: 1px solid rgba(255,255,255,0.06);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+  }
+  #page h1 {
+    color: #f2f2f2;
+  }
+  #page a,
+  #page a:visited,
+  #page a:active {
+    color: var(--color-link);
+  }
+  #page a:hover {
+    color: var(--color-link-hover);
   }
 }
 

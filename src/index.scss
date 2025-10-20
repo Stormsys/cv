@@ -10,13 +10,15 @@
   --color-link-hover: #{$link-hover-color};
 }
 
+/* In dark mode, keep outer backdrop darker but render the page card (#page) white.
+   The page-level overrides live in Page.scss. Keep base tokens neutral. */
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-text: #e6e6e6;
-    --color-bg: #0f1317;
-    --color-headline: #c7d0db;
-    --color-link: #7cc3ff;
-    --color-link-hover: #a8d7ff;
+    --color-text: #e2e6ee;
+    --color-bg: #0f141c; /* blue-leaning dark backdrop */
+    --color-headline: #f2f5fa;
+    --color-link: #98c8ff;
+    --color-link-hover: #cfe5ff;
   }
 }
 

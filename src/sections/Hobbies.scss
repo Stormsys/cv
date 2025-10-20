@@ -16,18 +16,30 @@
 
     li {
       border-radius: .25em;
-      background-color: $secondary-header-colour;
-      color: #fff;
-      padding: 5px 6px;
+      background-color: #eaf2fb; /* on-brand cool blue chip distinct from skills */
+      border: 1px solid #cfe2f8;
+      color: #1c2a3a;
+      padding: 5px 8px;
       font-size: 75%;
-      font-weight: bold;
+      font-weight: 600;
       line-height: 1;
-      margin: 0 4px 4px 0;
+      margin: 0 6px 6px 0;
 
       a {
-        color: white;
+        color: #1c2a3a;
+        text-decoration: underline;
       }
     }
+  }
+
+  /* Dark mode variant for hobbies chips on blue-tinted page */
+  @media (prefers-color-scheme: dark) {
+    ul.hobbies-list li {
+      background-color: rgba(152, 200, 255, 0.18);
+      border-color: rgba(152, 200, 255, 0.35);
+      color: #eff4ff;
+    }
+    ul.hobbies-list li a { color: #eff4ff; }
   }
 
 }

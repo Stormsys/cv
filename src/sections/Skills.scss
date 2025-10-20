@@ -37,6 +37,26 @@
     }
   }
 
+  /* Dark mode chip tuning for contrast */
+  @media (prefers-color-scheme: dark) {
+    ul.skill-list li {
+      background-color: rgba(197, 178, 86, 0.26); /* stronger contrast on blue-dark */
+      border: 1px solid rgba(197, 178, 86, 0.5);
+      color: #f6f8fb;
+    }
+    /* subtle hover affordance for mouse/keyboard */
+    ul.skill-list li:hover,
+    ul.skill-list li:focus {
+      background-color: rgba(197, 178, 86, 0.32);
+      border-color: rgba(197, 178, 86, 0.6);
+    }
+
+    h3 .skill-level {
+      &.expert { background-color: #b49a39; }
+      &.proficient { background-color: #8f7c2e; }
+    }
+  }
+
   a {
     text-decoration: underline;
   }

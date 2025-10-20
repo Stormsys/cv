@@ -89,6 +89,8 @@ section#eduction {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    font-weight: 600;
+    margin-bottom: 6px;
 
 
 
@@ -149,6 +151,9 @@ section#eduction {
   }
 
   h4 {
+    margin-top: 4px;
+    margin-bottom: 6px;
+    font-weight: 600;
     span {
       color: #777;
     }
