@@ -8,8 +8,7 @@ on:
 
 jobs:
   build:
-
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     strategy:
       matrix:
@@ -32,8 +31,6 @@ jobs:
 
       - name: Pre-rendering HTML 🖥️
         run: npx -y react-snap
-        env:
-          PUPPETEER_ARGS: "--no-sandbox --disable-setuid-sandbox"
 
       - name: Deploy to GitHub Pages 🚀
         uses: peaceiris/actions-gh-pages@v3
