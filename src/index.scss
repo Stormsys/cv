@@ -32,6 +32,11 @@ body {
   color: var(--color-text);
   background: var(--color-bg);
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-kerning: normal;
+  font-feature-settings: "kern", "liga";
 
 
   @media print {
@@ -47,6 +52,7 @@ h2 {
   color: $primary-header-colour;
   font-size: 22px;
   font-weight: 500;
+  letter-spacing: 0.2px;
 //text-transform: uppercase;
   text-decoration: none;
   line-height: 40px;

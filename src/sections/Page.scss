@@ -39,6 +39,11 @@ body {
   }
 }
 
+/* Improve readability for long text */
+#page p {
+  hyphens: auto;
+}
+
 /* Dark mode: use a subtle near-black page to feel truly dark while keeping contrast */
 @media (prefers-color-scheme: dark) {
   #page {
