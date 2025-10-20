@@ -18,6 +18,11 @@ body {
 
   overflow: hidden;
 
+  @media screen {
+    box-shadow: $section-card-shadow;
+    border: 1px solid rgba(0,0,0,0.03);
+  }
+
   @media screen and (max-width: $responsive-max-width) {
     width: auto;
     margin: 0;
@@ -30,5 +35,26 @@ body {
     padding: 20px 50px;
     max-height: inherit;
     overflow: auto;
+  }
+}
+
+/* subtle container entrance */
+#page .container-reveal {
+  @media screen {
+    opacity: 0;
+    transform: translateY(8px);
+    transition: opacity 400ms ease, transform 400ms ease;
+  }
+}
+
+#page .container-reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+@media print {
+  #page .container-reveal {
+    opacity: 1 !important;
+    transform: none !important;
   }
 }

@@ -27,11 +27,14 @@ section#eduction {
 
   > ul {
     @include list-unstyled;
+    position: relative;
+    padding-left: 8px; /* slight overall indent */
 
     > li {
-      margin: 15px 0;
+      margin: 14px 0;
       margin-top: 0;
-      padding-bottom: 20px;
+      padding-bottom: 18px;
+      margin-left: 6px; /* nudge entries right for cleaner look */
 
       @media screen and (max-width: $responsive-max-width) {
         margin: 10px 0;
@@ -41,6 +44,20 @@ section#eduction {
         break-inside: avoid;
         margin-top: 0;
         padding-top: 0;
+        border-left: 2px solid rgba(194,173,70,0.6); /* sleeker rail */
+        padding-left: 16px; /* slightly more breathing room */
+        position: relative;
+      }
+      section.job-entry:before {
+        content: "";
+        position: absolute;
+        left: -5px;
+        top: 6px;
+        width: 8px;
+        height: 8px;
+        background: $gold-500;
+        border-radius: 50%;
+        box-shadow: 0 0 0 2px rgba(194,173,70,0.18);
       }
 
       ul {
@@ -135,5 +152,18 @@ section#eduction {
     span {
       color: #777;
     }
+  }
+
+  /* subtle separators */
+  > ul > li {
+    border-bottom: 1px solid rgba(0,0,0,0.04);
+  }
+}
+
+@media print {
+  #education, #work {
+    > ul > li { border-bottom: none; }
+    section.job-entry { border-left: 0; padding-left: 0; }
+    section.job-entry:before { display: none; }
   }
 }

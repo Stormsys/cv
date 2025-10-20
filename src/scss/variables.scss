@@ -6,3 +6,16 @@ $primary-header-colour: #AFA98D;
 $secondary-header-colour: #6D8EA0;
 
 $responsive-max-width: 1150px;
+
+/* gold accent palette */
+$gold-50: #f7f3e3;
+$gold-100: #efe6c7;
+$gold-200: #e3d6a2;
+$gold-300: #d6c47a;
+$gold-400: #cbb95f;
+$gold-500: #c2ad46; /* primary accent */
+$gold-600: #a59135;
+$gold-700: #8b7a2a;
+
+/* derived accents */
+$section-card-shadow: 0 10px 24px rgba(0,0,0,0.06), 0 2px 6px rgba(0,0,0,0.04);

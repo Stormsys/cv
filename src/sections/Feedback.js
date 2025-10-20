@@ -1,12 +1,13 @@
 import "./Feedback.scss";
+import Reveal from "../components/Reveal";
 
 function Feedback() {
     return (
         <section id='feedback'>
 
-            <h2> Feedback </h2>
+            <Reveal as="h2"> Feedback </Reveal>
 
-            <p>Please locate feedback that i am proud of <a href={"https://stormsys.net/cv#/feedback"}>here</a>.</p>
+            <Reveal as="p" className="fade-in">Please locate feedback that i am proud of <a href={"https://stormsys.net/cv#/feedback"}>here</a>.</Reveal>
 
         </section>
     );

@@ -1,6 +1,25 @@
 @import "scss/shared";
 @import "scss/reset";
 
+:root {
+  /* theme variables */
+  --color-text: #182825;
+  --color-bg: #{$primary-header-colour};
+  --color-headline: #{$headline-colour};
+  --color-link: #{$link-color};
+  --color-link-hover: #{$link-hover-color};
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-text: #e6e6e6;
+    --color-bg: #0f1317;
+    --color-headline: #c7d0db;
+    --color-link: #7cc3ff;
+    --color-link-hover: #a8d7ff;
+  }
+}
+
 @media print { 
   .print-break { 
     page-break-before: always;
@@ -8,8 +27,8 @@
 }
 
 body {
-  color: #182825;
-  background: $primary-header-colour;
+  color: var(--color-text);
+  background: var(--color-bg);
   font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 
@@ -70,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 36px;
-  color: $headline-colour;
+  color: var(--color-headline);
 }
 
 h2 {
@@ -80,13 +99,16 @@ h2 {
   line-height: 40px;
 }
 
+/* gold underline accent for headings */
+/* removed gold underline accent on headings per design feedback */
+
 a, a:active, a:visited {
-  color: $link-color;
+  color: var(--color-link);
   text-decoration: none;
   cursor: pointer;
 }
 a:hover {
-  color: $link-hover-color;
+  color: var(--color-link-hover);
   text-decoration: underline;
 }
 
@@ -100,4 +122,51 @@ i {
 }
 b, strong {
   font-weight: bold;
+}
+
+/* Reveal animations */
+.reveal {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 500ms ease, transform 500ms ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+.reveal.fade-in {
+  transform: none;
+}
+
+.reveal.slide-up {
+  transform: translateY(16px);
+}
+
+.reveal.slide-left {
+  transform: translateX(16px);
+}
+
+.reveal.slide-right {
+  transform: translateX(-16px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+@media print {
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
 }

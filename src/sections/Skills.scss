@@ -27,8 +27,8 @@
 
     li {
       border-radius: .25em;
-      background-color: #eee;
-      border: 1px solid #E5E5E5;
+      background-color: $gold-50; /* gold-toned chip */
+      border: 1px solid $gold-200;
       color: #333;
       padding: 5px 6px;
       font-size: 70%;
@@ -60,13 +60,9 @@
       vertical-align: baseline;
       border-radius: 2px;
 
-      &.expert {
-        background-color: $secondary-header-colour;
-      }
+      &.expert { background-color: $gold-600; }
 
-      &.proficient {
-        background-color: #22AED1;
-      }
+      &.proficient { background-color: $gold-400; }
     }
   }
 

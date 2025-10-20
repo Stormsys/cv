@@ -11,6 +11,8 @@ header {
 
     h1 {
       margin: 0;
+      line-height: 1.15;
+      letter-spacing: 0.2px;
     }
 
     h2 {
@@ -18,11 +20,13 @@ header {
       margin: 0;
       font-size: 20px;
       padding-left: 3px;
+      color: #555;
     }
 
     span.small {
       padding-left: 3px;
       font-style: italic;
+      color: #666;
     }
   }
 
@@ -38,7 +42,7 @@ header {
     }
 
     a:before, span:before {
-      color: #555;
+      color: $gold-600;
 
       @extend .fa;
 
@@ -63,12 +67,12 @@ header {
     }
 
 
-    #om-click {
-      cursor: pointer;
+    /* unify link styles for anchors and the reveal span */
+    a, #om-click {
       color: $link-color;
+      text-decoration: none;
     }
-
-    #om-click:hover {
+    a:hover, #om-click:hover {
       color: $link-hover-color;
       text-decoration: underline;
     }
@@ -94,4 +98,10 @@ header {
 
     }
   }
+}
+
+@media print {
+  header {
+  }
+  header .title h1:after { display: none; }
 }

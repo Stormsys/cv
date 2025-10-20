@@ -1,22 +1,22 @@
 import "./WorkEducation.scss";
+import Reveal from "../components/Reveal";
 
 function Work() {
     return (
         <section id='work'>
-
-            <h2> 
+            <Reveal as="h2">
                 Work Experience 
                 <span className="feedback-callout"> 
                     <a href={"https://stormsys.net/cv#/feedback"}>
                         <i class="fa fa-comments-o" /> see feedback 
                     </a>
                 </span>
-            </h2>
+            </Reveal>
 
             <ul>
                 {/* Meta */}
                 <li>
-                    <section class="job-entry">
+                    <Reveal as="section" className="job-entry">
                         <h3 className="job-header">
                             <span className="workplace">Meta</span>
                             <span className="date">March 2024 - Present</span>
@@ -24,12 +24,12 @@ function Work() {
 
                         <h4>Engineering Manager</h4>
                         <p>Proudly helping build some of the worlds greatest products with cutting edge GenAI features.</p>
-                    </section>
+                    </Reveal>
                 </li>
 
                 {/* Checkout.com */}
                 <li>
-                    <section class="job-entry">
+                    <Reveal as="section" className="job-entry">
                         <h3 className="job-header">
                             <span className="workplace">Checkout.com</span>
                             <span className="date">June 2022 - December 2023</span>
@@ -54,13 +54,12 @@ function Work() {
                             <li><b>Organizational Modeling and Ownership</b>Enabled accurate organizational modeling, showcasing different software team units and promoting strong ownership of services.</li>
                             <li><b>Centralised Deployment Tracking</b>Aggregated and presented all software deployments across Checkout.com, enhancing visibility for various use cases, including Incident Management.</li>
                         </ul>
-                    </section>
+                    </Reveal>
                 </li>
 
                 {/* Just-Eat */}
                 <li>
-
-                    <section class="job-entry">
+                    <Reveal as="section" className="job-entry">
                         <h3 className="job-header">
                             <span className="workplace">Just Eat Takeaway.com</span>
                             <span className="date">September 2016 - June 2022</span>
@@ -83,9 +82,9 @@ function Work() {
                         <p>
                             Our primary customer in Restaurant Ops space are the call centre agents, however this was in extension of our restaurant partners and their needs.
                         </p>
-                    </section>
+                    </Reveal>
 
-                    <section class="job-entry">
+                    <Reveal as="section" className="job-entry">
                         <h4>Senior Engineer / Engineering Lead</h4>
                         <p>
                             Engineering Lead for the Restaurant Operations team which is responsible for managing
@@ -143,12 +142,12 @@ function Work() {
                                 containers.
                             </li>
                         </ul>
-                    </section>
+                    </Reveal>
                 </li>
 
                 {/* Ericsson */}
                 <li>
-                    <section class="job-entry">
+                    <Reveal as="section" className="job-entry">
                         <h3><span className="workplace">Ericsson (CTO Group)</span>
                             <div className="hr"/>
                             <span className="date">July 2013 - September 2016</span></h3>
@@ -212,13 +211,13 @@ function Work() {
                                 and workflow using SonarQube and Jenkins.
                             </li>
                         </ul>
-                    </section>
+                    </Reveal>
 
                 </li>
 
                 {/* Red Bee Media */}
                 <li>
-                    <section class="job-entry">
+                    <Reveal as="section" className="job-entry">
                         <h3><span className="workplace"> Red Bee Media (Ericsson)</span>
                             <div className="hr"/>
                             <span className="date">July 2012 - February 2013</span></h3>
@@ -232,18 +231,18 @@ function Work() {
                             rel="noreferrer"> RedPlayer</a> VOD Solution.
                             I developed apps for XBox, Android Tablet &amp; Connected TV's from Samsung, Sony and Panasonic.
                         </p>
-                    </section>
+                    </Reveal>
                 </li>
 
                 {/* Skywire */}
                 <li>
-                    <section class="job-entry">
+                    <Reveal as="section" className="job-entry">
                         <h3><span className="workplace"> Skywire </span>
                             <div className="hr"/>
                             <span className="date">January 2012 - March 2012</span></h3>
 
                         <h4>Freelance Web Developer</h4>
-                    </section>
+                    </Reveal>
                 </li>
 
             </ul>

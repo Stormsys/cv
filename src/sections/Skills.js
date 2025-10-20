@@ -1,9 +1,10 @@
 import "./Skills.scss";
 import skills from "../data/skills";
+import Reveal from "../components/Reveal";
 
 function SkillEntry(props) {
     return (
-        <div className="skill-group">
+        <Reveal as="div" className="skill-group fade-in">
             <h3>{props.group}
                 {/* {props.level && <span className={"skill-level " + props.level.toLowerCase()}>{props.level}</span>} */}
             </h3>
@@ -21,21 +22,18 @@ function SkillEntry(props) {
                         .
                 </p>
             }
-        </div>);
+        </Reveal>);
 }
 
 function Skills() {
     return (
         <section id='skills'>
-
-            <h2> Skills </h2>
-
+            <Reveal as="h2"> Skills </Reveal>
             <div className="skill-group-list">
                 {skills.map(skill =>
                     <SkillEntry {...skill} key={skill.group} />
                 )}
             </div>
-
         </section>
     );
 }
