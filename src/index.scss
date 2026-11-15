@@ -795,3 +795,68 @@ button {
     min-height: 82px;
   }
 }
+
+.section-icon { display: none; }
+
+/* Ink & Signal, adapted for paper: restrained colour and clear editorial hierarchy. */
+@media print {
+  body { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  .cv-header { border-bottom-color: #b13c2d; }
+  .cv-header .eyebrow { color: #8e362b; }
+  .cv-header h1 { color: #242424; font-weight: 600; }
+  .cv-header h1 span, .cv-header h2 { color: #b13c2d; }
+  .contact-info a { color: #8e362b; }
+  #page > section { border-bottom-color: #d8d1c9; }
+  #page > section > h2 {
+    color: #9e3528;
+    font-weight: 600;
+    border-left: 3pt solid #b13c2d;
+    padding-left: 8pt;
+    background: linear-gradient(90deg, #f6eae5, #ffffff 75%);
+  }
+  .job-entry h3, #awards h3, #open-source h3 { color: #242424; }
+  .job-entry h4 { color: #8e362b; }
+  .job-entry .date { color: #72655c; }
+  .job-entry li { border-left-color: #d7ab9e; }
+  #work > ul > li + li { border-top-color: #d8d1c9; }
+  #page p a, #page li a { color: #8e362b; text-decoration-color: #d7ab9e; }
+  blockquote { color: #8e362b; }
+  cite { color: #72655c; }
+  .skill-group h3 { color: #8e362b; }
+}
+
+@media print {
+  .cv-header h1 { font-size: 30pt; }
+  .cv-header .eyebrow { font-size: 8pt; }
+  #page > section > h2 {
+    display: flex;
+    align-items: center;
+    gap: 6pt;
+    font-size: 11.5pt;
+    line-height: 1.25;
+    font-weight: 500;
+    text-transform: none;
+    letter-spacing: -.15pt;
+    padding: 0;
+    border: 0;
+    background: none;
+    margin-bottom: 8pt;
+  }
+  .section-icon { display: inline-block; width: 13pt; height: 13pt; flex: 0 0 13pt; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+  #page > section { border-bottom: none; padding-block: 10pt; }
+  .job-entry h3 { color: #34434a; }
+  .job-entry h4 { color: #5e5148; }
+  .skill-group-list { columns: auto; display: grid; grid-template-columns: 1fr 1fr; gap: 10pt 20pt; }
+  .skill-group { margin: 0; }
+  .skill-group h3 { color: #34434a; }
+  .skill-list { display: flex; flex-wrap: wrap; gap: 3pt; }
+  .skill-list li { display: inline-block; padding: 2pt 4pt; background: #f4efeb; border: .5pt solid #e0d6ce; border-radius: 2pt; font: 8pt/1.3 "Helvetica Neue", Arial, sans-serif; color: #443e39; }
+  .skill-list li:not(:last-child)::after { content: none; }
+  #open-source .side-by-side { display: grid; grid-template-columns: 1fr 1.35fr; gap: 18pt; }
+  #open-source .contributions { border-left: .5pt solid #d8d1c9; padding-left: 14pt; }
+  #open-source .contributions li + li { padding-top: 5pt; margin-top: 6pt; border-top: .5pt dotted #d8d1c9; }
+  #open-source h3 { margin-top: 0; color: #34434a; }
+  #open-source h4 { margin-top: 6pt; }
+  #feedback { break-inside: avoid; }
+  blockquote { border-left: 2pt solid #d7ab9e; padding-left: 10pt; }
+}

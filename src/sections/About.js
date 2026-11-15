@@ -1,8 +1,9 @@
+import SectionIcon from "../components/SectionIcon";
 import Reveal from "../components/Reveal";
 export default function About() {
   return (
     <section id="about">
-      <Reveal as="h2">Profile</Reveal>
+      <Reveal as="h2"><SectionIcon name="profile" />Profile</Reveal>
       <Reveal as="p">
         I’m an engineer and leader with a long-standing drive to build and
         automate. My experience spans AI products, developer platforms and

@@ -1,9 +1,10 @@
+import SectionIcon from "../components/SectionIcon";
 import Reveal from "../components/Reveal";
 
 function Awards() {
   return (
     <section id="awards">
-      <Reveal as="h2"> Awards & Certificates </Reveal>
+      <Reveal as="h2"><SectionIcon name="awards" /> Awards & Certificates </Reveal>
 
       <ul>
         <li>

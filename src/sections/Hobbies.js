@@ -1,9 +1,10 @@
+import SectionIcon from "../components/SectionIcon";
 import Reveal from "../components/Reveal";
 
 function Hobbies() {
   return (
     <section id="interests">
-      <Reveal as="h2"> Hobbies </Reveal>
+      <Reveal as="h2"><SectionIcon name="interests" /> Hobbies </Reveal>
 
       <ul className="hobbies-list">
         <Reveal as="li" className="fade-in">

@@ -1,9 +1,10 @@
+import SectionIcon from "../components/SectionIcon";
 import Reveal from "../components/Reveal";
 
 function OpenSource() {
   return (
     <section id="open-source">
-      <Reveal as="h2"> Open Source </Reveal>
+      <Reveal as="h2"><SectionIcon name="code" /> Open Source </Reveal>
 
       <div className="side-by-side">
         <div className="projects">

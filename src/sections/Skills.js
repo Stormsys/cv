@@ -1,3 +1,4 @@
+import SectionIcon from "../components/SectionIcon";
 
 import skills from "../data/skills";
 import Reveal from "../components/Reveal";
@@ -28,7 +29,7 @@ function SkillEntry(props) {
 function Skills() {
     return (
         <section id='skills'>
-            <Reveal as="h2"> Skills </Reveal>
+            <Reveal as="h2"><SectionIcon name="code" /> Skills </Reveal>
             <div className="skill-group-list">
                 {skills.map(skill =>
                     <SkillEntry {...skill} key={skill.group} />

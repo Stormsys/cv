@@ -1,9 +1,10 @@
+import SectionIcon from "../components/SectionIcon";
 import Reveal from "../components/Reveal";
 
 function Education() {
   return (
     <section id="education">
-      <Reveal as="h2"> Education </Reveal>
+      <Reveal as="h2"><SectionIcon name="education" /> Education </Reveal>
       <ul>
         <li>
           <Reveal as="section" className="job-entry fade-in">
