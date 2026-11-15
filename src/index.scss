@@ -533,3 +533,25 @@ button {
     letter-spacing: -2px;
   }
 }
+
+/* Prose links remain identifiable without colour perception or hover. */
+#page p a,
+#page li a {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.contact-info .contact-email-print {
+  display: none;
+}
+
+/* Keep print visibility after the screen contact rules in the cascade. */
+@media print {
+  .contact-info .contact-email-screen,
+  .contact-info button {
+    display: none;
+  }
+  .contact-info .contact-email-print {
+    display: inline-flex;
+  }
+}

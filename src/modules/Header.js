@@ -1,17 +1,10 @@
 import { useState } from "react";
 export default function Header() {
+  const contactEmail =
+    process.env.REACT_APP_CONTACT_EMAIL || "diogo@stormsys.net";
   const [email, setEmail] = useState(process.env.REACT_APP_CONTACT_EMAIL || "");
   function revealEmail() {
-    setEmail(
-      atob(
-        "dEBlQG5AXUB0QG9AZEBbQHNAeUBzQG1AckBvQHRAc0BdQHRAYUBbQG9AZ0BvQGlAZA==",
-      )
-        .split("@")
-        .reverse()
-        .join("")
-        .replace(/\[dot]/, ".")
-        .replace(/\[at]/, "@"),
-    );
+    setEmail(contactEmail);
   }
   return (
     <header className="cv-header">
@@ -32,10 +25,17 @@ export default function Header() {
           <a href="https://www.linkedin.com/in/diogomoura1">LinkedIn ↗</a>
           <a href="https://github.com/Stormsys">GitHub ↗</a>
           {email ? (
-            <a href={"mailto:" + email}>{email}</a>
+            <a className="contact-email-screen" href={"mailto:" + email}>
+              {email}
+            </a>
           ) : (
-            <button onClick={revealEmail}>Reveal email ↗</button>
+            <button className="contact-email-screen" onClick={revealEmail}>
+              Reveal email ↗
+            </button>
           )}
+          <a className="contact-email-print" href={"mailto:" + contactEmail}>
+            {contactEmail}
+          </a>
           {process.env.REACT_APP_CONTACT_NUMBER && (
             <a href={"tel:" + process.env.REACT_APP_CONTACT_NUMBER}>
               {process.env.REACT_APP_CONTACT_NUMBER}

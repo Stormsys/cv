@@ -6,323 +6,236 @@ function Work() {
       <Reveal as="h2">
         Experience
         <span className="feedback-callout">
-          <a href={"#/feedback"}>
-            <i className="fa fa-comments-o" /> see feedback
-          </a>
+          <a href="#/feedback">See feedback ↗</a>
         </span>
       </Reveal>
-
       <ul>
-        {/* Meta */}
         <li>
           <Reveal as="section" className="job-entry">
             <h3 className="job-header">
               <span className="workplace">Meta</span>
               <span className="date">March 2024 - Present</span>
             </h3>
-
             <h4>Engineering Manager</h4>
-            <p>
-              Proudly helping build some of the world’s greatest products with
-              cutting edge GenAI features.
-            </p>
+            <p>Leading engineering teams working on Applied AI products.</p>
           </Reveal>
         </li>
-
-        {/* Checkout.com */}
         <li>
           <Reveal as="section" className="job-entry">
             <h3 className="job-header">
               <span className="workplace">Checkout.com</span>
               <span className="date">June 2022 - December 2023</span>
             </h3>
-
             <h4>Senior Engineering Manager - Developer Platform</h4>
             <p>
-              At the time, Checkout.com's engineering organisation consisted of
-              860 people, operating over 800 microservices and maintaining over
-              30 decentralised and unstandardised CD pipeline instances.
+              I led Developer Platform, reporting to the VP of Engineering and
+              working with a Product Manager and software engineers across
+              several teams. Our remit was to improve engineering practices
+              through shared tools, consistent standards and better visibility.
             </p>
             <p>
-              Developer Platform is responsible for boosting engineering
-              excellence, optimising and standardising engineering practices
-              through great tooling directly impacting the engineering
-              organisation. It is an essential function that aims to transform
-              engineering culture at Checkout.com.
-            </p>
-            <p>
-              As the Head of Developer Platform reporting into the VP of
-              Engineering and working closely with a Product Manager and leading
-              several Software Engineers across several teams. Over the last
-              year we have had several success stories:
+              At the time, the engineering organisation consisted of 860 people,
+              operating over 800 microservices and maintaining over 30
+              decentralised, non-standardised CD pipeline instances. Key
+              outcomes included:
             </p>
             <ul>
               <li>
-                <b>Redesigned and standardised Developer Portal</b>Led a team in
-                the transformation of the Developer Portal, expanding the
-                Backstage offering and Achieved a revamped user experience,
-                ensuring consistency across entries in the portal. Over the last
-                year this has seen a 500% increase in unique monthly users.
+                <b>Developer portal</b>Led the redesign of the Backstage-based
+                developer portal, improving the user experience and consistency
+                of its entries. Unique monthly users increased by 500%.
               </li>
               <li>
-                <b>Enhanced Data Quality and Service Registration</b>Implemented
-                a foundational strategy to improve the quality and consistency
-                of data about services and Successfully increased high-quality
-                services registration by over 800%, with centralised and
-                consistent data points.
+                <b>Service registration and data quality</b>Established a
+                strategy for consistent, centralised service data. High-quality
+                service registrations increased by over 800%.
               </li>
               <li>
-                <b>Introduced Scoring and Maturity Framework</b>Developed and
-                delivered a Scoring and Maturity framework for teams to report
-                compliance and excellence and Demonstrated success through
-                increased scores over time, such as enhanced SonarQube adoption
-                per service.
+                <b>Scoring and maturity framework</b>Delivered a framework for
+                teams to assess engineering practices and track progress. Scores
+                improved over time, including increased SonarQube adoption per
+                service.
               </li>
               <li>
-                <b>Extended Compliance Checks</b>Expanded the Scoring and
-                Maturity framework to include Compliance checks, facilitating
-                PCI and SOC 2 adherence for teams.
+                <b>Compliance checks</b>Extended the framework with checks to
+                help teams meet PCI and SOC 2 requirements.
               </li>
               <li>
-                <b>Standardised DORA Metrics</b>Standardised and automated the
-                capturing of DORA metrics, providing visibility for all teams in
-                the portal.
+                <b>DORA metrics</b>Standardised and automated DORA metric
+                collection, making the results visible to teams through the
+                portal.
               </li>
               <li>
-                <b>Organizational Modeling and Ownership</b>Enabled accurate
-                organizational modeling, showcasing different software team
-                units and promoting strong ownership of services.
+                <b>Organisational modelling and ownership</b>Mapped software
+                teams and their services to make ownership clear across the
+                organisation.
               </li>
               <li>
-                <b>Centralised Deployment Tracking</b>Aggregated and presented
-                all software deployments across Checkout.com, enhancing
-                visibility for various use cases, including Incident Management.
+                <b>Deployment tracking</b>Centralised deployment information
+                across Checkout.com, supporting incident management and other
+                operational needs.
               </li>
             </ul>
           </Reveal>
         </li>
-
-        {/* Just-Eat */}
         <li>
           <Reveal as="section" className="job-entry">
             <h3 className="job-header">
               <span className="workplace">Just Eat Takeaway.com</span>
               <span className="date">September 2016 - June 2022</span>
             </h3>
-
-            <h4>Technology Manager ( Engineering Manager )</h4>
+            <h4>Technology Manager (Engineering Manager)</h4>
             <p>
-              Technology Manager for the Restaurant Operations product
-              development team since February 2020, in this role I have tripled
-              the size of the team including reaching out to my personal
-              network, created and presented an engineering vision and grown
-              team members into leaders.
+              From February 2020, I managed the Restaurant Operations product
+              development team. I tripled the team’s size, including hiring
+              through my network, set out an engineering vision and helped team
+              members grow into leaders.
             </p>
             <p>
-              This team plays a part in a large span of domains across the
-              organisation (around 14 domains), and are specialists in
-              Restaurant Core Data and Restaurant Availability. We are central
-              to many other teams across multiple pillars, one of my focuses in
-              my time here was to decentralize ownership of components and
-              reduce the bottleneck and reliance on our team for change.
+              The team worked across around 14 domains, specialising in
+              restaurant core data and availability. I focused on decentralising
+              component ownership to reduce bottlenecks and other teams’
+              dependence on us for change.
             </p>
             <p>
-              On top of being plugged into the engineering vision and continuing
-              to drive architecture I have successfully guided many of my
-              engineers through promotions and progressions, managed poor
-              performance, created growth opportunities and worked with
-              challenging stakeholders.
-            </p>
-            <p>
-              Our primary customer in Restaurant Ops space are the call centre
-              agents, however this was in extension of our restaurant partners
-              and their needs.
+              Alongside technical direction and architecture, I supported
+              promotions and career progression, addressed performance issues,
+              created growth opportunities and worked through difficult
+              stakeholder decisions. Our primary users were call centre agents
+              supporting restaurant partners.
             </p>
           </Reveal>
-
           <Reveal as="section" className="job-entry">
             <h4>Senior Engineer / Engineering Lead</h4>
             <p>
-              Engineering Lead for the Restaurant Operations team which is
-              responsible for managing restaurant data, availability and
-              operational tooling. Responsibilities have included mentoring
-              Engineers of varying levels, communicating with stakeholders, and
-              driving ideas.
-            </p>
-            <p>
-              As mentioned earlier I have delivered production code across many
-              languages during my time here including Java, Node.JS, Python, C#
-              and Various front-end frameworks. I was also one of the first
-              engineers to break the barriers and introduce Lambdas as Api's and
-              static front end applications hosted on cloudflare and S3.
-            </p>
-            <p>
-              I have a solid track record of leading and shaping several
+              I led engineering for the Restaurant Operations team, covering
+              restaurant data, availability and operational tooling. I mentored
+              engineers at different levels, worked with stakeholders and shaped
               technical projects.
             </p>
-            <p>Some noteworthy projects include:</p>
+            <p>
+              I delivered production code in Java, Node.js, Python, C# and
+              several front-end frameworks, and helped introduce AWS Lambda APIs
+              and static front ends hosted on Cloudflare and S3.
+            </p>
             <ul>
               <li>
-                <b>Food Hygiene</b>
-                Led and shaped the solution that enabled Just Eat to make
-                decisions on FSA ratings enabling several operational processes
-                and automation within the business. This solution was designed
-                to scale to serve customers directly via the customer facing
-                apps.
+                <b>Food hygiene</b>Led the solution for using FSA ratings in
+                operational decisions and automation. It was designed to scale
+                to customer-facing applications.
               </li>
-
               <li>
-                <b>Restaurant Self Signup</b>
-                Project lead on the self-signup project with a team of 6
-                engineers, taking the restaurant signup experience to the next
-                level by introducing an end-to-end solution for collecting
-                restaurant details, documents and supporting the ops processes
-                behind this.
+                <b>Restaurant self-signup</b>Led a team of 6 engineers building
+                an end-to-end signup experience for restaurant details,
+                documents and the supporting operational processes.
               </li>
-
               <li>
-                <b>SkipTheDishes Integration & Driver Availability Times</b>
-                Project lead for a solution to enable Just Eat to enter the
-                self-delivery space by integrating SkipTheDishes technology into
-                the Just-Eat platform. Particularly I ensured that we were able
-                to restrict restaurant times by driver availability and whilst
-                delivering this project, I ensured that we fed into reliability
-                goals of decoupling from our monolithic Core SQL.
+                <b>SkipTheDishes integration and driver availability</b>Led work
+                to integrate SkipTheDishes technology into Just Eat’s
+                self-delivery offering. Restaurant availability was constrained
+                by driver availability, while the solution supported reliability
+                goals by decoupling from the monolithic Core SQL system.
               </li>
-
               <li>
-                <b>Order Management</b>
-                Scaled up a order management ui solution for call centre agents
-                to manage Just Eat orders. During my time on this project I
-                moved it over to Angular2 (from angularJS) and implemented a new
-                in memory browser based testing backed by cypress.
+                <b>Order management</b>Scaled the interface used by call centre
+                agents to manage orders, migrated it from AngularJS to Angular 2
+                and introduced in-memory browser-based testing with Cypress.
               </li>
-
               <li>
-                <b>Fake Load</b>
-                Designed, delivered and architected a scheduling solution for
-                distributed docker based synthetic testing to monitor the health
-                of the Just-Eat. The solution consisted of an Angular2
-                application, with a serverless api and ECS based deployment of
-                JMeter docker containers.
+                <b>Fake Load</b>Designed and delivered a scheduler for
+                distributed, Docker-based synthetic testing of Just Eat’s
+                services. The system combined an Angular 2 application, a
+                serverless API and JMeter containers deployed through ECS.
               </li>
             </ul>
           </Reveal>
         </li>
-
-        {/* Ericsson */}
         <li>
           <Reveal as="section" className="job-entry">
             <h3>
               <span className="workplace">Ericsson (CTO Group)</span>
-
               <span className="date">July 2013 - September 2016</span>
             </h3>
-
             <h4>Software Engineer</h4>
-
             <p>
-              Hand picked to work as part of the CTO Group within Ericsson
-              Broadcast and Media Services, defining and implementing the next
-              generation of software solutions. Also previously spent time in
-              the applications delivery team on many client facing projects.
+              I was selected to join the CTO Group within Ericsson Broadcast and
+              Media Services, defining and implementing new software solutions.
+              Before that, I worked in the applications delivery team on
+              client-facing projects.
             </p>
-
-            <p>Some noteworthy projects include:</p>
-
             <ul>
               <li>
-                <b>Cloud Media Processing Platform Portal</b>
-                Leveraging the latest web technologies to deliver a cutting edge
-                experience and customer facing front end for{" "}
+                <b>Cloud Media Processing Platform Portal</b>Built the
+                customer-facing front end for{" "}
                 <a
                   href="http://www.ericsson.com/broadcastandmedia/what-we-do/media-management/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   CMPP
-                </a>{" "}
-                Ericsson's next generation service delivery platform.
+                </a>
+                , Ericsson’s next-generation service delivery platform.
               </li>
-
               <li>
-                <b>S3 to S3 Copyworker</b>
-                Highly distributed &amp; multi-threaded file transfer poc with
-                on the fly AES CTR encryption spanning many low-cost machines to
-                deliver increased transfer speeds from S3 to S3 at no extra
-                cost.
+                <b>S3 to S3 Copyworker</b>Developed a distributed, multithreaded
+                file-transfer proof of concept with on-the-fly AES-CTR
+                encryption. It used multiple low-cost machines to increase
+                S3-to-S3 transfer speeds at no extra cost.
               </li>
-
               <li>
-                <b>S3 Copyworker</b>
-                Multi-threaded file transfer software with on the fly AES CTR
-                encryption moving files from local storage to S3 with speeds in
-                excess of 1.6 Gbps. Since its deployment it has moved thousands
-                of files for archiving in AWS.
+                <b>S3 Copyworker</b>Built multithreaded file-transfer software
+                with on-the-fly AES-CTR encryption, moving files from local
+                storage to S3 at speeds exceeding 1.6 Gbps. It was used to
+                archive thousands of files in AWS.
               </li>
-
               <li>
-                <b>JSTV-i</b> VOD web service, I was responsible for maintaining
-                and implementing back end features as well as face-lifting the
-                admin web app bringing a huge smile to the client.
+                <b>JSTV-i</b>Maintained and developed backend features for the
+                video-on-demand service and refreshed its administration
+                interface.
               </li>
-
               <li>
-                <b>Development Wallboard</b>A simple Polymer, Node.js and Web
-                Sockets application running on a Raspberry Pi and proudly on
-                display in the office which was developed in my spare time. It
-                was a huge success, inspiring other teams in the office to do
-                similar things and generating interest in our team's work.
+                <b>Development wallboard</b>Built a Polymer, Node.js and
+                WebSocket application in my spare time, running on a Raspberry
+                Pi in the office. It generated interest in the team’s work and
+                inspired other teams to create similar displays.
               </li>
-
               <li>
-                <b>Process Improvements</b>
-                Presented a business case to migrate my old team to git from
-                svn, this included highlighting the benefits and documenting the
-                process. I also introduced better processes such as code quality
-                metrics and workflow using SonarQube and Jenkins.
+                <b>Process improvements</b>Presented a business case and
+                migration guidance for moving a previous team from SVN to Git.
+                Introduced code-quality metrics and workflow improvements using
+                SonarQube and Jenkins.
               </li>
             </ul>
           </Reveal>
         </li>
-
-        {/* Red Bee Media */}
         <li>
           <Reveal as="section" className="job-entry">
             <h3>
-              <span className="workplace"> Red Bee Media (Ericsson)</span>
-
+              <span className="workplace">Red Bee Media (Ericsson)</span>
               <span className="date">July 2012 - February 2013</span>
             </h3>
-
             <h4>Software Engineer - Intern + Contractor</h4>
-
             <p>
-              I began as an intern and invited to stay on as a contractor.
-              Working under the innovations team on the
+              I joined as an intern and was invited to stay as a contractor.
+              Working with the innovations team on the{" "}
               <a
                 href="http://www.ericsson.com/broadcastandmedia/news/red-bee-media-launches-redplayer-the-next-generation-online-video-platform/"
                 target="_blank"
                 rel="noreferrer"
               >
-                {" "}
                 RedPlayer
               </a>{" "}
-              VOD Solution. I developed apps for XBox, Android Tablet &amp;
-              Connected TV's from Samsung, Sony and Panasonic.
+              video-on-demand solution, I developed apps for Xbox, Android
+              tablets and connected TVs from Samsung, Sony and Panasonic.
             </p>
           </Reveal>
         </li>
-
-        {/* Skywire */}
         <li>
           <Reveal as="section" className="job-entry">
             <h3>
-              <span className="workplace"> Skywire </span>
-
+              <span className="workplace">Skywire</span>
               <span className="date">January 2012 - March 2012</span>
             </h3>
-
             <h4>Freelance Web Developer</h4>
           </Reveal>
         </li>
@@ -330,5 +243,4 @@ function Work() {
     </section>
   );
 }
-
 export default Work;
