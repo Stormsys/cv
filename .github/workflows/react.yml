@@ -30,7 +30,22 @@ jobs:
         run: npm run build
 
       - name: Pre-rendering HTML 🖥️
-        run: npx -y react-snap
+        timeout-minutes: 2
+        run: |
+          export CV_CHROME_PATH="$(command -v google-chrome)"
+          node <<'NODE'
+          const { run } = require('react-snap');
+          console.log('Pre-rendering CV with', process.env.CV_CHROME_PATH);
+          run({
+            publicPath: '/cv',
+            include: ['/'],
+            crawl: false,
+            skipThirdPartyRequests: true,
+            sourceMaps: false,
+            puppeteerExecutablePath: process.env.CV_CHROME_PATH,
+            puppeteerArgs: ['--disable-dev-shm-usage']
+          }).catch(error => { console.error(error); process.exit(1); });
+          NODE
 
       - name: Deploy to GitHub Pages 🚀
         if: github.event_name == 'push' && github.ref == 'refs/heads/master'
