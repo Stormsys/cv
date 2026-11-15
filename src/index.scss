@@ -404,78 +404,6 @@ cite {
     font-size: 22px;
   }
 }
-@media print {
-  @page {
-    margin: 15mm;
-  }
-  body {
-    background: #fff;
-    color: #000;
-    font-size: 11px;
-  }
-  .cv-nav,
-  .cv-footer,
-  .section-nav,
-  .skip-link {
-    display: none;
-  }
-  #page {
-    padding: 0;
-    max-width: none;
-  }
-  .cv-header {
-    padding: 0 0 15px;
-  }
-  .cv-header h1 {
-    font-size: 40px;
-    letter-spacing: -2px;
-    margin: 10px 0;
-  }
-  .cv-header h2 {
-    font-size: 20px;
-  }
-  #page > section {
-    padding: 18px 0;
-  }
-  #about p {
-    font-size: 14px;
-  }
-  .job-entry {
-    padding: 12px 0;
-  }
-  .job-entry h3 {
-    font-size: 18px;
-  }
-  .job-entry h4 {
-    font-size: 14px;
-  }
-  .job-entry p,
-  .job-entry li {
-    font-size: 11px;
-  }
-  .job-entry ul {
-    display: block;
-  }
-  .job-entry li {
-    margin-bottom: 10px;
-  }
-  .job-entry h3,
-  .job-entry h4 {
-    break-after: avoid;
-  }
-  p,
-  li {
-    orphans: 3;
-    widows: 3;
-  }
-  .contact-info button {
-    display: none;
-  }
-  details {
-    display: block;
-  }
-}
-
 /* Detail refinements shared with the portfolio. */
 a,
 button {
@@ -545,13 +473,325 @@ button {
   display: none;
 }
 
-/* Keep print visibility after the screen contact rules in the cascade. */
+/* Comfortable touch targets and wrapping at phone widths. */
+.contact-info {
+  min-width: 0;
+}
+.contact-info a {
+  overflow-wrap: anywhere;
+}
+@media screen and (max-width: 700px) {
+  .contact-info a,
+  .contact-info button,
+  .cv-nav button {
+    min-height: 44px;
+  }
+  .contact-info {
+    gap: 4px 20px;
+  }
+  .job-entry .date {
+    text-align: left;
+  }
+  .job-entry p,
+  .job-entry li,
+  #awards p,
+  #open-source p {
+    font-size: 15px;
+    line-height: 1.75;
+  }
+  .cv-nav {
+    gap: 20px;
+  }
+  .cv-nav > div {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 4px 15px;
+  }
+  .feedback-callout {
+    display: inline-block;
+    margin: 8px 0 0 12px;
+  }
+}
+
+/* A reading edition: A4, ink-safe, with natural breaks through long roles. */
 @media print {
+  @page {
+    size: A4;
+    margin: 15mm 16mm 16mm;
+  }
+  html {
+    scroll-padding: 0;
+  }
+  body {
+    background: #fff;
+    color: #202020;
+    font-size: 10pt;
+    line-height: 1.45;
+  }
+  .cv-nav,
+  .cv-footer,
+  .section-nav,
+  .skip-link,
+  .feedback-callout,
   .contact-info .contact-email-screen,
   .contact-info button {
     display: none;
   }
+  #page {
+    width: auto;
+    max-width: none;
+    padding: 0;
+  }
+  a {
+    color: inherit;
+  }
+  p,
+  li {
+    orphans: 3;
+    widows: 3;
+  }
+  p + p {
+    margin-top: 6pt;
+  }
+  h2,
+  h3,
+  h4 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+  h3,
+  h4,
+  .job-entry li b {
+    break-inside: avoid;
+  }
+  ul {
+    margin: 0;
+  }
+  .eyebrow {
+    font-size: 9.5pt;
+    line-height: 1.4;
+    letter-spacing: 1pt;
+  }
+  .cv-header {
+    padding: 0 0 8pt;
+    border-bottom: 1pt solid #333;
+    break-inside: avoid;
+  }
+  .cv-header h1 {
+    font-size: 32pt;
+    letter-spacing: -1.5pt;
+    margin: 5pt 0 7pt;
+  }
+  .cv-header h1 span {
+    color: inherit;
+  }
+  .header-bottom {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20pt;
+  }
+  .cv-header h2 {
+    font-size: 14pt;
+    margin-bottom: 5pt;
+  }
+  .cv-header p {
+    font-size: 10pt;
+    line-height: 1.45;
+    color: #333;
+  }
+  .contact-info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3pt;
+    font-size: 9.5pt;
+  }
+  .contact-info a {
+    min-height: 0;
+    line-height: 1.4;
+  }
   .contact-info .contact-email-print {
     display: inline-flex;
+  }
+  #page > section {
+    padding: 9pt 0;
+    border-bottom: 0.5pt solid #aaa;
+    break-inside: auto;
+  }
+  #page > section > h2 {
+    font-size: 9.5pt;
+    letter-spacing: 1.3pt;
+    color: #333;
+    margin-bottom: 7pt;
+  }
+  #about p {
+    font-size: 11pt;
+    line-height: 1.5;
+    letter-spacing: 0;
+    max-width: none;
+  }
+  .job-entry {
+    padding: 6pt 0;
+    break-inside: auto;
+  }
+  .job-entry h3 {
+    flex-direction: row;
+    align-items: baseline;
+    gap: 12pt;
+    font-size: 13pt;
+    letter-spacing: -0.2pt;
+    margin-bottom: 4pt;
+  }
+  .job-entry .date {
+    font:
+      9.5pt/1.4 "Helvetica Neue",
+      Helvetica,
+      Arial,
+      sans-serif;
+    text-align: right;
+    color: #444;
+  }
+  .job-entry h4 {
+    font-size: 10.5pt;
+    line-height: 1.4;
+    margin-bottom: 7pt;
+  }
+  .job-entry p,
+  .job-entry li {
+    font-size: 10pt;
+    line-height: 1.45;
+    color: #333;
+    max-width: none;
+  }
+  .job-entry ul {
+    display: block;
+    margin: 6pt 0 0;
+  }
+  .job-entry li {
+    margin: 0 0 4pt;
+    padding-left: 9pt;
+    border-left: 0.75pt solid #aaa;
+    break-inside: avoid;
+  }
+  .job-entry li b {
+    display: inline;
+    font-size: inherit;
+    margin: 0;
+  }
+  .job-entry li b::after {
+    content: " — ";
+    font-weight: normal;
+  }
+  #work > ul > li {
+    break-inside: auto;
+  }
+  #work > ul > li + li {
+    padding-top: 4pt;
+    margin-top: 5pt;
+    border-top: 0.5pt solid #bbb;
+  }
+  #work > ul > li:first-child {
+    padding: 0;
+    background: none;
+  }
+  #awards h3,
+  #open-source h3 {
+    font-size: 12pt;
+    margin: 9pt 0 5pt;
+  }
+  #awards p,
+  #open-source p {
+    font-size: 10pt;
+    line-height: 1.45;
+    color: #333;
+  }
+  #open-source .side-by-side {
+    display: block;
+  }
+  #open-source h4 {
+    font-size: 10.5pt;
+    margin: 8pt 0 4pt;
+  }
+  blockquote {
+    font-size: 12pt;
+    line-height: 1.5;
+    letter-spacing: 0;
+    margin-bottom: 8pt;
+    break-inside: avoid;
+  }
+  cite {
+    font-size: 9.5pt;
+    line-height: 1.4;
+    margin-top: 6pt;
+    color: #444;
+  }
+  .hobbies-list {
+    gap: 4pt 14pt;
+    font-size: 10pt;
+  }
+  .skill-group-list {
+    display: block;
+    columns: 2;
+    column-gap: 20pt;
+  }
+  .skill-group {
+    margin-bottom: 7pt;
+    break-inside: avoid;
+  }
+  .skill-group h3 {
+    font-size: 10.5pt;
+    margin-bottom: 4pt;
+  }
+  .skill-list {
+    display: block;
+  }
+  .skill-list li {
+    display: inline;
+    background: none;
+    padding: 0;
+    font: inherit;
+  }
+  .skill-list li:not(:last-child)::after {
+    content: " · ";
+    color: #555;
+  }
+  .skill-group p {
+    font-size: 9.5pt;
+    margin-top: 4pt;
+  }
+  #feedback-full > .eyebrow {
+    margin-top: 0;
+  }
+  #feedback-full > h1 {
+    font-size: 24pt;
+    letter-spacing: -0.5pt;
+    margin: 8pt 0 14pt;
+  }
+  .feedback-entry {
+    padding: 10pt 0;
+  }
+  .feedback-entry h2 {
+    font-size: 12pt;
+    margin-bottom: 7pt;
+  }
+  .feedback-entry p,
+  .feedback-entry li {
+    font-size: 10pt;
+    line-height: 1.5;
+    color: #333;
+  }
+  .feedback-entry li {
+    margin: 5pt 0;
+  }
+}
+@media screen and (max-width: 700px) {
+  .cv-nav .print-label-full {
+    display: none;
+  }
+  .cv-nav > div {
+    flex-wrap: nowrap;
+    gap: 14px;
+  }
+  .cv-nav {
+    min-height: 82px;
   }
 }

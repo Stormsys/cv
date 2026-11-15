@@ -18,7 +18,9 @@ export default function Page({ children }) {
         <div>
           <a href="/">Portfolio ↗</a>
           <a href="#/">Résumé</a>
-          <button onClick={() => window.print()}>Print / Save PDF ↓</button>
+          <button onClick={() => window.print()} aria-label="Print / Save PDF">
+            <span className="print-label-full">Print / Save </span>PDF ↓
+          </button>
         </div>
       </nav>
       <main id="page" tabIndex="-1">

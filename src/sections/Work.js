@@ -28,10 +28,11 @@ function Work() {
             </h3>
             <h4>Senior Engineering Manager - Developer Platform</h4>
             <p>
-              I led Developer Platform, reporting to the VP of Engineering and
-              working with a Product Manager and software engineers across
-              several teams. Our remit was to improve engineering practices
-              through shared tools, consistent standards and better visibility.
+              As Head of Developer Platform, I reported to the VP of
+              Engineering, partnered with a Product Manager and led software
+              engineers across several teams. Our remit was to improve
+              engineering practices through shared tools, consistent standards
+              and better visibility.
             </p>
             <p>
               At the time, the engineering organisation consisted of 860 people,
@@ -43,7 +44,8 @@ function Work() {
               <li>
                 <b>Developer portal</b>Led the redesign of the Backstage-based
                 developer portal, improving the user experience and consistency
-                of its entries. Unique monthly users increased by 500%.
+                of its entries. Unique monthly users increased by 500% over a
+                year.
               </li>
               <li>
                 <b>Service registration and data quality</b>Established a
@@ -115,8 +117,9 @@ function Work() {
             </p>
             <p>
               I delivered production code in Java, Node.js, Python, C# and
-              several front-end frameworks, and helped introduce AWS Lambda APIs
-              and static front ends hosted on Cloudflare and S3.
+              several front-end frameworks. I was among the first engineers
+              there to introduce AWS Lambda APIs and static front ends hosted on
+              Cloudflare and S3.
             </p>
             <ul>
               <li>
@@ -143,9 +146,10 @@ function Work() {
               </li>
               <li>
                 <b>Fake Load</b>Designed and delivered a scheduler for
-                distributed, Docker-based synthetic testing of Just Eat’s
-                services. The system combined an Angular 2 application, a
-                serverless API and JMeter containers deployed through ECS.
+                distributed, Docker-based synthetic testing to monitor the
+                health of Just Eat’s services. The system combined an Angular 2
+                application, a serverless API and JMeter containers deployed
+                through ECS.
               </li>
             </ul>
           </Reveal>
