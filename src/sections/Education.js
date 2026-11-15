@@ -1,4 +1,4 @@
-import "./WorkEducation.scss";
+
 import Reveal from "../components/Reveal";
 
 function Education() {

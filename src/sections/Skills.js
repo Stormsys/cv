@@ -1,4 +1,4 @@
-import "./Skills.scss";
+
 import skills from "../data/skills";
 import Reveal from "../components/Reveal";
 

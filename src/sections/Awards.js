@@ -1,4 +1,4 @@
-import "./Awards.scss";
+
 import Reveal from "../components/Reveal";
 
 function Awards() {

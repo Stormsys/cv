@@ -1,9 +1,9 @@
-import "./FeedbackFull.scss";
+
 
 function FeedbackFull() {
     return (
-        <section id='feedback-full'>
-            <section class='feedback-entry'>
+        <section id='feedback-full'><a href="#/">← Back to résumé</a><div className="eyebrow">COLLEAGUES & COLLABORATORS</div><h1>In others’ words.</h1>
+            <section className='feedback-entry'>
                 <h2>VP, Engineering - Checkout.com</h2>
                 <p>
                     <b>2023</b> - His exceptional leadership as the head of the Developer Platform engineering team has been instrumental in implementing numerous improvements within our developer ecosystem of tools and CI/CD. Diogo skillfully abstracted complexity, enhancing both productivity and security across the entire engineering department.
@@ -11,7 +11,7 @@ function FeedbackFull() {
                                     His ability to navigate intricate technological landscapes was evident in the consolidation of various technologies into a unified portal platform. This strategic move not only streamlined operations but also empowered our teams to work more cohesively. Diogo's dedication to supporting team development is commendable, and his leadership style, marked by clarity and a sense of enjoyment, has created a positive and collaborative work environment. Diogo's track record speaks volumes, and I am confident that he would be an invaluable asset in any company.
                 </p>
             </section>
-            <section class='feedback-entry'>
+            <section className='feedback-entry'>
                 <h2>VP, Engineering - Checkout.com</h2>
                 <p>
                     <b>2023</b> - Diogo is a great engineer and leader and someone with whom I really enjoyed collaborating and whom I would definitely hire again. He has a high-energy type of personality who is keen to work on challenging projects and make a big impact. He’s cheerful and optimistic by nature, which I think it critical for great leaders and while at Checkout I saw him work though many challenging situations both technically and people-wise.
@@ -25,7 +25,7 @@ function FeedbackFull() {
             </section>
             
 
-            <section class='feedback-entry'>
+            <section className='feedback-entry'>
                 <h2>Principal Engineer - Checkout.com</h2>
                 <p>
                     <b>2023</b> - 
@@ -33,7 +33,7 @@ function FeedbackFull() {
                 </p>
             </section>
 
-            <section class='feedback-entry'>
+            <section className='feedback-entry'>
             <h2>Principal Engineer - Checkout.com</h2>
                 <p>
                     <b>2023</b> - 
@@ -48,7 +48,7 @@ function FeedbackFull() {
             </section>
 
 
-            <section class='feedback-entry'>
+            <section className='feedback-entry'>
                 <h2>Head of Engineering - Just Eat Takeaway.com</h2>
                 <p>
                     <b>2021</b> - In working with the Just Eat development teams, I came to appreciate the gut instinct of a few
@@ -62,7 +62,7 @@ function FeedbackFull() {
                     both a sounding board and problem solver for things we have to get done.
                 </p>
             </section>
-            <section class='feedback-entry'>
+            <section className='feedback-entry'>
                 <h2>Head of Engineering - Just Eat Takeaway.com</h2>
                 <p>
                     <b>2019</b> - I remember the first day we met on my first trip to FPH. It was in a capabilities meeting and I was impressed that of all the people in the room, you understood the nature of our true capabilities. You focused on our customers (the Ops team) and had defined your post it notes around their views instead of the narrower engineering perspective.
@@ -75,7 +75,7 @@ function FeedbackFull() {
                 </p>
             </section>
 
-            <section class='feedback-entry'>
+            <section className='feedback-entry'>
                 <h2>Technology Manager - Just Eat Takeaway.com</h2>
                 <p>
                     <b>2021</b> - It's always a pleasure to work with you because you have a very good understanding of the
@@ -87,7 +87,7 @@ function FeedbackFull() {
             </section>
 
 
-            <section class='feedback-entry'>
+            <section className='feedback-entry'>
                 <h2>Principal Engineer - Just Eat Takeaway.com</h2>
 
                 <p><b>2021</b> -I Really enjoyed our work together in 2021. From my point of view, your team has had a very,
@@ -127,7 +127,7 @@ function FeedbackFull() {
                     team on the challenges this brings.
                 </p>
             </section>
-            <section class='feedback-entry'>
+            <section className='feedback-entry'>
                 <h2>Principal Engineer - Just Eat Takeaway.com</h2>
                 <p>
                     <b>2020</b> - You've settled into the TM role superbly in 2020. Obviously we worked together a great deal
@@ -144,20 +144,18 @@ function FeedbackFull() {
                 </p>
             </section>
             
-            <section class='feedback-entry'>
+            <section className='feedback-entry'>
                 <h2>Product Manager - Just Eat Takeaway.com</h2>
-                <p>
-                    <ul>
+                <ul>
                         <li>Leadership - It is clear the team really respect you and look up to you as a leader. I think you set a great example for the team meaning the team are motivated and all pushing in the right direction</li>
                         <li>Coaching - I think you have a great balance of when to get involved and support the team, and when to give them the space to learn and figure out for themselves. I think you have created an environment in the team where I can really see people learning, growing and taking on more responsibility.</li>
                         <li>Knowledge - Your knowledge of our tools and JET in general is so valuable, especially to me when I have questions. You have shared knowledge with me on a number of occasions that has supported me in conversations with stakeholders and making decisions.</li>
                         <li>Morale - You have really kept morale high over a difficult period, especially towards the end of the year. You arranged a number of different things that the team have really appreciated and you are always keeping morale high by making people laugh etc. in the many team meetings we have.</li>
                         <li>Communication - I think you are a great communicator when we are on calls together and your emphasise your points really well. This is the case no matter how senior the stakeholders are, so it is clear you are very comfortable working with senior stakeholders. A specific example is the number of calls we both have to join and push back on things, you always articulate your point really well and it is often very hard for anyone to push back due to how well structured your point is!</li>
                     </ul>
-                </p>
             </section>
             
-            <section class='feedback-entry'>
+            <section className='feedback-entry'>
                 <h2>Delivery Manager - Just Eat Takeaway.com</h2>
 
                 <p>
@@ -167,7 +165,7 @@ function FeedbackFull() {
                     He is very easy to work with and it's very visible that he has the trust of all the engineers that report into him.  He gets involved in highlighting what the team needs to work on in the short term along with having a clear vision of where the team should be moving towards in the future.  His technical knowledge within our area is great and it shows in all Amigo's and refinement sessions.
                 </p>
             </section>
-            <section class='feedback-entry'>
+            <section className='feedback-entry'>
                 <h2>Engineer - Just Eat Takeaway.com</h2>
 
                 <p>Overall, I find that you are a straight-forward, practical, and supportive manager which allows me the

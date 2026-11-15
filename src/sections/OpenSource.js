@@ -1,4 +1,4 @@
-import "./OpenSource.scss";
+
 import Reveal from "../components/Reveal";
 
 function OpenSource() {

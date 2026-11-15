@@ -9,34 +9,63 @@ import Hobbies from "./Hobbies";
 import Feedback from "./Feedback";
 
 function Cv() {
-    return (
-        <>
-            <Header />
+  return (
+    <>
+      <Header />
+      <nav className="section-nav" aria-label="Résumé sections">
+        {[
+          "About",
+          "Work",
+          "Education",
+          "Awards",
+          "Open source",
+          "Feedback",
+          "Interests",
+          "Skills",
+        ].map((label) => (
+          <button
+            key={label}
+            onClick={() =>
+              document
+                .getElementById(label.toLowerCase().replace(" ", "-"))
+                ?.scrollIntoView({
+                  behavior: window.matchMedia(
+                    "(prefers-reduced-motion: reduce)",
+                  ).matches
+                    ? "auto"
+                    : "smooth",
+                })
+            }
+          >
+            {label === "Work" ? "Experience" : label}
+          </button>
+        ))}
+      </nav>
 
-            {/* About */}
-            <About />
+      {/* About */}
+      <About />
 
-            {/* Skills */}
-            <Skills />
+      {/* Skills */}
 
-            {/* Work */}
-            <Work />
+      {/* Work */}
+      <Work />
 
-            {/* Education */}
-            <Education />
+      {/* Education */}
+      <Education />
 
-            {/* Awards */}
-            <Awards />
+      {/* Awards */}
+      <Awards />
 
-            <OpenSource />
+      <OpenSource />
 
-            {/* Interests */}
-            <Feedback />
+      {/* Interests */}
+      <Feedback />
 
-            {/* Interests */}
-            <Hobbies />
-        </>
-    );
+      {/* Interests */}
+      <Hobbies />
+      <Skills />
+    </>
+  );
 }
 
 export default Cv;
