@@ -860,3 +860,50 @@ button {
   #feedback { break-inside: avoid; }
   blockquote { border-left: 2pt solid #d7ab9e; padding-left: 10pt; }
 }
+
+/* A composed print edition with the same Ink & Signal identity as the site. */
+@media print {
+  .cv-header {
+    background: #242424;
+    color: #f8f5f0;
+    padding: 17pt 19pt 15pt;
+    border: none;
+    border-bottom: 3pt solid #ffb4a1;
+    margin-bottom: 7pt;
+  }
+  .cv-header .eyebrow { color: #ffb4a1; font-size: 7.5pt; letter-spacing: 1.1pt; }
+  .cv-header h1 { color: #f8f5f0; font-size: 32pt; font-weight: 500; letter-spacing: -1.6pt; margin: 7pt 0 10pt; }
+  .cv-header h1 span { color: #ffb4a1; }
+  .cv-header h2 { color: #f8f5f0; font-size: 13pt; }
+  .cv-header p { color: #d9d3ca; font-size: 9pt; }
+  .cv-header .contact-info { align-self: flex-end; }
+  .cv-header .contact-info a { color: #ffb4a1; font-size: 9pt; }
+  #page > section { padding-block: 10pt; }
+  #page > section > h2 {
+    background: #eee9e3;
+    color: #242424;
+    padding: 5pt 7pt;
+    border-left: 2pt solid #b13c2d;
+    font-size: 10.5pt;
+    letter-spacing: .15pt;
+    margin-bottom: 9pt;
+  }
+  .section-icon { width: 12pt; height: 12pt; flex-basis: 12pt; color: #a03a2c; }
+  #about p { font-size: 10pt; line-height: 1.45; color: #443e39; }
+  .job-entry h3 { color: #242424; font-size: 12.5pt; font-weight: 600; }
+  .job-entry h4 { color: #a03a2c; font-size: 10pt; }
+  .job-entry .date { font-size: 8.5pt; color: #72655c; }
+  .job-entry p, .job-entry li { font-size: 9.5pt; line-height: 1.45; }
+  .job-entry li { border-left: 1.5pt solid #dfc5ba; padding-left: 8pt; }
+  .skill-group-list { gap: 8pt; }
+  .skill-group { padding: 8pt; background: #f3f0eb; border-top: 1.5pt solid #c19d8b; }
+  .skill-group h3 { font-size: 10pt; color: #242424; margin-bottom: 6pt; }
+  .skill-list li { background: #fff; border: .5pt solid #e0d6ce; }
+  .skill-group p { font-size: 8pt; }
+  #open-source .side-by-side { padding-top: 2pt; }
+  #open-source h3 { font-size: 10pt; color: #a03a2c; }
+  #open-source p { font-size: 9.5pt; }
+  blockquote { padding: 10pt 12pt; background: #f5ebe5; border-left: 2pt solid #b13c2d; color: #583d33; font-size: 12pt; line-height: 1.45; }
+  cite { color: #72655c; font-size: 8pt; }
+  .hobbies-list { color: #5d554d; font-size: 9pt; }
+}
