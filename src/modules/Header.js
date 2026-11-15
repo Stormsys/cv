@@ -23,9 +23,9 @@ export default function Header() {
         <div>
           <h2>Engineering Manager</h2>
           <p>
-            I help engineers grow and good ideas ship.
+            A builder’s drive. A leader’s care.
             <br />
-            Still happiest close to the problem.
+            Helping people and ideas go further.
           </p>
         </div>
         <div className="contact-info">
