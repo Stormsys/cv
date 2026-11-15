@@ -1,15 +1,15 @@
 {
-  "short_name": "Diogo Moura CV",
-  "name": "Diogo Moura - Engineering Manager - CV",
+  "short_name": "Diogo Moura",
+  "name": "Diogo Moura \u2014 Engineering Leadership & Experience",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16git sx16",
-      "type": "image/x-icon"
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
     }
   ],
   "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#fff",
-  "background_color": "#AFA98D"
+  "display": "browser",
+  "theme_color": "#f3f3f1",
+  "background_color": "#f3f3f1"
 }

@@ -1,16 +1,5 @@
-import useInView from "../hooks/useInView";
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
+// Retained as a semantic wrapper for the existing CV sections. Content stays
+// visible immediately, including print and reduced-motion contexts.
+export default function Reveal({ as: Tag = "div", className = "", children }) {
+  return <Tag className={className || undefined}>{children}</Tag>;
 }
-
-export default function Reveal({ as: Tag = "div", className = "", variant = "slide-up", children }) {
-  const { ref, isInView } = useInView({ threshold: 0.15 });
-  return (
-    <Tag ref={ref} className={classNames("reveal", variant, isInView && "is-visible", className)}>
-      {children}
-    </Tag>
-  );
-}
-
-

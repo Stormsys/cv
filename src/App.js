@@ -1,21 +1,31 @@
+import { useEffect } from "react";
 import Page from "./sections/Page";
-import {Route, Routes, HashRouter} from "react-router-dom";
+import { Route, Routes, HashRouter, useLocation } from "react-router-dom";
 import Cv from "./sections/Cv";
 import FeedbackFull from "./sections/FeedbackFull";
 
-function App() {
+function RouteFocus() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "auto" });
+    document.getElementById("page")?.focus({ preventScroll: true });
+    document.title =
+      pathname === "/feedback"
+        ? "Colleague feedback — Diogo Moura"
+        : "Diogo Moura — Engineering Leadership & Experience";
+  }, [pathname]);
+  return null;
+}
+export default function App() {
   return (
-    <div className="App">
-        <Page>
-            <HashRouter>
-                <Routes>
-                    <Route exact path="*" element={<Cv />} />
-                    <Route exact path="/feedback" element={<FeedbackFull />} />
-                </Routes>
-            </HashRouter>
-        </Page>
-    </div>
+    <HashRouter>
+      <Page>
+        <RouteFocus />
+        <Routes>
+          <Route path="/feedback" element={<FeedbackFull />} />
+          <Route path="*" element={<Cv />} />
+        </Routes>
+      </Page>
+    </HashRouter>
   );
 }
-
-export default App;

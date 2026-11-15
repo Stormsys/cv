@@ -39,9 +39,9 @@ function Work() {
 
             <h4>Senior Engineering Manager - Developer Platform</h4>
             <p>
-              Checkout.com's engineering organisation consists of 860 people,
-              operating over 800 microservices and maintaining over 30
-              decentralised and unstandardised CD pipeline instances.
+              At the time, Checkout.com's engineering organisation consisted of
+              860 people, operating over 800 microservices and maintaining over
+              30 decentralised and unstandardised CD pipeline instances.
             </p>
             <p>
               Developer Platform is responsible for boosting engineering
@@ -120,11 +120,11 @@ function Work() {
             </p>
             <p>
               This team plays a part in a large span of domains across the
-              organisation (cerca 14 domains), and are specialists in Restaurant
-              Core Data and Restaurant Availability. We are central to many
-              other teams across multiple pillars, one of my focuses in my time
-              here was to decentralize ownership of components and reduce the
-              bottleneck and reliance on our team for change.
+              organisation (around 14 domains), and are specialists in
+              Restaurant Core Data and Restaurant Availability. We are central
+              to many other teams across multiple pillars, one of my focuses in
+              my time here was to decentralize ownership of components and
+              reduce the bottleneck and reliance on our team for change.
             </p>
             <p>
               On top of being plugged into the engineering vision and continuing
@@ -278,7 +278,7 @@ function Work() {
               <li>
                 <b>Process Improvements</b>
                 Presented a business case to migrate my old team to git from
-                svn, this included highligting the benefits and documenting the
+                svn, this included highlighting the benefits and documenting the
                 process. I also introduced better processes such as code quality
                 metrics and workflow using SonarQube and Jenkins.
               </li>

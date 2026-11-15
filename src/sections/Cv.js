@@ -25,17 +25,20 @@ function Cv() {
         ].map((label) => (
           <button
             key={label}
-            onClick={() =>
-              document
-                .getElementById(label.toLowerCase().replace(" ", "-"))
-                ?.scrollIntoView({
-                  behavior: window.matchMedia(
-                    "(prefers-reduced-motion: reduce)",
-                  ).matches
-                    ? "auto"
-                    : "smooth",
-                })
-            }
+            onClick={() => {
+              const section = document.getElementById(
+                label.toLowerCase().replace(" ", "-"),
+              );
+              if (!section) return;
+              section.setAttribute("tabindex", "-1");
+              section.focus({ preventScroll: true });
+              section.scrollIntoView({
+                behavior: window.matchMedia("(prefers-reduced-motion: reduce)")
+                  .matches
+                  ? "auto"
+                  : "smooth",
+              });
+            }}
           >
             {label === "Work" ? "Experience" : label}
           </button>

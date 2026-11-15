@@ -12,11 +12,11 @@ export default function Page({ children }) {
         Skip to content
       </a>
       <nav className="cv-nav" aria-label="Main navigation">
-        <a href="https://stormsys.net" className="wordmark">
-          dm.
+        <a href="/" className="wordmark" aria-label="Diogo Moura — portfolio">
+          dm<span>.</span>
         </a>
         <div>
-          <a href="https://stormsys.net">Portfolio ↗</a>
+          <a href="/">Portfolio ↗</a>
           <a href="#/">Résumé</a>
           <button onClick={() => window.print()}>Print / Save PDF ↓</button>
         </div>
