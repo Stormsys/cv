@@ -4,11 +4,12 @@ export default function About() {
     <section id="about">
       <Reveal as="h2">Profile</Reveal>
       <Reveal as="p">
-        I lead engineering teams, shape scalable systems and help engineers grow
-        into leaders. My experience spans AI products, developer platforms and
-        restaurant operations. I stay close to the craft through hands-on
-        projects, choosing tools to fit the problem and creating space for teams
-        to do their best work.
+        I’m an engineer who moved into leadership and never stopped building.
+        I’ve worked on AI products, developer platforms and restaurant
+        operations, helping teams untangle complex problems and engineers grow
+        into leaders. I like practical solutions, clear ownership and choosing
+        the tools that fit the job. Outside work, I build the apps and
+        automations I want to use myself—often for badminton or my home.
       </Reveal>
     </section>
   );
