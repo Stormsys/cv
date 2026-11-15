@@ -1,0 +1,57 @@
+/* The résumé shares the portfolio shell; print remains an independent document layout. */
+@media screen {
+  :root { --cv-gutter: clamp(22px, 6vw, 88px); }
+  html { scroll-padding-top: 112px; }
+  .cv-nav, #page, .cv-footer { max-width: 1600px; padding-inline: var(--cv-gutter); }
+  .cv-nav { height: 88px; padding-block: 0; position: sticky; top: 0; z-index: 20; background: rgba(243,243,241,.95); backdrop-filter: blur(16px); }
+  .cv-nav .wordmark { font-size: 35px; font-weight: 750; letter-spacing: -3px; line-height: 1; }
+  .cv-nav > div { gap: 30px; font-size: 12px; }
+  .cv-nav a { color: #242424; }
+  .cv-nav a[aria-current="page"] { text-decoration: underline; text-decoration-color: #b13c2d; text-underline-offset: 10px; }
+  .cv-nav button { border-color: #242424; border-radius: 3px; padding: 10px 16px; }
+  .cv-header { padding: 64px 0 48px; }
+  .cv-header .eyebrow { color: #646464; font: 500 10px/1.6 ui-monospace, monospace; letter-spacing: 1.4px; }
+  .cv-header h1 { font-size: clamp(52px, 7.2vw, 108px); letter-spacing: -.065em; line-height: 1.05; margin: 24px 0 30px; }
+  .header-bottom { align-items: flex-end; }
+  .cv-header h2 { font-size: clamp(22px, 2.4vw, 30px); letter-spacing: -.7px; margin-bottom: 10px; }
+  .cv-header p { font-size: 17px; line-height: 1.65; }
+  .contact-info { flex-direction: row; flex-wrap: wrap; gap: 8px 22px; max-width: 390px; justify-content: flex-end; }
+  .section-nav { gap: 6px 26px; padding-block: 12px; }
+  #page > section { display: grid; grid-template-columns: minmax(140px, .24fr) minmax(0, 1fr); column-gap: clamp(30px, 5vw, 80px); padding: 52px 0; }
+  #page > section > * { grid-column: 2; min-width: 0; }
+  #page > section > h2 { grid-column: 1; grid-row: 1; font: 500 10px/1.6 ui-monospace, monospace; letter-spacing: 1.4px; margin: 5px 0 0; }
+  #page > section > ul { margin-top: 0; margin-bottom: 0; }
+  #about p { font-size: clamp(20px, 2vw, 27px); line-height: 1.6; max-width: 850px; }
+  .feedback-callout { display: block; margin: 12px 0 0; }
+  .job-entry { padding: 26px 0; }
+  .job-entry h3 { font-size: 26px; }
+  .job-entry ul { grid-template-columns: 1fr; gap: 18px; }
+  .job-entry p, .job-entry li, #awards p, #open-source p { font-size: 15px; line-height: 1.8; }
+  .job-entry li b { display: inline; font-size: inherit; }
+  .job-entry li b::after { content: ' — '; font-weight: 400; }
+  #work > ul > li:first-child { background: none; padding: 0; border-top: 2px solid #b13c2d; }
+  #work > ul > li + li { margin-top: 12px; padding-top: 12px; }
+  #open-source .side-by-side { grid-template-columns: 1fr 1.4fr; gap: 32px; }
+  .cv-footer { padding-block: 32px; }
+}
+@media screen and (max-width: 900px) {
+  .cv-nav > div { gap: 18px; }
+  .cv-nav .nav-secondary { display: none; }
+  .contact-info { max-width: 260px; }
+  #page > section { grid-template-columns: 130px minmax(0, 1fr); gap: 25px; }
+  .job-entry h3 { flex-direction: column; gap: 6px; }
+}
+@media screen and (max-width: 700px) {
+  .cv-nav { height: 78px; min-height: 78px; }
+  .cv-nav > div { gap: 15px; font-size: 11px; }
+  .cv-nav button { padding: 7px 10px; }
+  .cv-header { padding: 40px 0 32px; }
+  .header-bottom { align-items: flex-start; gap: 22px; }
+  .contact-info { max-width: none; justify-content: flex-start; gap: 4px 20px; }
+  .section-nav { gap: 2px 20px; }
+  #page > section { display: block; padding: 34px 0; }
+  #page > section > h2 { margin-bottom: 22px; }
+  #about p { font-size: 21px; }
+  .feedback-callout { display: inline; margin-left: 15px; }
+  #open-source .side-by-side { grid-template-columns: 1fr; }
+}
