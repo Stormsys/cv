@@ -3,14 +3,14 @@
   :root { --cv-gutter: clamp(22px, 6vw, 88px); }
   html { scroll-padding-top: 112px; }
   .cv-nav, #page, .cv-footer { max-width: 1600px; padding-inline: var(--cv-gutter); }
-  .cv-nav { height: 88px; padding-block: 0; position: sticky; top: 0; z-index: 20; background: rgba(243,243,241,.95); backdrop-filter: blur(16px); }
+  .cv-nav { height: 88px; padding-block: 0; position: sticky; top: 0; z-index: 20; background: var(--paper); backdrop-filter: blur(16px); }
   .cv-nav .wordmark { font-size: 35px; font-weight: 750; letter-spacing: -3px; line-height: 1; }
   .cv-nav > div { gap: 30px; font-size: 12px; }
-  .cv-nav a { color: #242424; }
-  .cv-nav a[aria-current="page"] { text-decoration: underline; text-decoration-color: #b13c2d; text-underline-offset: 10px; }
-  .cv-nav button { border-color: #242424; border-radius: 3px; padding: 10px 16px; }
+  .cv-nav a { color: var(--ink); }
+  .cv-nav a[aria-current="page"] { text-decoration: underline; text-decoration-color: var(--signal); text-underline-offset: 10px; }
+  .cv-nav button { border-color: var(--ink); border-radius: 3px; padding: 10px 16px; }
   .cv-header { padding: 64px 0 48px; }
-  .cv-header .eyebrow { color: #646464; font: 500 10px/1.6 ui-monospace, monospace; letter-spacing: 1.4px; }
+  .cv-header .eyebrow { color: var(--muted); font: 500 10px/1.6 ui-monospace, monospace; letter-spacing: 1.4px; }
   .cv-header h1 { font-size: clamp(52px, 7.2vw, 108px); letter-spacing: -.065em; line-height: 1.05; margin: 24px 0 30px; }
   .header-bottom { align-items: flex-end; }
   .cv-header h2 { font-size: clamp(22px, 2.4vw, 30px); letter-spacing: -.7px; margin-bottom: 10px; }
@@ -29,7 +29,7 @@
   .job-entry p, .job-entry li, #awards p, #open-source p { font-size: 15px; line-height: 1.8; }
   .job-entry li b { display: inline; font-size: inherit; }
   .job-entry li b::after { content: ' — '; font-weight: 400; }
-  #work > ul > li:first-child { background: none; padding: 0; border-top: 2px solid #b13c2d; }
+  #work > ul > li:first-child { background: none; padding: 0; border-top: 2px solid var(--signal); }
   #work > ul > li + li { margin-top: 12px; padding-top: 12px; }
   #open-source .side-by-side { grid-template-columns: 1fr 1.4fr; gap: 32px; }
   .cv-footer { padding-block: 32px; }
@@ -54,4 +54,84 @@
   #about p { font-size: 21px; }
   .feedback-callout { display: inline; margin-left: 15px; }
   #open-source .side-by-side { grid-template-columns: 1fr; }
+}
+
+/* ── Latest portfolio style: the same bar, labels and type scale ── */
+@media screen {
+  /* Top bar: full width, opaque, no rule or blur; only the last 8px soften. */
+  .cv-nav { background: none; border-bottom: 0; backdrop-filter: none; color: var(--ink); }
+  .cv-nav::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: -8px;
+    left: 50%;
+    width: 100vw;
+    transform: translateX(-50%);
+    background: var(--paper);
+    pointer-events: none;
+    -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 8px), rgba(0, 0, 0, 0.5) calc(100% - 4px), transparent);
+    mask-image: linear-gradient(to bottom, #000 calc(100% - 8px), rgba(0, 0, 0, 0.5) calc(100% - 4px), transparent);
+  }
+  .cv-nav .wordmark { font-size: 36px; padding-block: 12px; }
+  .cv-nav .wordmark:hover { text-decoration: none; }
+  .cv-nav > div, .cv-nav button { font-size: var(--text-label); }
+  .cv-nav > div > a { position: relative; }
+  .cv-nav > div > a:hover { text-decoration: none; }
+  .cv-nav > div > a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 9px;
+    height: 1px;
+    background: var(--signal);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 200ms var(--ease-ui);
+  }
+  .cv-nav > div > a:hover::after,
+  .cv-nav > div > a[aria-current="page"]::after { transform: scaleX(1); }
+  .cv-nav a[aria-current="page"] { text-decoration: none; }
+  .cv-nav button { transition: background-color 200ms var(--ease-ui), color 200ms var(--ease-ui); }
+  .cv-nav button:hover { background: var(--ink); color: var(--paper); }
+
+  /* The skip link exists only while it has keyboard focus. */
+  .skip-link { position: fixed; padding: 14px 22px; background: var(--ink); color: var(--paper); }
+  .skip-link:not(:focus) { clip-path: inset(50%); }
+
+  /* Labels: the portfolio's mono eyebrow, never below 12px. */
+  .eyebrow,
+  .cv-header .eyebrow,
+  #page > section > h2 { font: 500 var(--text-label)/1.6 var(--font-system); letter-spacing: 1.4px; text-transform: uppercase; }
+  .job-entry .date, cite { font: var(--text-label)/1.6 var(--font-system); }
+  .feedback-callout { font: var(--text-label)/1.6 var(--font-system); letter-spacing: 0; }
+  .skill-list li { font: var(--text-label)/1.6 var(--font-system); padding: 5px 10px; }
+  .section-nav button { font-size: var(--text-small); }
+  .section-nav button:hover { color: var(--ink); text-decoration-color: var(--signal); text-underline-offset: 8px; }
+
+  /* Reading sizes on the shared scale: 14 · 16 · 18 · 24. */
+  .cv-header p { font-size: var(--text-lead); line-height: 1.6; }
+  .contact-info, .contact-info button { font-size: var(--text-small); }
+  .job-entry h3 { font-size: 24px; letter-spacing: -0.5px; }
+  .job-entry h4, .skill-group h3 { font-size: var(--text-lead); }
+  .job-entry p, .job-entry li, #awards p, #open-source p,
+  .feedback-entry p, .feedback-entry li { font-size: var(--text-body); line-height: 1.7; }
+  #open-source h4 { font-size: var(--text-body); }
+  .skill-group p, .hobbies-list { font-size: var(--text-small); }
+  #awards li:first-child h3, #open-source h3 { margin-top: 0; }
+
+  /* Footer: the portfolio's closing strip. */
+  .cv-footer { border-top: 1px solid var(--line); padding-block: 23px; font-size: var(--text-label); color: var(--muted); }
+  .cv-footer a { color: inherit; padding-block: 10px; }
+  .cv-footer a:hover { color: var(--signal); text-decoration: none; }
+}
+@media screen and (max-width: 700px) {
+  .cv-nav > div, .cv-nav button { font-size: var(--text-label); }
+  .job-entry h3 { font-size: 22px; }
+  .job-entry p, .job-entry li, #awards p, #open-source p { font-size: var(--text-body); line-height: 1.65; }
+}
+@media print {
+  .cv-nav::before { display: none; }
 }

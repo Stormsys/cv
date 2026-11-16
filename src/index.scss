@@ -1,3 +1,21 @@
+:root {
+  /* Shared with the portfolio: one palette, one type scale. */
+  --paper: #f3f3f1;
+  --ink: #242424;
+  --muted: #646464;
+  --signal: #b13c2d;
+  --coral: #ffb4a1;
+  --line: #d3d3ce;
+  --surface: #e8e8e4;
+  --font-human: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-system: ui-monospace, SFMono-Regular, Consolas, monospace;
+  --text-label: 12px;
+  --text-small: 14px;
+  --text-body: 16px;
+  --text-lead: 18px;
+  --ease-ui: cubic-bezier(0.22, 1, 0.36, 1);
+  color-scheme: light;
+}
 * {
   box-sizing: border-box;
 }
@@ -6,8 +24,8 @@ html {
 }
 body {
   margin: 0;
-  background: #f3f3f1;
-  color: #242424;
+  background: var(--paper);
+  color: var(--ink);
   font:
     16px/1.75 "Helvetica Neue",
     Helvetica,
@@ -16,7 +34,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 a {
-  color: #b13c2d;
+  color: var(--signal);
   text-decoration: none;
 }
 a:hover {
@@ -27,7 +45,7 @@ button {
   cursor: pointer;
 }
 :focus-visible {
-  outline: 2px solid #b13c2d;
+  outline: 2px solid var(--signal);
   outline-offset: 5px;
 }
 h1,
@@ -68,7 +86,7 @@ p + p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #d3d3ce;
+  border-bottom: 1px solid var(--line);
 }
 .wordmark {
   font-size: 34px;
@@ -82,7 +100,7 @@ p + p {
   font-size: 13px;
 }
 .cv-nav button {
-  border: 1px solid #d3d3ce;
+  border: 1px solid var(--line);
   background: none;
   padding: 9px 15px;
   border-radius: 30px;
@@ -102,7 +120,7 @@ p + p {
   margin: 20px 0 26px;
 }
 .cv-header h1 span {
-  color: #b13c2d;
+  color: var(--signal);
 }
 .header-bottom {
   display: flex;
@@ -115,7 +133,7 @@ p + p {
   margin-bottom: 15px;
 }
 .cv-header p {
-  color: #646464;
+  color: var(--muted);
   font-size: 17px;
 }
 .contact-info {
@@ -130,7 +148,7 @@ p + p {
   padding: 0;
   border: 0;
   background: none;
-  color: #b13c2d;
+  color: var(--signal);
   font-size: 13px;
 }
 .section-nav {
@@ -138,22 +156,22 @@ p + p {
   flex-wrap: wrap;
   gap: 8px 25px;
   padding: 18px 0;
-  border-top: 1px solid #d3d3ce;
-  border-bottom: 1px solid #d3d3ce;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
 }
 .section-nav button {
   border: 0;
   background: none;
   padding: 5px 0;
   font-size: 12px;
-  color: #646464;
+  color: var(--muted);
 }
 .section-nav button:hover {
   text-decoration: underline;
 }
 #page > section {
   padding: 44px 0;
-  border-bottom: 1px solid #d3d3ce;
+  border-bottom: 1px solid var(--line);
 }
 #page > section > h2 {
   font-size: 12px;
@@ -161,7 +179,7 @@ p + p {
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 26px;
-  color: #b13c2d;
+  color: var(--signal);
 }
 #about p {
   font-size: 22px;
@@ -190,7 +208,7 @@ p + p {
 }
 .job-entry .date {
   font: 11px/1.5 monospace;
-  color: #646464;
+  color: var(--muted);
   text-align: right;
   letter-spacing: 0;
   flex-shrink: 0;
@@ -202,7 +220,7 @@ p + p {
 }
 .job-entry p,
 .job-entry li {
-  color: #646464;
+  color: var(--muted);
   font-size: 14px;
   line-height: 1.85;
 }
@@ -214,7 +232,7 @@ p + p {
 }
 .job-entry li b {
   display: block;
-  color: #242424;
+  color: var(--ink);
   font-size: 14px;
   margin-bottom: 5px;
 }
@@ -222,13 +240,13 @@ p + p {
   display: none;
 }
 #work > ul > li + li {
-  border-top: 1px solid #d3d3ce;
+  border-top: 1px solid var(--line);
   padding-top: 14px;
   margin-top: 14px;
 }
 #work > ul > li:first-child {
   padding: 12px 26px;
-  background: #e8e8e4;
+  background: var(--surface);
 }
 #awards h3,
 #open-source h3 {
@@ -238,7 +256,7 @@ p + p {
 }
 #awards p,
 #open-source p {
-  color: #646464;
+  color: var(--muted);
   font-size: 14px;
 }
 #open-source .side-by-side {
@@ -261,7 +279,7 @@ cite {
   display: block;
   margin-top: 20px;
   font: 12px monospace;
-  color: #646464;
+  color: var(--muted);
   letter-spacing: 0;
 }
 .hobbies-list {
@@ -287,7 +305,7 @@ cite {
   margin: 0;
 }
 .skill-list li {
-  background: #e8e8e4;
+  background: var(--surface);
   padding: 5px 9px;
   font: 11px/1.6 monospace;
 }
@@ -304,7 +322,7 @@ cite {
   gap: 20px;
   padding: 35px 40px;
   font-size: 11px;
-  color: #646464;
+  color: var(--muted);
 }
 #feedback-full > .eyebrow {
   margin-top: 45px;
@@ -316,7 +334,7 @@ cite {
   font-weight: 500;
 }
 .feedback-entry {
-  border-top: 1px solid #d3d3ce;
+  border-top: 1px solid var(--line);
   padding: 30px 0;
 }
 .feedback-entry h2 {
@@ -326,7 +344,7 @@ cite {
 .feedback-entry p,
 .feedback-entry li {
   font-size: 15px;
-  color: #646464;
+  color: var(--muted);
 }
 .feedback-entry li {
   margin: 12px 0;
@@ -423,7 +441,7 @@ button {
 }
 .job-entry li {
   padding-left: 15px;
-  border-left: 2px solid #d3d3ce;
+  border-left: 2px solid var(--line);
 }
 .job-entry h4 {
   line-height: 1.5;
@@ -442,10 +460,10 @@ button {
 }
 
 .wordmark {
-  color: #242424;
+  color: var(--ink);
 }
 .wordmark span {
-  color: #b13c2d;
+  color: var(--signal);
 }
 .cv-nav > div > a {
   display: inline-flex;
@@ -801,20 +819,20 @@ button {
 /* Ink & Signal, adapted for paper: restrained colour and clear editorial hierarchy. */
 @media print {
   body { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
-  .cv-header { border-bottom-color: #b13c2d; }
+  .cv-header { border-bottom-color: var(--signal); }
   .cv-header .eyebrow { color: #8e362b; }
-  .cv-header h1 { color: #242424; font-weight: 600; }
-  .cv-header h1 span, .cv-header h2 { color: #b13c2d; }
+  .cv-header h1 { color: var(--ink); font-weight: 600; }
+  .cv-header h1 span, .cv-header h2 { color: var(--signal); }
   .contact-info a { color: #8e362b; }
   #page > section { border-bottom-color: #d8d1c9; }
   #page > section > h2 {
     color: #9e3528;
     font-weight: 600;
-    border-left: 3pt solid #b13c2d;
+    border-left: 3pt solid var(--signal);
     padding-left: 8pt;
     background: linear-gradient(90deg, #f6eae5, #ffffff 75%);
   }
-  .job-entry h3, #awards h3, #open-source h3 { color: #242424; }
+  .job-entry h3, #awards h3, #open-source h3 { color: var(--ink); }
   .job-entry h4 { color: #8e362b; }
   .job-entry .date { color: #72655c; }
   .job-entry li { border-left-color: #d7ab9e; }
@@ -864,46 +882,46 @@ button {
 /* A composed print edition with the same Ink & Signal identity as the site. */
 @media print {
   .cv-header {
-    background: #242424;
+    background: var(--ink);
     color: #f8f5f0;
     padding: 17pt 19pt 15pt;
     border: none;
-    border-bottom: 3pt solid #ffb4a1;
+    border-bottom: 3pt solid var(--coral);
     margin-bottom: 7pt;
   }
-  .cv-header .eyebrow { color: #ffb4a1; font-size: 7.5pt; letter-spacing: 1.1pt; }
+  .cv-header .eyebrow { color: var(--coral); font-size: 7.5pt; letter-spacing: 1.1pt; }
   .cv-header h1 { color: #f8f5f0; font-size: 32pt; font-weight: 500; letter-spacing: -1.6pt; margin: 7pt 0 10pt; }
-  .cv-header h1 span { color: #ffb4a1; }
+  .cv-header h1 span { color: var(--coral); }
   .cv-header h2 { color: #f8f5f0; font-size: 13pt; }
   .cv-header p { color: #d9d3ca; font-size: 9pt; }
   .cv-header .contact-info { align-self: flex-end; }
-  .cv-header .contact-info a { color: #ffb4a1; font-size: 9pt; }
+  .cv-header .contact-info a { color: var(--coral); font-size: 9pt; }
   #page > section { padding-block: 10pt; }
   #page > section > h2 {
     background: #eee9e3;
-    color: #242424;
+    color: var(--ink);
     padding: 5pt 7pt;
-    border-left: 2pt solid #b13c2d;
+    border-left: 2pt solid var(--signal);
     font-size: 10.5pt;
     letter-spacing: .15pt;
     margin-bottom: 9pt;
   }
   .section-icon { width: 12pt; height: 12pt; flex-basis: 12pt; color: #a03a2c; }
   #about p { font-size: 10pt; line-height: 1.45; color: #443e39; }
-  .job-entry h3 { color: #242424; font-size: 12.5pt; font-weight: 600; }
+  .job-entry h3 { color: var(--ink); font-size: 12.5pt; font-weight: 600; }
   .job-entry h4 { color: #a03a2c; font-size: 10pt; }
   .job-entry .date { font-size: 8.5pt; color: #72655c; }
   .job-entry p, .job-entry li { font-size: 9.5pt; line-height: 1.45; }
   .job-entry li { border-left: 1.5pt solid #dfc5ba; padding-left: 8pt; }
   .skill-group-list { gap: 8pt; }
   .skill-group { padding: 8pt; background: #f3f0eb; border-top: 1.5pt solid #c19d8b; }
-  .skill-group h3 { font-size: 10pt; color: #242424; margin-bottom: 6pt; }
+  .skill-group h3 { font-size: 10pt; color: var(--ink); margin-bottom: 6pt; }
   .skill-list li { background: #fff; border: .5pt solid #e0d6ce; }
   .skill-group p { font-size: 8pt; }
   #open-source .side-by-side { padding-top: 2pt; }
   #open-source h3 { font-size: 10pt; color: #a03a2c; }
   #open-source p { font-size: 9.5pt; }
-  blockquote { padding: 10pt 12pt; background: #f5ebe5; border-left: 2pt solid #b13c2d; color: #583d33; font-size: 12pt; line-height: 1.45; }
+  blockquote { padding: 10pt 12pt; background: #f5ebe5; border-left: 2pt solid var(--signal); color: #583d33; font-size: 12pt; line-height: 1.45; }
   cite { color: #72655c; font-size: 8pt; }
   .hobbies-list { color: #5d554d; font-size: 9pt; }
 }
