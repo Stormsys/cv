@@ -14,7 +14,7 @@ export default function Page({ children }) {
         Skip to content
       </a>
       <nav className="cv-nav" aria-label="Main navigation">
-        <a href="/" className="wordmark" aria-label="Diogo Moura — portfolio">
+        <a href="/" className="wordmark" aria-label="dm. Diogo Moura — portfolio">
           dm<span>.</span>
         </a>
         <div>
