@@ -22,16 +22,23 @@ function RouteFocus() {
   }, [pathname]);
   return null;
 }
+// The pages, without a router of their own: the browser wraps them in the hash
+// router below, and the build wraps them in a static one (scripts/prerender.js).
+export function Pages() {
+  return (
+    <Page>
+      <RouteFocus />
+      <Routes>
+        <Route path="/feedback" element={<FeedbackFull />} />
+        <Route path="*" element={<Cv />} />
+      </Routes>
+    </Page>
+  );
+}
 export default function App() {
   return (
     <HashRouter>
-      <Page>
-        <RouteFocus />
-        <Routes>
-          <Route path="/feedback" element={<FeedbackFull />} />
-          <Route path="*" element={<Cv />} />
-        </Routes>
-      </Page>
+      <Pages />
     </HashRouter>
   );
 }

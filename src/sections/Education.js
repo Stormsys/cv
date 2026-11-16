@@ -9,7 +9,7 @@ function Education() {
         <li>
           <Reveal as="section" className="job-entry fade-in">
             <h3>
-              <span className="institution">University of Westminster</span>
+              <span className="institution">University of Westminster</span>{" "}
               <span className="date">September 2009 - June 2013</span>
             </h3>
 
