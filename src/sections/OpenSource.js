@@ -19,7 +19,6 @@ function OpenSource() {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <i className="fa fa-github" aria-hidden="true" />{" "}
                     Stormsys/SimpleHal
                   </a>
                 </h4>
@@ -41,7 +40,6 @@ function OpenSource() {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <i className="fa fa-github" aria-hidden="true" />{" "}
                     justeat/ZendeskApiClient{" "}
                   </a>
                 </h4>
@@ -61,7 +59,6 @@ function OpenSource() {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <i className="fa fa-github" aria-hidden="true" />{" "}
                     bbyars/mountebank{" "}
                   </a>
                 </h4>
@@ -76,7 +73,6 @@ function OpenSource() {
               <Reveal as="div" className="fade-in">
                 <h4>
                   <a href="https://github.com/robdodson/chart-elements">
-                    <i className="fa fa-github" aria-hidden="true" />{" "}
                     robdodson/chart-elements
                   </a>
                 </h4>

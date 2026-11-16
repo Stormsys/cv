@@ -17,9 +17,6 @@ function Education() {
               BEng Software Engineering{" "}
               <span>
                 -{" "}
-                <b>
-                  <i className="fa fa-trophy" aria-hidden="true" />
-                </b>{" "}
                 First-class honours
               </span>
             </h4>
