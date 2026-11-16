@@ -15,7 +15,7 @@ function Work() {
         <li>
           <Reveal as="section" className="job-entry">
             <h3 className="job-header">
-              <span className="workplace">Meta</span>
+              <span className="workplace">Meta</span>{" "}
               <span className="date">March 2024 - Present</span>
             </h3>
             <h4>Engineering Manager</h4>
@@ -25,7 +25,7 @@ function Work() {
         <li>
           <Reveal as="section" className="job-entry">
             <h3 className="job-header">
-              <span className="workplace">Checkout.com</span>
+              <span className="workplace">Checkout.com</span>{" "}
               <span className="date">June 2022 - December 2023</span>
             </h3>
             <h4>Senior Engineering Manager - Developer Platform</h4>
@@ -44,38 +44,38 @@ function Work() {
             </p>
             <ul>
               <li>
-                <b>Developer portal</b>Led the redesign of the Backstage-based
+                <b>Developer portal</b>{" "}Led the redesign of the Backstage-based
                 developer portal, improving the user experience and consistency
                 of its entries. Unique monthly users increased by 500% over a
                 year.
               </li>
               <li>
-                <b>Service registration and data quality</b>Established a
+                <b>Service registration and data quality</b>{" "}Established a
                 strategy for consistent, centralised service data. High-quality
                 service registrations increased by over 800%.
               </li>
               <li>
-                <b>Scoring and maturity framework</b>Delivered a framework for
+                <b>Scoring and maturity framework</b>{" "}Delivered a framework for
                 teams to assess engineering practices and track progress. Scores
                 improved over time, including increased SonarQube adoption per
                 service.
               </li>
               <li>
-                <b>Compliance checks</b>Extended the framework with checks to
+                <b>Compliance checks</b>{" "}Extended the framework with checks to
                 help teams meet PCI and SOC 2 requirements.
               </li>
               <li>
-                <b>DORA metrics</b>Standardised and automated DORA metric
+                <b>DORA metrics</b>{" "}Standardised and automated DORA metric
                 collection, making the results visible to teams through the
                 portal.
               </li>
               <li>
-                <b>Organisational modelling and ownership</b>Mapped software
+                <b>Organisational modelling and ownership</b>{" "}Mapped software
                 teams and their services to make ownership clear across the
                 organisation.
               </li>
               <li>
-                <b>Deployment tracking</b>Centralised deployment information
+                <b>Deployment tracking</b>{" "}Centralised deployment information
                 across Checkout.com, supporting incident management and other
                 operational needs.
               </li>
@@ -85,7 +85,7 @@ function Work() {
         <li>
           <Reveal as="section" className="job-entry">
             <h3 className="job-header">
-              <span className="workplace">Just Eat Takeaway.com</span>
+              <span className="workplace">Just Eat Takeaway.com</span>{" "}
               <span className="date">September 2016 - June 2022</span>
             </h3>
             <h4>Technology Manager (Engineering Manager)</h4>
@@ -125,29 +125,29 @@ function Work() {
             </p>
             <ul>
               <li>
-                <b>Food hygiene</b>Led the solution for using FSA ratings in
+                <b>Food hygiene</b>{" "}Led the solution for using FSA ratings in
                 operational decisions and automation. It was designed to scale
                 to customer-facing applications.
               </li>
               <li>
-                <b>Restaurant self-signup</b>Led a team of 6 engineers building
+                <b>Restaurant self-signup</b>{" "}Led a team of 6 engineers building
                 an end-to-end signup experience for restaurant details,
                 documents and the supporting operational processes.
               </li>
               <li>
-                <b>SkipTheDishes integration and driver availability</b>Led work
+                <b>SkipTheDishes integration and driver availability</b>{" "}Led work
                 to integrate SkipTheDishes technology into Just Eat’s
                 self-delivery offering. Restaurant availability was constrained
                 by driver availability, while the solution supported reliability
                 goals by decoupling from the monolithic Core SQL system.
               </li>
               <li>
-                <b>Order management</b>Scaled the interface used by call centre
+                <b>Order management</b>{" "}Scaled the interface used by call centre
                 agents to manage orders, migrated it from AngularJS to Angular 2
                 and introduced in-memory browser-based testing with Cypress.
               </li>
               <li>
-                <b>Fake Load</b>Designed and delivered a scheduler for
+                <b>Fake Load</b>{" "}Designed and delivered a scheduler for
                 distributed, Docker-based synthetic testing to monitor the
                 health of Just Eat’s services. The system combined an Angular 2
                 application, a serverless API and JMeter containers deployed
@@ -159,7 +159,7 @@ function Work() {
         <li>
           <Reveal as="section" className="job-entry">
             <h3>
-              <span className="workplace">Ericsson (CTO Group)</span>
+              <span className="workplace">Ericsson (CTO Group)</span>{" "}
               <span className="date">July 2013 - September 2016</span>
             </h3>
             <h4>Software Engineer</h4>
@@ -171,7 +171,7 @@ function Work() {
             </p>
             <ul>
               <li>
-                <b>Cloud Media Processing Platform Portal</b>Built the
+                <b>Cloud Media Processing Platform Portal</b>{" "}Built the
                 customer-facing front end for{" "}
                 <a
                   href="http://www.ericsson.com/broadcastandmedia/what-we-do/media-management/"
@@ -183,30 +183,30 @@ function Work() {
                 , Ericsson’s next-generation service delivery platform.
               </li>
               <li>
-                <b>S3 to S3 Copyworker</b>Developed a distributed, multithreaded
+                <b>S3 to S3 Copyworker</b>{" "}Developed a distributed, multithreaded
                 file-transfer proof of concept with on-the-fly AES-CTR
                 encryption. It used multiple low-cost machines to increase
                 S3-to-S3 transfer speeds at no extra cost.
               </li>
               <li>
-                <b>S3 Copyworker</b>Built multithreaded file-transfer software
+                <b>S3 Copyworker</b>{" "}Built multithreaded file-transfer software
                 with on-the-fly AES-CTR encryption, moving files from local
                 storage to S3 at speeds exceeding 1.6 Gbps. It was used to
                 archive thousands of files in AWS.
               </li>
               <li>
-                <b>JSTV-i</b>Maintained and developed backend features for the
+                <b>JSTV-i</b>{" "}Maintained and developed backend features for the
                 video-on-demand service and refreshed its administration
                 interface.
               </li>
               <li>
-                <b>Development wallboard</b>Built a Polymer, Node.js and
+                <b>Development wallboard</b>{" "}Built a Polymer, Node.js and
                 WebSocket application in my spare time, running on a Raspberry
                 Pi in the office. It generated interest in the team’s work and
                 inspired other teams to create similar displays.
               </li>
               <li>
-                <b>Process improvements</b>Presented a business case and
+                <b>Process improvements</b>{" "}Presented a business case and
                 migration guidance for moving a previous team from SVN to Git.
                 Introduced code-quality metrics and workflow improvements using
                 SonarQube and Jenkins.
@@ -217,7 +217,7 @@ function Work() {
         <li>
           <Reveal as="section" className="job-entry">
             <h3>
-              <span className="workplace">Red Bee Media (Ericsson)</span>
+              <span className="workplace">Red Bee Media (Ericsson)</span>{" "}
               <span className="date">July 2012 - February 2013</span>
             </h3>
             <h4>Software Engineer - Intern + Contractor</h4>
@@ -239,7 +239,7 @@ function Work() {
         <li>
           <Reveal as="section" className="job-entry">
             <h3>
-              <span className="workplace">Skywire</span>
+              <span className="workplace">Skywire</span>{" "}
               <span className="date">January 2012 - March 2012</span>
             </h3>
             <h4>Freelance Web Developer</h4>

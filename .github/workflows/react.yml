@@ -15,39 +15,21 @@ jobs:
         node-version: [20.x]
 
     steps:
-      - name: Checkout repository 🛒
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Set up Node.js ${{ matrix.node-version }} ⚙️
+      - name: Set up Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Install dependencies 🔗
+      - name: Install dependencies
         run: npm ci
 
-      - name: Build 🔨
+      - name: Build
         run: npm run build
 
-      - name: Pre-rendering HTML 🖥️
-        timeout-minutes: 2
-        run: |
-          export CV_CHROME_PATH="$(command -v google-chrome)"
-          node <<'NODE'
-          const { run } = require('react-snap');
-          console.log('Pre-rendering CV with', process.env.CV_CHROME_PATH);
-          run({
-            publicPath: '/cv',
-            include: ['/'],
-            crawl: false,
-            skipThirdPartyRequests: true,
-            sourceMaps: false,
-            puppeteerExecutablePath: process.env.CV_CHROME_PATH,
-            puppeteerArgs: ['--disable-dev-shm-usage']
-          }).catch(error => { console.error(error); process.exit(1); });
-          NODE
-
-      - name: Deploy to GitHub Pages 🚀
+      - name: Deploy to GitHub Pages
         if: github.event_name == 'push' && github.ref == 'refs/heads/master'
         uses: peaceiris/actions-gh-pages@v3
         with:
