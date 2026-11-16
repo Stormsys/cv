@@ -543,7 +543,7 @@ button {
   body {
     background: #fff;
     color: #202020;
-    font-size: 10pt;
+    font-size: calc(10 * var(--pt));
     line-height: 1.45;
   }
   .cv-nav,
@@ -569,7 +569,7 @@ button {
     widows: 3;
   }
   p + p {
-    margin-top: 6pt;
+    margin-top: calc(6 * var(--pt));
   }
   h2,
   h3,
@@ -586,19 +586,19 @@ button {
     margin: 0;
   }
   .eyebrow {
-    font-size: 9.5pt;
+    font-size: calc(9.5 * var(--pt));
     line-height: 1.4;
-    letter-spacing: 1pt;
+    letter-spacing: calc(1 * var(--pt));
   }
   .cv-header {
-    padding: 0 0 8pt;
-    border-bottom: 1pt solid #333;
+    padding: 0 0 calc(8 * var(--pt));
+    border-bottom: calc(1 * var(--pt)) solid #333;
     break-inside: avoid;
   }
   .cv-header h1 {
-    font-size: 32pt;
-    letter-spacing: -1.5pt;
-    margin: 5pt 0 7pt;
+    font-size: calc(32 * var(--pt));
+    letter-spacing: calc(-1.5 * var(--pt));
+    margin: calc(5 * var(--pt)) 0 calc(7 * var(--pt));
   }
   .cv-header h1 span {
     color: inherit;
@@ -606,22 +606,22 @@ button {
   .header-bottom {
     flex-direction: row;
     align-items: flex-start;
-    gap: 20pt;
+    gap: calc(20 * var(--pt));
   }
   .cv-header h2 {
-    font-size: 14pt;
-    margin-bottom: 5pt;
+    font-size: calc(14 * var(--pt));
+    margin-bottom: calc(5 * var(--pt));
   }
   .cv-header p {
-    font-size: 10pt;
+    font-size: calc(10 * var(--pt));
     line-height: 1.45;
     color: #333;
   }
   .contact-info {
     flex-direction: column;
     align-items: flex-start;
-    gap: 3pt;
-    font-size: 9.5pt;
+    gap: calc(3 * var(--pt));
+    font-size: calc(9.5 * var(--pt));
   }
   .contact-info a {
     min-height: 0;
@@ -631,37 +631,37 @@ button {
     display: inline-flex;
   }
   #page > section {
-    padding: 9pt 0;
-    border-bottom: 0.5pt solid #aaa;
+    padding: calc(9 * var(--pt)) 0;
+    border-bottom: calc(0.5 * var(--pt)) solid #aaa;
     break-inside: auto;
   }
   #page > section > h2 {
-    font-size: 9.5pt;
-    letter-spacing: 1.3pt;
+    font-size: calc(9.5 * var(--pt));
+    letter-spacing: calc(1.3 * var(--pt));
     color: #333;
-    margin-bottom: 7pt;
+    margin-bottom: calc(7 * var(--pt));
   }
   #about p {
-    font-size: 11pt;
+    font-size: calc(11 * var(--pt));
     line-height: 1.5;
     letter-spacing: 0;
     max-width: none;
   }
   .job-entry {
-    padding: 6pt 0;
+    padding: calc(6 * var(--pt)) 0;
     break-inside: auto;
   }
   .job-entry h3 {
     flex-direction: row;
     align-items: baseline;
-    gap: 12pt;
-    font-size: 13pt;
-    letter-spacing: -0.2pt;
-    margin-bottom: 4pt;
+    gap: calc(12 * var(--pt));
+    font-size: calc(13 * var(--pt));
+    letter-spacing: calc(-0.2 * var(--pt));
+    margin-bottom: calc(4 * var(--pt));
   }
   .job-entry .date {
     font:
-      9.5pt/1.4 "Helvetica Neue",
+      calc(9.5 * var(--pt))/1.4 "Helvetica Neue",
       Helvetica,
       Arial,
       sans-serif;
@@ -669,25 +669,25 @@ button {
     color: #444;
   }
   .job-entry h4 {
-    font-size: 10.5pt;
+    font-size: calc(10.5 * var(--pt));
     line-height: 1.4;
-    margin-bottom: 7pt;
+    margin-bottom: calc(7 * var(--pt));
   }
   .job-entry p,
   .job-entry li {
-    font-size: 10pt;
+    font-size: calc(10 * var(--pt));
     line-height: 1.45;
     color: #333;
     max-width: none;
   }
   .job-entry ul {
     display: block;
-    margin: 6pt 0 0;
+    margin: calc(6 * var(--pt)) 0 0;
   }
   .job-entry li {
-    margin: 0 0 4pt;
-    padding-left: 9pt;
-    border-left: 0.75pt solid #aaa;
+    margin: 0 0 calc(4 * var(--pt));
+    padding-left: calc(9 * var(--pt));
+    border-left: calc(0.75 * var(--pt)) solid #aaa;
     break-inside: avoid;
   }
   .job-entry li b {
@@ -703,9 +703,9 @@ button {
     break-inside: auto;
   }
   #work > ul > li + li {
-    padding-top: 4pt;
-    margin-top: 5pt;
-    border-top: 0.5pt solid #bbb;
+    padding-top: calc(4 * var(--pt));
+    margin-top: calc(5 * var(--pt));
+    border-top: calc(0.5 * var(--pt)) solid #bbb;
   }
   #work > ul > li:first-child {
     padding: 0;
@@ -713,12 +713,12 @@ button {
   }
   #awards h3,
   #open-source h3 {
-    font-size: 12pt;
-    margin: 9pt 0 5pt;
+    font-size: calc(12 * var(--pt));
+    margin: calc(9 * var(--pt)) 0 calc(5 * var(--pt));
   }
   #awards p,
   #open-source p {
-    font-size: 10pt;
+    font-size: calc(10 * var(--pt));
     line-height: 1.45;
     color: #333;
   }
@@ -726,38 +726,38 @@ button {
     display: block;
   }
   #open-source h4 {
-    font-size: 10.5pt;
-    margin: 8pt 0 4pt;
+    font-size: calc(10.5 * var(--pt));
+    margin: calc(8 * var(--pt)) 0 calc(4 * var(--pt));
   }
   blockquote {
-    font-size: 12pt;
+    font-size: calc(12 * var(--pt));
     line-height: 1.5;
     letter-spacing: 0;
-    margin-bottom: 8pt;
+    margin-bottom: calc(8 * var(--pt));
     break-inside: avoid;
   }
   cite {
-    font-size: 9.5pt;
+    font-size: calc(9.5 * var(--pt));
     line-height: 1.4;
-    margin-top: 6pt;
+    margin-top: calc(6 * var(--pt));
     color: #444;
   }
   .hobbies-list {
-    gap: 4pt 14pt;
-    font-size: 10pt;
+    gap: calc(4 * var(--pt)) calc(14 * var(--pt));
+    font-size: calc(10 * var(--pt));
   }
   .skill-group-list {
     display: block;
     columns: 2;
-    column-gap: 20pt;
+    column-gap: calc(20 * var(--pt));
   }
   .skill-group {
-    margin-bottom: 7pt;
+    margin-bottom: calc(7 * var(--pt));
     break-inside: avoid;
   }
   .skill-group h3 {
-    font-size: 10.5pt;
-    margin-bottom: 4pt;
+    font-size: calc(10.5 * var(--pt));
+    margin-bottom: calc(4 * var(--pt));
   }
   .skill-list {
     display: block;
@@ -773,32 +773,32 @@ button {
     color: #555;
   }
   .skill-group p {
-    font-size: 9.5pt;
-    margin-top: 4pt;
+    font-size: calc(9.5 * var(--pt));
+    margin-top: calc(4 * var(--pt));
   }
   #feedback-full > .eyebrow {
     margin-top: 0;
   }
   #feedback-full > h1 {
-    font-size: 24pt;
-    letter-spacing: -0.5pt;
-    margin: 8pt 0 14pt;
+    font-size: calc(24 * var(--pt));
+    letter-spacing: calc(-0.5 * var(--pt));
+    margin: calc(8 * var(--pt)) 0 calc(14 * var(--pt));
   }
   .feedback-entry {
-    padding: 10pt 0;
+    padding: calc(10 * var(--pt)) 0;
   }
   .feedback-entry h2 {
-    font-size: 12pt;
-    margin-bottom: 7pt;
+    font-size: calc(12 * var(--pt));
+    margin-bottom: calc(7 * var(--pt));
   }
   .feedback-entry p,
   .feedback-entry li {
-    font-size: 10pt;
+    font-size: calc(10 * var(--pt));
     line-height: 1.5;
     color: #333;
   }
   .feedback-entry li {
-    margin: 5pt 0;
+    margin: calc(5 * var(--pt)) 0;
   }
 }
 @media screen and (max-width: 700px) {
@@ -828,8 +828,8 @@ button {
   #page > section > h2 {
     color: #9e3528;
     font-weight: 600;
-    border-left: 3pt solid var(--signal);
-    padding-left: 8pt;
+    border-left: calc(3 * var(--pt)) solid var(--signal);
+    padding-left: calc(8 * var(--pt));
     background: linear-gradient(90deg, #f6eae5, #ffffff 75%);
   }
   .job-entry h3, #awards h3, #open-source h3 { color: var(--ink); }
@@ -844,39 +844,39 @@ button {
 }
 
 @media print {
-  .cv-header h1 { font-size: 30pt; }
-  .cv-header .eyebrow { font-size: 8pt; }
+  .cv-header h1 { font-size: calc(30 * var(--pt)); }
+  .cv-header .eyebrow { font-size: calc(8 * var(--pt)); }
   #page > section > h2 {
     display: flex;
     align-items: center;
-    gap: 6pt;
-    font-size: 11.5pt;
+    gap: calc(6 * var(--pt));
+    font-size: calc(11.5 * var(--pt));
     line-height: 1.25;
     font-weight: 500;
     text-transform: none;
-    letter-spacing: -.15pt;
+    letter-spacing: calc(-.15 * var(--pt));
     padding: 0;
     border: 0;
     background: none;
-    margin-bottom: 8pt;
+    margin-bottom: calc(8 * var(--pt));
   }
-  .section-icon { display: inline-block; width: 13pt; height: 13pt; flex: 0 0 13pt; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
-  #page > section { border-bottom: none; padding-block: 10pt; }
+  .section-icon { display: inline-block; width: calc(13 * var(--pt)); height: calc(13 * var(--pt)); flex: 0 0 calc(13 * var(--pt)); fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+  #page > section { border-bottom: none; padding-block: calc(10 * var(--pt)); }
   .job-entry h3 { color: #34434a; }
   .job-entry h4 { color: #5e5148; }
-  .skill-group-list { columns: auto; display: grid; grid-template-columns: 1fr 1fr; gap: 10pt 20pt; }
+  .skill-group-list { columns: auto; display: grid; grid-template-columns: 1fr 1fr; gap: calc(10 * var(--pt)) calc(20 * var(--pt)); }
   .skill-group { margin: 0; }
   .skill-group h3 { color: #34434a; }
-  .skill-list { display: flex; flex-wrap: wrap; gap: 3pt; }
-  .skill-list li { display: inline-block; padding: 2pt 4pt; background: #f4efeb; border: .5pt solid #e0d6ce; border-radius: 2pt; font: 8pt/1.3 "Helvetica Neue", Arial, sans-serif; color: #443e39; }
+  .skill-list { display: flex; flex-wrap: wrap; gap: calc(3 * var(--pt)); }
+  .skill-list li { display: inline-block; padding: calc(2 * var(--pt)) calc(4 * var(--pt)); background: #f4efeb; border: calc(.5 * var(--pt)) solid #e0d6ce; border-radius: calc(2 * var(--pt)); font: calc(8 * var(--pt))/1.3 "Helvetica Neue", Arial, sans-serif; color: #443e39; }
   .skill-list li:not(:last-child)::after { content: none; }
-  #open-source .side-by-side { display: grid; grid-template-columns: 1fr 1.35fr; gap: 18pt; }
-  #open-source .contributions { border-left: .5pt solid #d8d1c9; padding-left: 14pt; }
-  #open-source .contributions li + li { padding-top: 5pt; margin-top: 6pt; border-top: .5pt dotted #d8d1c9; }
+  #open-source .side-by-side { display: grid; grid-template-columns: 1fr 1.35fr; gap: calc(18 * var(--pt)); }
+  #open-source .contributions { border-left: calc(.5 * var(--pt)) solid #d8d1c9; padding-left: calc(14 * var(--pt)); }
+  #open-source .contributions li + li { padding-top: calc(5 * var(--pt)); margin-top: calc(6 * var(--pt)); border-top: calc(.5 * var(--pt)) dotted #d8d1c9; }
   #open-source h3 { margin-top: 0; color: #34434a; }
-  #open-source h4 { margin-top: 6pt; }
+  #open-source h4 { margin-top: calc(6 * var(--pt)); }
   #feedback { break-inside: avoid; }
-  blockquote { border-left: 2pt solid #d7ab9e; padding-left: 10pt; }
+  blockquote { border-left: calc(2 * var(--pt)) solid #d7ab9e; padding-left: calc(10 * var(--pt)); }
 }
 
 /* A composed print edition with the same Ink & Signal identity as the site. */
@@ -884,46 +884,46 @@ button {
   .cv-header {
     background: var(--ink);
     color: #f8f5f0;
-    padding: 17pt 19pt 15pt;
+    padding: calc(17 * var(--pt)) calc(19 * var(--pt)) calc(15 * var(--pt));
     border: none;
-    border-bottom: 3pt solid var(--coral);
-    margin-bottom: 7pt;
+    border-bottom: calc(3 * var(--pt)) solid var(--coral);
+    margin-bottom: calc(7 * var(--pt));
   }
-  .cv-header .eyebrow { color: var(--coral); font-size: 7.5pt; letter-spacing: 1.1pt; }
-  .cv-header h1 { color: #f8f5f0; font-size: 32pt; font-weight: 500; letter-spacing: -1.6pt; margin: 7pt 0 10pt; }
+  .cv-header .eyebrow { color: var(--coral); font-size: calc(7.5 * var(--pt)); letter-spacing: calc(1.1 * var(--pt)); }
+  .cv-header h1 { color: #f8f5f0; font-size: calc(32 * var(--pt)); font-weight: 500; letter-spacing: calc(-1.6 * var(--pt)); margin: calc(7 * var(--pt)) 0 calc(10 * var(--pt)); }
   .cv-header h1 span { color: var(--coral); }
-  .cv-header h2 { color: #f8f5f0; font-size: 13pt; }
-  .cv-header p { color: #d9d3ca; font-size: 9pt; }
+  .cv-header h2 { color: #f8f5f0; font-size: calc(13 * var(--pt)); }
+  .cv-header p { color: #d9d3ca; font-size: calc(9 * var(--pt)); }
   .cv-header .contact-info { align-self: flex-end; }
-  .cv-header .contact-info a { color: var(--coral); font-size: 9pt; }
-  #page > section { padding-block: 10pt; }
+  .cv-header .contact-info a { color: var(--coral); font-size: calc(9 * var(--pt)); }
+  #page > section { padding-block: calc(10 * var(--pt)); }
   #page > section > h2 {
     background: #eee9e3;
     color: var(--ink);
-    padding: 5pt 7pt;
-    border-left: 2pt solid var(--signal);
-    font-size: 10.5pt;
-    letter-spacing: .15pt;
-    margin-bottom: 9pt;
+    padding: calc(5 * var(--pt)) calc(7 * var(--pt));
+    border-left: calc(2 * var(--pt)) solid var(--signal);
+    font-size: calc(10.5 * var(--pt));
+    letter-spacing: calc(.15 * var(--pt));
+    margin-bottom: calc(9 * var(--pt));
   }
-  .section-icon { width: 12pt; height: 12pt; flex-basis: 12pt; color: #a03a2c; }
-  #about p { font-size: 10pt; line-height: 1.45; color: #443e39; }
-  .job-entry h3 { color: var(--ink); font-size: 12.5pt; font-weight: 600; }
-  .job-entry h4 { color: #a03a2c; font-size: 10pt; }
-  .job-entry .date { font-size: 8.5pt; color: #72655c; }
-  .job-entry p, .job-entry li { font-size: 9.5pt; line-height: 1.45; }
-  .job-entry li { border-left: 1.5pt solid #dfc5ba; padding-left: 8pt; }
-  .skill-group-list { gap: 8pt; }
-  .skill-group { padding: 8pt; background: #f3f0eb; border-top: 1.5pt solid #c19d8b; }
-  .skill-group h3 { font-size: 10pt; color: var(--ink); margin-bottom: 6pt; }
-  .skill-list li { background: #fff; border: .5pt solid #e0d6ce; }
-  .skill-group p { font-size: 8pt; }
-  #open-source .side-by-side { padding-top: 2pt; }
-  #open-source h3 { font-size: 10pt; color: #a03a2c; }
-  #open-source p { font-size: 9.5pt; }
-  blockquote { padding: 10pt 12pt; background: #f5ebe5; border-left: 2pt solid var(--signal); color: #583d33; font-size: 12pt; line-height: 1.45; }
-  cite { color: #72655c; font-size: 8pt; }
-  .hobbies-list { color: #5d554d; font-size: 9pt; }
+  .section-icon { width: calc(12 * var(--pt)); height: calc(12 * var(--pt)); flex-basis: calc(12 * var(--pt)); color: #a03a2c; }
+  #about p { font-size: calc(10 * var(--pt)); line-height: 1.45; color: #443e39; }
+  .job-entry h3 { color: var(--ink); font-size: calc(12.5 * var(--pt)); font-weight: 600; }
+  .job-entry h4 { color: #a03a2c; font-size: calc(10 * var(--pt)); }
+  .job-entry .date { font-size: calc(8.5 * var(--pt)); color: #72655c; }
+  .job-entry p, .job-entry li { font-size: calc(9.5 * var(--pt)); line-height: 1.45; }
+  .job-entry li { border-left: calc(1.5 * var(--pt)) solid #dfc5ba; padding-left: calc(8 * var(--pt)); }
+  .skill-group-list { gap: calc(8 * var(--pt)); }
+  .skill-group { padding: calc(8 * var(--pt)); background: #f3f0eb; border-top: calc(1.5 * var(--pt)) solid #c19d8b; }
+  .skill-group h3 { font-size: calc(10 * var(--pt)); color: var(--ink); margin-bottom: calc(6 * var(--pt)); }
+  .skill-list li { background: #fff; border: calc(.5 * var(--pt)) solid #e0d6ce; }
+  .skill-group p { font-size: calc(8 * var(--pt)); }
+  #open-source .side-by-side { padding-top: calc(2 * var(--pt)); }
+  #open-source h3 { font-size: calc(10 * var(--pt)); color: #a03a2c; }
+  #open-source p { font-size: calc(9.5 * var(--pt)); }
+  blockquote { padding: calc(10 * var(--pt)) calc(12 * var(--pt)); background: #f5ebe5; border-left: calc(2 * var(--pt)) solid var(--signal); color: #583d33; font-size: calc(12 * var(--pt)); line-height: 1.45; }
+  cite { color: #72655c; font-size: calc(8 * var(--pt)); }
+  .hobbies-list { color: #5d554d; font-size: calc(9 * var(--pt)); }
 }
 
 /* Line arrows beside text: real icons, never characters. */
@@ -948,4 +948,254 @@ button {
 /* Flex rows drop the space a text arrow used to follow; put it back. */
 .contact-info .icon-arrow {
   margin-left: calc((var(--advance) - var(--size)) / 2 + 0.28em);
+}
+
+/* A tighter print edition: the same Ink & Signal composition, set denser so the
+   whole CV reads in three sheets. Short, list-like sections share the width. */
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm 13mm;
+  }
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+  /* One print unit. Browsers disagree about how many CSS points fit across a
+     sheet (Safari lays the page out narrower than Chrome and then enlarges it),
+     so every print size is a multiple of --pt, and --pt shrinks with the width
+     the page was actually laid out at. Never larger than a true point. */
+  :root {
+    --pt: 1pt;
+  }
+  @supports (width: 1cqw) {
+    #page {
+      container-type: inline-size;
+    }
+    #page > * {
+      --pt: min(1pt, calc(100cqw / 521.6));
+    }
+  }
+  #page > #skills {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  body {
+    font-size: calc(9.4 * var(--pt));
+    line-height: 1.4;
+  }
+  p,
+  li {
+    orphans: 2;
+    widows: 2;
+  }
+  p + p {
+    margin-top: calc(4 * var(--pt));
+  }
+
+  /* Header: the same dark block, less air. */
+  .cv-header {
+    padding: calc(12 * var(--pt)) calc(16 * var(--pt)) calc(11 * var(--pt));
+    border-bottom-width: calc(2.5 * var(--pt));
+    margin-bottom: calc(4 * var(--pt));
+  }
+  .cv-header h1 {
+    font-size: calc(28 * var(--pt));
+    letter-spacing: calc(-1.4 * var(--pt));
+    margin: calc(4 * var(--pt)) 0 calc(6 * var(--pt));
+  }
+  .cv-header h2 {
+    font-size: calc(12 * var(--pt));
+    margin-bottom: calc(3 * var(--pt));
+  }
+  .cv-header p {
+    font-size: calc(8.8 * var(--pt));
+    line-height: 1.4;
+  }
+  .cv-header .contact-info a {
+    font-size: calc(8.8 * var(--pt));
+  }
+
+  /* Sections: label bar and rhythm. */
+  #page > section {
+    font-size: calc(9.4 * var(--pt));
+    padding-block: calc(5 * var(--pt)) calc(4 * var(--pt));
+  }
+  #page > section > h2 {
+    padding: calc(3.5 * var(--pt)) calc(7 * var(--pt));
+    font-size: calc(10 * var(--pt));
+    margin-bottom: calc(5 * var(--pt));
+  }
+  .section-icon {
+    width: calc(11 * var(--pt));
+    height: calc(11 * var(--pt));
+    flex-basis: calc(11 * var(--pt));
+  }
+  #about p {
+    font-size: calc(9.6 * var(--pt));
+    line-height: 1.42;
+  }
+
+  /* Experience: company and dates on one line, role beneath, tight bullets. */
+  .job-entry {
+    padding: calc(3 * var(--pt)) 0;
+  }
+  .job-entry h3 {
+    font-size: calc(12 * var(--pt));
+  }
+  .job-entry .date {
+    font-size: calc(8.4 * var(--pt));
+  }
+  .job-entry h4 {
+    font-size: calc(9.8 * var(--pt));
+    line-height: 1.3;
+  }
+  .job-entry p + h4,
+  .job-entry ul + h4 {
+    margin-top: calc(7 * var(--pt));
+  }
+  .job-entry p,
+  .job-entry li {
+    font-size: calc(9.2 * var(--pt));
+    line-height: 1.36;
+  }
+  .job-entry ul {
+    margin-top: calc(4 * var(--pt));
+  }
+  .job-entry li {
+    margin-bottom: calc(2.2 * var(--pt));
+    padding-left: calc(7 * var(--pt));
+  }
+  #work > ul > li + li {
+    padding-top: calc(3 * var(--pt));
+    margin-top: calc(4 * var(--pt));
+  }
+  /* A role's heading stays with its first lines. Safari ignores break-after,
+     so each heading also reserves the room beneath it and hands it back. */
+  .job-entry h3,
+  .job-entry h4 {
+    break-after: avoid;
+    page-break-after: avoid;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  .job-entry h3 {
+    padding-bottom: calc(46 * var(--pt));
+    margin-bottom: calc(-44 * var(--pt));
+  }
+  .job-entry h4 {
+    padding-bottom: calc(34 * var(--pt));
+    margin-bottom: calc(-30 * var(--pt));
+  }
+  .job-entry h4 + p {
+    break-before: avoid;
+    page-break-before: avoid;
+  }
+
+  /* Short sections share the sheet: education beside awards, feedback beside hobbies. */
+  #page > #education,
+  #page > #feedback {
+    float: left;
+    clear: both;
+    width: 48.6%;
+  }
+  #page > #awards,
+  #page > #interests {
+    float: right;
+    width: 48.6%;
+  }
+  #page > #open-source,
+  #page > #skills {
+    clear: both;
+  }
+  #page > #education,
+  #page > #awards,
+  #page > #feedback,
+  #page > #interests,
+  #page > #open-source {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+  #education .job-entry h3 {
+    flex-wrap: wrap;
+    gap: 0 calc(10 * var(--pt));
+  }
+  #awards h3 {
+    font-size: calc(10 * var(--pt));
+    margin: calc(7 * var(--pt)) 0 calc(3 * var(--pt));
+  }
+  #awards li:first-child h3 {
+    margin-top: 0;
+  }
+  #awards p,
+  #open-source p {
+    font-size: calc(9.2 * var(--pt));
+    line-height: 1.38;
+  }
+
+  /* Open source: one project, then the three contributions across the width. */
+  #open-source .side-by-side {
+    grid-template-columns: 1fr 3.2fr;
+    gap: calc(14 * var(--pt));
+    padding-top: 0;
+  }
+  #open-source .contributions {
+    padding-left: calc(12 * var(--pt));
+  }
+  #open-source .contributions ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: calc(10 * var(--pt));
+  }
+  #open-source .contributions li + li {
+    padding-top: 0;
+    margin-top: 0;
+    border-top: 0;
+  }
+  #open-source h3 {
+    font-size: calc(9.4 * var(--pt));
+    margin: 0 0 calc(3 * var(--pt));
+  }
+  #open-source h4 {
+    font-size: calc(9.2 * var(--pt));
+    margin: 0 0 calc(2 * var(--pt));
+  }
+
+  blockquote {
+    padding: calc(7 * var(--pt)) calc(10 * var(--pt));
+    font-size: calc(10.5 * var(--pt));
+    line-height: 1.4;
+    margin-bottom: calc(5 * var(--pt));
+  }
+  cite {
+    margin-top: calc(4 * var(--pt));
+  }
+  .hobbies-list {
+    gap: calc(3 * var(--pt)) calc(12 * var(--pt));
+  }
+
+  /* Skills: four structured columns; the long General group runs wide beneath. */
+  .skill-group-list {
+    grid-template-columns: repeat(4, 1fr);
+    gap: calc(6 * var(--pt));
+  }
+  .skill-group:last-child {
+    grid-column: span 3;
+  }
+  .skill-group {
+    padding: calc(5 * var(--pt)) calc(6 * var(--pt));
+  }
+  .skill-group h3 {
+    font-size: calc(9.4 * var(--pt));
+    margin-bottom: calc(4 * var(--pt));
+  }
+  .skill-list {
+    gap: calc(2.5 * var(--pt));
+  }
+  .skill-list li {
+    padding: calc(1.5 * var(--pt)) calc(3.5 * var(--pt));
+  }
+  .skill-group p {
+    margin-top: calc(3 * var(--pt));
+  }
 }
