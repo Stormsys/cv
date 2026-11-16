@@ -20,12 +20,12 @@ test.each([undefined, "private@example.com"])(
     expect(container.querySelector('a[href^="mailto:"]')).toBeNull();
     expect(container.querySelector(".contact-email-print")).toBeNull();
     expect(container).not.toHaveTextContent(email);
-    expect(screen.getByRole("link", { name: "LinkedIn ↗" })).toHaveAttribute(
+    expect(screen.getByRole("link", { name: "LinkedIn" })).toHaveAttribute(
       "href",
       "https://www.linkedin.com/in/diogomoura1",
     );
 
-    fireEvent.click(screen.getByRole("button", { name: "Reveal email ↗" }));
+    fireEvent.click(screen.getByRole("button", { name: "Reveal email" }));
     expect(container.querySelector(".contact-email-screen")).toHaveAttribute(
       "href",
       "mailto:" + email,
@@ -35,7 +35,7 @@ test.each([undefined, "private@example.com"])(
       "mailto:" + email,
     );
     expect(
-      screen.queryByRole("button", { name: "Reveal email ↗" }),
+      screen.queryByRole("button", { name: "Reveal email" }),
     ).toBeNull();
   },
 );

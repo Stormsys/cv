@@ -1,8 +1,9 @@
+import Icon from "../components/Icon";
 
 
 function FeedbackFull() {
     return (
-        <section id='feedback-full'><a href="#/">← Back to résumé</a><div className="eyebrow">COLLEAGUES & COLLABORATORS</div><h1>In others’ words.</h1>
+        <section id='feedback-full'><a href="#/"><Icon name="arrow-left" /> Back to résumé</a><div className="eyebrow">COLLEAGUES & COLLABORATORS</div><h1>In others’ words.</h1>
             <section className='feedback-entry'>
                 <h2>VP, Engineering - Checkout.com</h2>
                 <p>

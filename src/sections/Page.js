@@ -1,3 +1,4 @@
+import Icon from "../components/Icon";
 import "../cv-screen.scss";
 export default function Page({ children }) {
   return (
@@ -22,7 +23,7 @@ export default function Page({ children }) {
           <a className="nav-secondary" href="/#about">About</a>
           <a href="#/" aria-current="page">CV</a>
           <button onClick={() => window.print()} aria-label="Print / Save PDF">
-            <span className="print-label-full">Print / Save </span>PDF ↓
+            <span className="print-label-full">Print / Save </span>PDF <Icon name="arrow-down" />
           </button>
         </div>
       </nav>
@@ -31,7 +32,7 @@ export default function Page({ children }) {
       </main>
       <footer className="cv-footer">
         Diogo Moura · Engineering leader & builder
-        <a href="https://github.com/Stormsys/cv">View source ↗</a>
+        <a href="https://github.com/Stormsys/cv">View source <Icon name="arrow-up-right" /></a>
       </footer>
     </>
   );
