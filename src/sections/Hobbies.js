@@ -1,3 +1,4 @@
+import Icon from "../components/Icon";
 import SectionIcon from "../components/SectionIcon";
 import Reveal from "../components/Reveal";
 
@@ -18,7 +19,7 @@ function Hobbies() {
             rel="noreferrer"
             target="_blank"
           >
-            <span aria-hidden="true">↗</span>
+            <Icon name="arrow-up-right" />
           </a>
         </Reveal>
         <Reveal as="li" className="fade-in">
@@ -35,7 +36,7 @@ function Hobbies() {
             rel="noreferrer"
             target="_blank"
           >
-            <span aria-hidden="true">↗</span>
+            <Icon name="arrow-up-right" />
           </a>
         </Reveal>
         <Reveal as="li" className="fade-in">
@@ -58,7 +59,7 @@ function Hobbies() {
             rel="noreferrer"
             target="_blank"
           >
-            <span aria-hidden="true">↗</span>
+            <Icon name="arrow-up-right" />
           </a>
         </Reveal>
       </ul>

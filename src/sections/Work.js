@@ -1,3 +1,4 @@
+import Icon from "../components/Icon";
 import SectionIcon from "../components/SectionIcon";
 import Reveal from "../components/Reveal";
 
@@ -7,7 +8,7 @@ function Work() {
       <Reveal as="h2"><SectionIcon name="work" />
         Experience
         <span className="feedback-callout">
-          <a href="#/feedback">See feedback ↗</a>
+          <a href="#/feedback">See feedback <Icon name="arrow-up-right" /></a>
         </span>
       </Reveal>
       <ul>

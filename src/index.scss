@@ -925,3 +925,27 @@ button {
   cite { color: #72655c; font-size: 8pt; }
   .hobbies-list { color: #5d554d; font-size: 9pt; }
 }
+
+/* Line arrows beside text: real icons, never characters. */
+.icon-arrow {
+  --size: 1.2em;
+  --advance: 0.75em;
+  display: inline-block;
+  flex: none;
+  width: var(--size);
+  height: var(--size);
+  margin: calc((1em - var(--size)) / 2) calc((var(--advance) - var(--size)) / 2);
+  vertical-align: -0.2em;
+  overflow: visible;
+}
+.icon-arrow-up-right {
+  --size: 1.5em;
+  --advance: 1em;
+}
+.icon-arrow-left {
+  --advance: 1em;
+}
+/* Flex rows drop the space a text arrow used to follow; put it back. */
+.contact-info .icon-arrow {
+  margin-left: calc((var(--advance) - var(--size)) / 2 + 0.28em);
+}

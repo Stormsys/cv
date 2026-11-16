@@ -1,3 +1,4 @@
+import Icon from "../components/Icon";
 import SectionIcon from "../components/SectionIcon";
 export default function Feedback() {
   return (
@@ -8,7 +9,7 @@ export default function Feedback() {
         created a positive and collaborative work environment.”
         <cite>VP, Engineering · Checkout.com · 2023</cite>
       </blockquote>
-      <a href="#/feedback">Read all feedback ↗</a>
+      <a href="#/feedback">Read all feedback <Icon name="arrow-up-right" /></a>
     </section>
   );
 }
